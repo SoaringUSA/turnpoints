@@ -1,6 +1,6 @@
-# Region 11 Soaring Waypoints
+# US Soaring Waypoints
 
-Soaring waypoints for US R11
+Soaring waypoints for the USA
 
 ## File Format
 
