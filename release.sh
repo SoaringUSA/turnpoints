@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-CUPFILES="hllstr.cup"
+CUPFILES="hllstr.cup truckee.cup wsc.cup"
 DATE=$(date '+%Y%m%d')
 
 TMPDIR=$(mktemp -d)
