@@ -22,7 +22,9 @@ def parseLon(lonStr):
 
 if __name__=='__main__':
 	# name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc,userdata,pics
-	cvr = csv.DictReader(sys.stdin)
+	cvr = csv.DictReader(sys.stdin, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','freq','desc','userdata','pics'])
+	# Skip first row
+	next(cvr)
 
 	kmlRoot = ET.Element('kml', attrib={'xmlns' : 'http://www.opengis.net/kml/2.2', 'xmlns:gx' : 'http://www.google.com/kml/ext/2.2'})
 	kmlDocument = ET.SubElement(kmlRoot, 'Document')
