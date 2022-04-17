@@ -63,8 +63,8 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc,userdata,pics
 "Chemise Look",,,3637.500N,12104.000W,1005.8m,1,,,,,,
 "Chimineas",,,3503.933N,11958.550W,457.2m,3,0,0.0m,,"32D",,
 "ChnLkNwsrmtg",,,3541.267N,11741.433W,695.9m,2,0,0.0m,"3/21 100A","3/21 100A",,
-"Cholam",,,3550.000N,12023.117W,396.2m,3,0,0.0m,,"good field",,
 "Cholam Strip",,,3547.383N,12020.450W,359.7m,3,0,0.0m,,"unknown old strip",,
+"CholameRd",,,3550.367N,12022.900W,396.2m,3,,,,"Good dirt road off the west side of the main cholame road behind locked gate",,
 "Chowchilla",,,3706.750N,12014.817W,73.8m,2,0,0.0m,"12/30 22.9","12/30 22.9",,
 "Christensen",,,3652.300N,12120.217W,115.8m,5,270,895m,122.900,"22.9"
 "Cibo Peak",,,3650.000N,12113.000W,853.4m,1,,,,,,
@@ -255,7 +255,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc,userdata,pics
 "ParadiseFlat",,,3713.667N,12122.283W,365.8m,3,0,0.0m,,"strip",,
 "ParadiseLakes",,,3510.567N,11855.384W,102.1m,2,0,0.0m,"16/34 20S","16/34 20S",,
 "Paramount",,,3539.550N,11953.367W,191.1m,5,130,1525m,123.300,"New good strip no aeroretrieve"
-"Parkfield",,,3553.533N,12025.900W,457.2m,3,0,0.0m,,"fields SW of town",,
+"Parkfield",,,3553.750N,12026.183W,460.2m,3,0,0.0m,,"good field west of the road with easy access",,
 "Paso Robles",KPRB,,3540.367N,12037.617W,254.8m,5,190,1815m,123.000,"01/19 23.0",,
 "Patterson",,,3728.117N,12110.166W,51.2m,3,0,0.0m,,"Abandoned with obstacles but fields both sides of rwy may be landable gate combo #8241",,
 "Peaker Plant",,,3800.733N,12150.750W,12.2m,3,0,0.0m,,"Field and dirt road",,
@@ -404,4 +404,3 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc,userdata,pics
 "Yandell Rc",,,3738.433N,12109.700W,12.2m,1,,,,,,
 "York Rd",,,3550.417N,12005.000W,224.0m,3,0,0.0m,,"good dirt road",,
 "YsmtHddnLkRc",,,3707.083N,11954.800W,152.4m,2,0,0.0m,"17/35 37D","17/35 37D",,
------Related Tasks-----
