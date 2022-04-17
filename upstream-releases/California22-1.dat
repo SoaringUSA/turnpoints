@@ -1,0 +1,701 @@
+**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+**                  Control Points for Hollister, California                   +
+**                                                                             +
+**                         Contributed by Ramy Yanetz                          +
+**                                                                             +
+**                    Contribution date was 13 April, 2001                     +
+**                           Updated 14 March, 2003                            +
+**               File created Friday, 14 March 2003 at 13:16 GMT               +
+**         Available from the Worldwide Soaring Turnpoint Exchange at          +
+**            http://acro.harvard.edu/SOARING/JL/TP [ North America ]          +
+**         or http://soaring.xinqu.net/JL/TP        [ New Zealand ]            +
+**                                                                             +
+**                          Magnetic variation: -14.8                          +
+**                                                                             +
+**                            Time zone: US/Pacific                            +
+**         Summer offset from GMT is -7:00, and in winter it is -8:00          +
+**                                                                             +
+**               Latitude Range:     34:12.033N to   37:53.000N                +
+**               Longitude Range:   122:16.417W to  117:16.000W                +
+**                                                                             +
+**                                                                             +
+**                 NOTE: There are 269 waypoints in this file.                 +
+**           The CAI GPS-NAV can handle only 250, so edit this file            +
+**                 with Notepad on your PC or the CAI software                 +
+**                   to choose the 250 that you wish to use.                   +
+**                It would be prudent to choose fewer than 250.                +
+**               to leave room for 'MarkPoints' and a 'Thermal'.               +
+**                                                                             +
+**    There is no virtually no limit for CAI Pocket-NAV and WinPilot users.    +
+**                                                                             +
+**                      UNOFFICIAL, USE AT YOUR OWN RISK                       +
+**                                                                             +
+**      Always consult the relevant publications for current and correct       +
+**  information. This service is provided free of charge with no warrantees,   +
+**                            expressed or implied.                            +
+**                        User assumes all risk of use.                        +
+**                                                                             +
+**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1,36:53:30N,121:24:30W,230F,TAHSF,HOLLISTER   ,24/06 23.0
+2,35:53:22N,120:02:49W,559F,T,41/33 Int   ,            
+3,35:44:00N,120:17:22W,1138F,T,46/41 Int   ,            
+4,34:56:08N,119:27:06W,3176F,TA,7R Ranch    ,Land To SE fence accros SE end
+5,34:32:15N,117:27:38W,3075F,TA,Adelanto    ,E/W 51D
+6,34:30:15N,118:18:46W,2660F,TA,Agua Dulce  ,4/22 46A
+7,37:23:18N,120:55:39W,73F,TA,Ahlem Farms ,8/26 26A
+8,36:30:52N,119:45:50W,252F,TA,Al Divine   ,16/34 24A
+9,36:32:25N,119:18:58W,364F,T,Alta        ,CrackAsphalt
+10,36:00:22N,120:08:47W,790F,TAS,AVENAL      ,12/30 23.3
+11,36:54:52N,119:47:09W,382F,T,Arnold Ranch,
+12,36:43:04N,119:08:13W,2150F,TA,Baker + Hall,E/W 34D
+13,35:19:29N,118:59:45W,376F,TA,Bakersfield ,16/34 22.8
+14,35:28:23N,119:43:44W,575F,T,Belridge    ,NW/SE rough may be unlandable due to obstructions good fields SE
+16,36:23:22N,121:00:12W,1500F,LT,Bitter      ,rough strip or fields
+17,35:56:23N,120:19:16W,4222F,T,Black Mtn   ,          
+19,36:42:45N,120:01:49W,222F,T,Bland       
+20,35:35:42N,120:20:20W,1140F,TL,Blech Ranch ,16/34 33A unknown
+21,35:24:17N,120:31:30W,1380F,T,Bogdan      ,07/25 18G unlandable
+22,34:41:41N,118:16:59W,2410F,TL,Bohunk      ,09/27 19D
+23,37:31:25N,120:23:52W,295F,TA,Bonanza     ,7/25 41S
+24,35:40:09N,120:32:55W,1030F,TL,Bonel       ,17/35 20T
+25,37:04:14N,122:07:39W,2020F,TA,BonnyDoonVlg,12/30 22A
+26,35:01:46N,117:42:44W,2389F,T,Borax       ,06/24 34A
+27,35:00:13N,117:36:25W,2499F,LA,Boron       ,07/25 23D
+28,34:30:55N,117:45:43W,3230F,TA,Brian Ranch ,3/21 15D
+29,35:12:24N,119:15:04W,320F,T,Buena Vista ,            
+30,36:38:05N,121:00:37W,2125F,LT,Bumrn       ,Land To East
+33,35:08:59N,118:01:33W,2437F,TA,Cal City    ,06/24 60A
+34,35:19:13N,120:00:11W,1970F,TL,CalifornVlly,overgrown but landable motel nearby 
+35,34:12:50N,119:05:40W,75F,TA,Camarillo   ,8/26 60A
+36,36:28:55N,121:43:48W,450F,TL,CarmelValley,
+37,35:41:30N,119:29:19W,225F,T,Cashen      ,14/32 22.8
+38,37:22:50N,120:34:05W,189F,TA,Castle      ,13/31 118A
+39,36:12:10N,120:37:26W,4374F,T,Center Pk   ,            
+40,36:31:17N,119:40:12W,276F,TA,CentralVllyv,N/S 26S
+41,37:04:22N,120:22:42W,175F,TA,ChapmanFarms,07/25 30A
+42,36:37:30N,121:04:00W,3300F,T,Chemise Look,            
+43,35:41:16N,117:41:26W,2283F,A,ChnLkNwsrmtg,3/21 100A
+*44,35:50:00N,120:23:07W,1300F,TL,Cholam      ,good field
+46,37:06:45N,120:14:49W,242F,TA,Chowchilla  ,12/30 22.9
+48,36:50:00N,121:13:00W,2800F,T,Cibo Peak   ,            
+50,36:09:52N,120:21:57W,714F,TL,Coalinga    ,01/19 Closed
+51,34:45:40N,119:03:32W,5160F,TL,ConoverArLdg,East of the three intersecting runways. Land uphill N 1000' of 36
+52,36:06:09N,119:35:41W,197F,TA,Corcoran    ,13/31 22.9
+54,35:10:34N,118:55:23W,335F,TA,ParadiseLakes,16/34 20S
+55,34:29:06N,117:50:03W,3420F,TA,Crystal     ,07/25 45A
+56,36:47:16N,121:19:00W,300F,T,DZ          ,Drop Zone!
+57,37:07:15N,119:59:17W,425F,T,Daulton     ,09/27 22.8
+59,35:44:22N,119:14:01W,313F,TA,Delano      ,14/32 22.8
+60,35:15:25N,118:50:00W,517F,T,Di GiorgioRc,17/35 26A
+61,37:53:00N,121:55:00W,3830F,T,Diablo      ,            
+62,34:55:20N,119:31:33W,2440F,T,Dixon       ,17/35 22.8
+63,36:57:45N,120:37:49W,120F,TA,Dos Palos   ,13/31
+64,36:42:13N,120:08:08W,195F,T,Du Bois Rc  ,            
+65,35:52:31N,119:53:43W,341F,TL,Dudley Ridge,            
+66,36:54:00N,120:40:04W,153F,TA,Eagle       ,12/30 23A
+67,36:52:00N,121:09:00W,2500F,T,E Rdg Start ,            
+68,36:09:45N,119:03:00W,426F,TA,Eckert      ,13/31 22.8
+71,34:37:25N,117:36:32W,2865F,TA,El Mirage   ,04/22 37A
+72,36:54:20N,120:10:39W,213F,TA,El Peco Rc  ,            
+73,36:02:50N,119:38:47W,181F,TL,El Rico      ,16/34 45A
+74,36:41:15N,120:57:49W,3600F,T,EL1         ,Panoche Elevator
+75,36:30:12N,120:55:38W,4000F,T,EL2         ,Elevator 2
+76,36:22:10N,120:46:41W,2500F,T,EL3         ,Elevator 3
+77,36:20:22N,120:42:11W,2500F,T,EL4         ,Elevator 4
+78,36:19:00N,120:38:00W,4700F,T,EL5         ,San Benito Elevator
+79,35:21:24N,119:29:00W,326F,TA,Elk Hills   ,11/29 22.9 watch for RC Jets
+80,37:05:20N,120:30:04W,135F,T,Emmett      ,07/25 24A
+82,36:51:36N,120:27:52W,157F,TA,Firebaugh   ,12/30 22.9
+83,36:25:30N,120:15:56W,295F,TL,FivePointsRc,16/34 26A
+84,37:13:55N,120:28:44W,154F,T,Flying M Rc ,5/23 26S
+85,35:24:26N,118:30:00W,3485F,TA,Flying S Rc ,7/25 38D
+86,36:57:12N,121:27:54W,151F,TA,Frazier Lake,23.0
+87,34:37:22N,120:03:41W,688F,TA,Freds       ,06/24 22.8
+88,36:45:27N,121:30:14W,3059F,T,Fremont PK  ,            
+89,36:43:57N,119:49:12W,278F,TA,FrsnChndlrDw,23.0
+90,36:46:34N,119:43:05W,333F,TA,FresnoYosemt,22.95
+91,34:53:00N,119:21:00W,3300F,T,Funky Jog   ,            
+92,34:44:20N,118:13:34W,2347F,TA,General Fox ,06/24 50A
+93,35:41:13N,119:35:59W,220F,T,GlbrthBrsDck,14/32 25D
+94,34:56:17N,118:55:45W,1500F,T,Grapevine   ,            
+95,37:15:46N,120:57:48W,75F,TA,Gustine     ,18/36 32A
+96,36:06:30N,120:09:52W,590F,TL,Hale        ,            
+97,36:19:23N,119:37:56W,249F,TA,Hanford     ,14/32 22.8
+98,34:37:48N,117:39:12W,2885F,TA,Hansen      ,7/25 59D
+99,35:03:36N,119:32:33W,2400F,T,Harold      ,Land By Road
+100,37:49:42N,121:37:33W,76F,TAS,BYRON       ,05/23  23.05
+101,36:36:38N,120:53:07W,1342F,TAS,PANOCHE     ,123.3
+102,36:20:25N,120:14:50W,335F,TA,Harris Agr W,16/34 30A
+102,36:46:19N,119:26:37W,450F,TA,HarrisRivrRc,07/25 30A
+103,36:56:30N,120:14:34W,192F,T,Haws        ,07/25 26S
+104,36:15:03N,120:14:25W,470F,TA,Harris Ranch,14/32 22.9
+106,36:21:36N,120:47:17W,2441F,TL,Hernandez S ,NWSE(Middle) gate 6052
+107,37:20:34N,120:24:13W,223F,TA,Hunt Farms  ,16/34 23D
+108,35:47:00N,120:12:28W,2000F,T,HWY41 Pass    ,            
+111,35:59:59N,120:38:00W,1700F,TL,IndianValley,strip?Land E
+112,35:38:54N,117:49:56W,2442F,TA,Inyokern    ,02/20 60A
+113,35:10:48N,118:51:18W,388F,TL,J+JCropDstrs,07/25 25A
+115,35:22:05N,119:11:41W,347F,T,Joe Gottlieb,E/W 23S
+116,37:21:39N,120:17:05W,280F,TA,John Myers  ,2/20 30S
+117,37:11:28N,120:16:35W,240F,T,Johnson     ,9/27 22D
+118,37:08:29N,119:30:29W,1280F,TA,Johnston    ,15/33 20D
+119,36:12:15N,119:50:27W,199F,TA,Jones Farms ,15/33 19A
+120,35:22:53N,118:13:38W,4071F,TA,Kelso Valley,4/22 26D
+121,35:43:42N,118:25:11W,2614F,TA,Kern Valley ,17/35 35A
+122,36:51:00N,119:30:36W,529F,TA,KindsvaterRc,02/20 20D
+123,36:13:42N,121:07:18W,370F,TA,King City   ,11/29 22.9
+124,36:36:25N,119:27:48W,350F,T,KngsRvrCmmnt,18/36 20T
+125,34:34:10N,117:33:20W,3042F,TA,Krey        ,7/25 34D
+126,37:05:17N,122:16:25W,125F,T,Las Trancas ,Not good for gliders
+127,36:19:59N,119:57:08W,234F,TA,LemooreNSRVS,            
+128,35:04:33N,119:12:56W,440F,T,Leuthol NW  ,
+130,34:47:39N,118:16:39W,2433F,TA,Little Butte,06/24 29T
+131,34:54:26N,118:18:29W,2730F,TL,LloydsLandng,06/24 23D
+132,34:39:56N,120:28:00W,120F,TA,Lompoc      ,07/25 22.7
+133,36:15:00N,120:55:00W,1049F,TL,Lonoak      ,Fields
+134,36:04:43N,120:35:33W,3947F,T,Lookout     ,            
+135,37:03:46N,120:52:09W,119F,TA,Los Banos   ,14/32 30A wide xwind taxiway 800 ft combo #1228
+136,35:37:17N,119:41:07W,274F,TL,LstHllsKrnCn,15/33 22.9 abondoned field south of the road and rwy may be better
+137,36:18:16N,120:24:15W,3000F,T,MW Towers   ,            
+138,35:38:44N,120:50:56W,1534F,TL,MacGillivray,4/22 34A
+139,36:59:00N,120:07:00W,253F,TA,Madera      ,07/25 22.8
+140,35:31:34N,119:06:06W,640F,T,Majors      ,12/30 10D
+141,36:40:55N,121:45:45W,134F,TA,Marina      ,11/29 30A
+142,37:27:34N,119:44:32W,3020F,TL,Manzanita    ,122.75             
+143,37:30:39N,120:02:31W,2250F,TA,MariposaYsmt,8/26 33A
+144,37:10:30N,119:36:34W,2560F,T,MarkFrnzPrvt,5/23 8D
+145,35:43:09N,120:46:05W,920F,TA,MC Millan   ,N/S (Closed)
+146,35:26:01N,119:03:24W,507F,TA,Meadows     ,12/30 18.1
+147,36:09:38N,119:19:48W,271F,TA,Mefford     ,13/31 22.7
+148,36:45:29N,120:22:17W,162F,TA,Mendota     ,14/32 22.9
+149,37:17:05N,120:30:50W,153F,TA,Merced      ,12/30 59A
+151,36:19:42N,121:11:12W,240F,TA,Metz        ,15/33 22.8
+152,37:30:00N,121:52:17W,2500F,T,Mission Pk   ,            
+153,35:03:33N,118:09:51W,2787F,TA,Mojave AP   ,04/22 40A
+154,36:35:05N,121:50:39W,100F,TA,Monteray    ,118.4
+155,36:54:22N,121:50:35W,70F,TA,MontryBycdmy,10/28 22D
+156,36:10:03N,120:17:58W,622F,TA,NewCoalinga ,12/30 22.7 gate 1906
+157,34:56:37N,119:41:19W,2203F,TA,New Cuyama  ,10/28 22.9 currently closed, rough
+159,37:40:45N,121:17:59W,62F,TL,NewJerusalem,combo #3075
+160,36:09:25N,119:50:58W,194F,TA,Newton      ,14/32 28A
+161,34:35:36N,117:49:19W,2741F,T,Nichols Farm,10/28 Lock
+162,34:59:18N,120:27:29W,190F,T,Northside   ,08/26 25S
+163,35:34:06N,120:47:51W,1200F,TA,OakCountryRc,17/35 22A
+164,35:06:05N,120:37:20W,14F,TA,OceanoCounty,11/29 22.7
+165,35:44:17N,120:07:56W,3039F,T,Orchard Pk  ,            
+166,34:35:02N,117:16:00W,2900F,TA,Osborne     ,2/20 26G
+167,34:12:03N,119:12:26W,43F,TA,Oxnard      ,7/25 60A
+168,35:06:50N,118:35:53W,3840F,T,PSK Ranch   ,
+169,36:43.400N,121:15.530W,700F,TL,Ramona, field
+170,34:42:44N,117:21:03W,2510F,T,Palisades Rc,1/19 38D
+171,34:37:46N,118:05:04W,2543F,A,Palmdale AF ,04/22 120A
+174,35:40:22N,120:37:37W,836F,TA,Paso Robles ,01/19 23.0
+175,37:28:07N,121:10:10W,168F,TL,Patterson   ,Abandoned with obstacles but fields both sides of rwy may be landable gate combo #8241
+176,37:00:42N,121:17:06W,2770F,T,pk 2770     ,Holstr Srt1
+177,34:59:42N,119:35:00W,4077F,T,Pk 4077     ,            
+178,36:49:12N,119:23:00W,951F,T,Pine FlatDam,            
+179,36:30:37N,121:08:07W,1200F,T,Pinnacles Rc,Old strip/field gate 4461
+180,35:57:38N,119:18:29W,256F,TL,Pixley      ,13/31 22.9
+181,34:56:33N,118:10:11W,2610F,TA,Pontious    ,03/21 19D
+182,36:01:20N,118:05:43W,6800F,T,Porter Ranch,9/27 26D
+183,36:01:47N,119:03:46W,444F,TA,Portervill  ,12/30 22.8
+184,35:35:48N,119:07:39W,635F,TA,PosoKernCnty,16/34 22.9
+187,34:46:04N,118:43:54W,3370F,TA,QualLkSkyPrk,Land Western end
+188,36:35:00N,119:38:23W,310F,TA,Quinn       ,13/31 24A
+189,37:04:50N,120:27:59W,148F,T,Red Top     ,07/25 32S
+190,36:39:59N,119:26:59W,383F,TA,Reedley     ,15/33 22.7
+191,37:20:00N,121:49:12W,133F,AT,Reid        ,119.8
+192,36:49:16N,121:08:12W,3392F,TS,Reinoso pk  ,            
+193,35:24:24N,118:51:10W,830F,T,Rio Bravo   ,
+194,35:48:53N,120:44:38W,630F,TL,RobertsHlprt,Military
+195,34:52:15N,118:12:33W,2415F,TA,Rosamond    ,07/25 36A
+196,34:53:08N,119:28:12W,3000F,TL,RourkesRoost,Land To East
+197,36:48:05N,121:09:34W,2728F,TS,S.Quien Sabe ,Start
+198,35:59:24N,118:04:49W,6427F,TA,SacatarMedws,11/29 33T
+199,36:39:48N,121:36:24W,84F,TA,Salinas     ,119.4
+200,37:03:26N,120:08:38W,263F,T,SallaberryRc,12/30 21S
+201,36:05:41N,119:32:44W,205F,TA,Salyer      ,14/32 70A
+202,35:58.515N,120:53.804W,441F,TL,San Ardo    ,
+203,36:22:09N,120:38:37W,5210F,T,San Benito Mtn  ,           
+204,36:31:30N,121:05:00W,1800F,TL,San Benito  ,Fields
+205,36:36:16N,120:13:07W,165F,TL,San Joaquin ,15/33 25S
+206,37:21:43N,121:55:44W,58F,A,San Jose    ,11/29 46A
+207,34:35:18N,120:00:50W,555F,TA,San Lucas   ,10/28 21A
+208,35:14:01N,120:38:04W,191F,TA,SanLuisObisp,07/25 24.0
+209,35:45.650N,120:41.210W,647F,TL,San Miguel  ,32A watch for obstruction and brush
+210,35:39:46N,121:11:52W,190F,TL,San Simeon  ,
+211,34:25:39N,119:50:22W,19F,TA,SantaBarbara,07/25 19.7
+212,34:53:27N,120:26:47W,258F,TA,Santa Maria ,02/20 18.3
+213,34:20:50N,119:03:40W,245F,TA,Santa Paula ,4/22 27A
+214,34:36:23N,120:04:06W,624F,TA,Santa Ynez  ,08/26 22.8
+215,36:27:04N,119:19:15W,313F,TA,Sequoia     ,13/31 22.9
+216,36:09:00N,118:48:08W,1153F,TA,Sequoia Rc  ,N/S 28A
+217,35:30:06N,119:11:12W,422F,TA,Shafter     ,12/30 22.9
+218,36:50:25N,119:52:14W,321F,TA,SierraSkyPrk,12/30 22.7
+219,34:49:55N,118:24:03W,2600F,T,Skyotee     ,Overgrown
+220,37:04:54N,121:35:48W,281F,TA,South County,22.7
+221,34:35:36N,117:22:46W,2875F,TA,SthrnClfrnLg,3/21 91A
+222,37:19:30N,120:51:46W,79F,TL,Stevinson   ,N/S 24A
+223,36:20:00N,119:49:30W,220F,TA,Stone       ,16/34 25A
+224,36:07:55N,119:59:08W,265F,TA,Stone LandCo,16/34 33A
+225,36:09:37N,119:48:48W,192F,TA,StratfordGrn,14/32 26A
+226,34:45:29N,117:29:48W,2984F,TA,Sun Hill Rc ,7/25 53D
+227,36:24:00N,119:37:03W,248F,T,Swanson RC1,07/25 25A
+228,36:28:00N,119:53:04W,237F,T,Swanson RC2,16/34 25A
+229,35:08:27N,119:26:42W,875F,TA,Taft        ,07/25 22.8
+230,35:04:00N,119:30:00W,3170F,T,Taft Ridge  ,Power Line
+231,35:08:07N,118:26:23W,3996F,TA,Tehachapi   ,11/29 23.0
+232,35:06:09N,118:25:53W,4220F,TA,TehachapiMtn,23.0
+233,34:59:21N,118:54:52W,1065F,TL,Tejon Ag    ,13/31 32S
+234,35:35:29N,117:38:01W,2510F,TL,Tera        ,6/24 35T
+235,36:14:35N,119:08:58W,340F,TA,Thunderhawk ,13/31 22.9
+236,37:41:21N,121:26:31W,193F,TA,Tracy       ,07/25 123.075
+237,36:59:55N,120:27:53W,130F,T,Triangle TRc,            
+238,37:29:15N,120:41:49W,159F,TA,Turlock Muni,12/30 30A
+239,37:28:15N,120:50:39W,100F,TA,Turlock Airpark,13/31 21A
+240,36:40:24N,119:43:18W,300F,T,Turner      ,07/25 18S
+241,35:38:49N,120:12:39W,1894F,TL,Twisselman N,field to the west may be better           
+242,35:24:24N,120:05:40W,2054F,TL,Twisselman S ,strip or fields
+243,34:12:35N,118:29:24W,799F,TA,Van Nuys    ,119.3
+244,34:43:47N,120:34:37W,367F,TA,Vandenberg  ,12/30 24.95
+245,36:19:00N,119:23:00W,292F,TA,Visalia     ,12/30 23.05
+246,35:37:10N,119:21:15W,313F,TA,Wasco Kern  ,12/30 22.8
+247,36:56:08N,121:47:23W,160F,TA,Watsonville ,2/20 22.8
+248,36:20:20N,120:06:37W,280F,TL,WSideFildSt.,16/34 22.75
+249,36:07:15N,119:53:18W,192F,TA,WestlakeFrms,14/32 36A
+250,37:32:53N,121:12:18W,96F,TA,Westley     ,3/21 16A narrow
+251,34:15:34N,118:24:48W,1003F,TA,Whiteman    ,12/30 41A
+252,36:12:04N,120:05:11W,353F,T,Willett     ,17/35 32A
+253,37:03:56N,120:34:01W,115F,T,Willis Ranch,N/S 18T
+254,36:47:32N,119:18:33W,662F,TL,WonderValley,12/30 23A
+255,36:23:57N,119:06:12W,425F,TA,Woodlake    ,07/25 22.9
+256,36:19:38N,120:32:13W,4508F,T,Wright Mtn  ,            
+257,37:07:05N,119:54:48W,500F,TA,YsmtHddnLkRc,17/35 37D
+** *************************** Added 03/05 **************************
+258,35:57:12N,120:28:34W,1770F,TL,PineCanyon,clear dirt road in field
+259,34:43:00N,118:40:00W,5600F,T,Quail Pk,
+260,36:10:42N,120:41:39W,2450F,TL,PriestFld   ,Field
+261,36:28:40N,120:45:30W,1815F,TL,IdriaFld   ,Field/road 
+262,35:39:46N,120:24:57W,1100F,TL,Shandon   ,dirt strip
+263,36:38:43N,120:50:03W,1750F,T,T1         ,Thermal
+264,36:25:37N,121:03:50W,1250F,TL,TopoValley ,strip/field
+265,36:04.60N,120:13.67W,700F,TL,DarcyStrip, 35/17 18D
+266,35:54.51N,120:03.81W,577F,TL,Hewiston, 
+267,37:39:41N,121:41:37W,732F,TA,Meadowlark, 122.75
+268,37:50.85N,121:54.43W,1000F,T,Wave1
+269,37:45.12N,121:47.48W,1000F,T,Wave2 
+270,37:45.40N,121:56.72W,420F,T,House,
+271,37:33:16N,121:36:16W,3675F,T,Rel1
+272,37:28:43N,121:33:13W,4089F,T,Rel2
+273,37:24:38N,121:32:33W,2700F,T,Rel3
+277,37:49:00N,121:27:02W,10F,TL,Duster, 
+278,35:28:48N,120:18:55W,1350F,TL,Camatta, better field on the S or on the road 0.5m NW watch for powerwline across the road
+280,37:24:29N,121:06:34W,167F,TL,Crows Landing, closed airport access may be restricted
+281,35:38.18N,120:00.56W,760F,T,Blackwell,fence - better fields 2 miles to the west
+282,36:54:15N,121:13:45W,3289F,T,Henrietta
+283,37:48.196N,122:01.731W,1008F,T,Little Hands, 
+284,37:40.079N,121:11.913W,34F,TL,Mapes Ranch ,11/29 rough field behind gates
+285,37:38.429N,121:09.696W,40F,T,Yandell Rc  ,  
+286,37:43.412N,120:53.396W,158F,T,Peterson   
+287,37:51:00N,120:32:38W,1000F,TL,Kistler Rc  ,      20D
+288,37:55.300N,120:30.917W,830F,TL,Peoria      ,09/27    25T
+289,38:00.829N,121:07.563W,80F,T,Cortopassi  
+290,38:00.212N,121:07.113W,77F,T,Fowler's    
+********************* Updated 09/05 ***********************
+291,37:56.812N,121:38.847W,29F,TA,Funny Farm  ,17/35 18A north half only
+********************* Updated 02/06 ***********************
+*294,37:13:40N,121:05:17W,200F,TL,I5/140, field
+295,37:19:23N,121:24:29W,3756F,T,Mt.Stakes
+298,37:41.603N,121:49.220W,400F,TA,Livermore, 118.1
+******* Corrections to Mariposa (Manzanita),Avenal, Grande, Funny, Pinnacles and Harris 02/06**
+299,37:20:10N,122:15:12W,1376F,TL,LaHonda
+300,35:24:14N,120:16:16W,1949F,T,Red Hill    ,25/07 17D marginal
+******* Added 5/06 also updated coordinates for MW Towers
+302,35:39:33N,119:53:22W,627F,TA,Paramount, New good strip no aeroretrieve
+303,36:08:43N,120:39:36W,3272F,T,PriestVOR, 
+******* Added 1/07 *******************************************
+304,37:02:53N,121:29:04W,1500F,T,Coy Wave,Coyote North Wave 
+305,37:01:55N,121:18:42W,450F,T,Casa Wave,Casa de fruta North Wave 
+306,36:18.850N,120:47.950W,3871F,TL,Pond,Airstrip Pond
+307,37:42.000N,121:41.400W,400F,T,Hummingbird
+******* Added 3/07 *******************************************
+308,36:32:15N,121:24:22W,443,TL,Fat City, Power Lines and vehicles 
+309,36:21:48N,121:18:40W,268F,TL,Clark       ,Narrow
+310,36:27:59N,120:43:05W,1729F,TL,New Idria , Rough
+311,37:09:13N,121:26:42W,2382F,T,HooverLake, strip too narrow
+312,37:13:40N,121:22:17W,1200F,TL,ParadiseFlat, strip 
+313,37:19.40N,121:32.30W,2300F,T,Isabel,strip fence 50 to 130 feet accross
+314,37:21:38N,121:28:41W,2050F,TL,SanAntonioVly,Good field fence on north end
+315,37:22:14N,121:28:07W,2120F,TL,SanAntonioStrip,Land to east on western half
+316,37:24:54N,121:28:04W,3720F,T,RedMountain,
+317,37:30:14N,121:22:16W,3380F,T,Mt Oso
+318,37:24:06N,121:15:49W,1050F,T,Grande, strip unusable 
+319,36:52:18N,121:20:13W,380F,TA,Christensen ,22.9
+320,36:46:32N,121:14:40W,1020F,AT,Bikle , Land to East  , 
+321,36:22:44N,120:47:44W,2500F,TL,Rockie ,E/W(land to E)
+322,36:37:30N,120:36:34W,550F,LT,Cotto(Duster),Good strip 
+323,37:20:31N,121:38:31W,4150F,T,Lick Obs    ,Mt Hamilton
+324,36:24.615N,120:51.096W,2300F,TL,Kurz strip,marginal and difficult access
+325,37:09:48N,121:03:00W,200F,TL,SantaNella , 
+*326,37:14:22N,121:05:32W,200F,TL,I5Duster, near orchard
+327,37:19:33N,121:17.36W,1850F,T,Ranch
+******** 4/07 updated Patterson ***********************
+******** 3/07 removed Bogdan, corrected Swanson, San Miguel,Pine Canyon,Bonel,camatta, Leuthol 
+******** 3/07 corrected San Ardo, 7R 
+******** 3/07 added strips below 
+329,36:25.700N,121:18.240W,260F,TL,Soledad, 15A
+330,36:08.810N,121:05.162W,450F,TL,Welby,46A
+331,36:00.202N,120:54.276W,410F,TL,SanArdo2,39A
+332,35:57.765N,121:06.451W,1000F,TL,Jolon,26D
+333,36:01.910N,120:34.970W,2500F,TL,HiddenValley,unmaintained
+334,35:53.360N,120:39.377W,1440F,TL,DeerValley,21D
+335,35:46.630N,120:35.470W,1100F,TL,Ranchita,36D
+336,35:37.418N,120:26.173W,1100F,TL,SheddCanyon,34D
+337,35:27.179N,120:28.550W,1300F,TL,Katacreek,14D
+338,35:17.159N,120:18.760W,1560F,T,SotoCanyon,19D
+339,35:18.108N,120:21.714W,1520F,TL,PozoEast,25D
+340,35:17.940N,120:25.350W,1420F,TL,PozoWest,20D Land to West
+341,35:21:33N,120:08:24W,1540F,TL,OldCanyon   ,50D marginal difficult access
+342,35:18.537N,119:53.532W,2045F,TL,BelmontTrail,18D
+343,35:09.000N,119:57.614W,2630F,T,BarrettCreek,26D
+344,35:03.910N,119:24.470W,880F,TL,MaricopaNorth,16A
+345,35:03.250N,119:24.650W,970F,TL,MaricopaSouth,20D
+346,34:57.766N,119:47.810W,2200F,TL,Wasioja,28D Land to South
+347,34:55.410N,119:34.290W,2350F,TL,OldCuyama,25D Power Lines north end
+348,34:51.860N,119:32.510W,3120F,TL,TennisonCanyon,19D Strip/Dirt Road
+349,35:23.970N,120:36.970W,990F,TL,MargaritaRanch,28D
+350,35:03.934N,119:58.546W,1500F,TL,Chimineas,32D
+******** 4/09 added strips below and updated Duster, Peaker, San Antonio, Little Hands
+351,38:00:44N,121:50:45W,40F,TL,Peaker Plant, Field and dirt road 
+352,36:59:31N,121:22:34W,270F,TL,Casa de Fruta, tight fields
+353,36:54:15N,121:11:13W,3150F,T,Tin Roof
+354,36:53:35N,121:15:48W,2800F,T,3Sisters
+355,36:52:36N,121:28:25W,1100F,T,Flint Hills
+356,36:55:30N,121:20:42W,370F,TL,Kelly, Land to east
+357,36:55:44N,121:30:51W,150F,T,Bolsa, 
+*358,34:58:13N,118:36:12W,6000F,T,Tom O&R,
+359,34:54:57N,118:31:20W,3857F,T,Radar Site32,
+360,34:48:27N,118:43:10W,3288F,T,OsoPmpngSt.1,
+******** 9/09 added waypoints below and replaced Mercy
+362,36:42:20N,120:51:34W,1164F,TL,Mercey HS, better South half
+363,36:47.14N,120:45.38W,500F,TL,LittlePanoche
+******** 3/10 added waypoints below 
+364,36:08:44N,121:25.09W,5873F,T,Junipero
+******** 3/10 changed MarkFrnzPrvt, Bland, Blech, CarmelValley, Daulton, Diablo, Dixon, Fat City, 
+******** GlbrthBrsDck, Harold, BelmontTrail, BarrettCreek,
+******** HarrisRivrRc, Haws, Gottlieb, John Myers, Johnson, Kelso, KngsRvrCmmnt, Lompoc, Mercey,
+******** Northside, PSK, Porter Ranch , Portervill, Red Top, Rio,
+******** San Joaquin, San Simeon, Stevinson, Swanson RC1, Swanson RC2, Turner , TopoValley, Duster, 
+******** Tracy,Camatta, Kistler, Peoria, Meadowlark, SotoCanyon
+******** removed Priest, Removed ParadiseLakes, Renamed Creekside to ParadiseLakes
+******** 3/10 Changed Hewiston, Nichols, PozoWest. Added the following:
+365,35:13:49N,119:59:38W,2100F,TL,Big Spring  ,  
+366,34:34:45N,117:11:08W,3007F,TA,Apple Valley,22.8   18/36
+******** Updated Paicines, Pinnacles (keep Pinnacles as T only)
+******** 9/10 Added Bear Valley, FortMtn
+367,38:27.528N,120:02.395W,7073F,TA,Bear Valley,1/19     32S
+368,38:19.662N,120:28.629W,2870F,TA,FortMtnRcNR2,8/26 40A (Eagle Ridge)
+********** 2/11 Added NapaWave, updated Kistler and removed comment for Hewiston
+369,38:14:00N,122:12:02W,1000F,T,NapaWave
+********** 4/28 Added landing places below and removed Las Trancas as landing place
+370,37:03.798N,121:12.752W,1400F,TL,Pacheco Pass,tight fields both sides of road
+371,37:02.069N,121:18.755W,345F,TL,Bell Station, field/dirt road
+372,36:58.731N,121:04.349W,580F,TL,Billy Wright, Dirt road/fields near ranch
+*373,37:07:00N,121:03:14W,250F,TL,SNella Field, possible strip watch for power lines
+374,37:47:20N,122:19:13W,10F,TL,Alameda, Closed airport
+375,38:01:00N,122:31:14W,0F,TA,San Rafael, Private airport
+*********  01/12 Added S attribute to Byron,Avenal,Panoche, updated Patterson and Los Banos gate codes, 
+*********        corrected Paicines, paramount,Elk Hills, removed NewDZ, added waypoints below
+376,37:47:33N,121:50:38W,762F,T,Wave3, Los Vaqueros wave
+377,36:45.000N,121:05.800W,1880F,TS,Release Ranch
+378,35:50:25N,120:05:00W,735F,TL,York Rd       , good dirt road
+379,36:50.66N,121:18.50W,592F,TL,Lonnie,dirt strip
+380,37:25:02N,119:22:02W,4935F,TL,Arnold Meadow, unknown meadow/strip
+381,37:59.532N,120:40.360W,1004F,TL,Copperopolis,dirt strip
+382,37:44.180N,120:42.450W,200F,TL,OakDuster,duster strip
+383,38:02.503N,120:41.550W,1172F,TL,RC Field, 3 dirt strips
+384,38:05.118N,120:45.487W,1025F,TL,Salt Springs, dirt strip
+385,38:03.058N,120:40.312W,1738F,TL,Carmen,decent strip
+386,37:53:39N,121:14:18W,33F,TA,Stockton CA ,18.25 11L/29R
+387,37:59:23N,122:03:25W,26F,TA,Buchanan CA ,18.75 01L/19R
+********** 03/13 Updated/added Cholam,removed Peterson, Cortopassi and Fowler's, added Farmington, corrected release ranch, Blackwell, san Miguel added waypoints below
+388,35:47:23N,120:20:27W,1180F,TL,Cholam Strip,unknown old strip
+389,37:56.311N,121:07.808W,67F,TL,Farmington Strip,nice paved strip
+390,37:04.852N,119:29.400W,2000F,TL,Auberry,old strip
+391,35:05:51N,119:04:11W,322F,TL,DBCouperField,good strip 
+392,38:05:30N,121:21:34W,15F,AT,Kingdon, 122.800   
+393,38:12:09N,121:16:09W,60F,AT,Lodi   , 122.900    
+394,38:04:02N,121:12:27W,56F,AT,Wallom , Private
+395,37:45:23N,120:48:01W,237F,AT,Oakdale, 122.800
+396,37:37:33N,120:57:16W,150F,AT,Modesto, 121.700
+397,35:56:25N,119:58:32W,539F,T,KettlmnHllsS, 
+398,35:55:58N,120:11:50W,2549F,T,Tar Peak
+399,34:47:47N,119:02:09W,5400F,TL,Alailpi Ranch,Nice Fields
+************04/13 changed santa ana strip to Lonnie, removed landable from PSK and Leuthol
+400,36:15.083N,120:40.915W,3890F,T,EL6
+401,35:55.660N,120:22.846W,3290F,T,EL7
+402,35:53:45N,120:26:11W,1510F,TL,Parkfield, good field west of the road with easy access
+************04/14 changed Belmont trail to landable *****
+************03/15 changed Ramona and added Paicines, updated NewJerusalem and Mapes Ranch *****
+403,36:42:38N,121:14:50W,700F,T,Paicines,strip may be overgrown
+404,36:41.170N,121:18.050W,850F,TL,FoxCreek,strip sloping down to the south
+************02/16 added FoxCreek, changed Paicines comment, NewJerusalem, Removed MtHouse, updated Conover
+405,37:59:55N,121:02:58W,100F,TL,Linden strip 
+406,37:38:56N,121:22:25W,160F,TL,Bird strip  ,20m wide fence each side
+407,37:32:46N,121:09:28W,60F,TL,Del Mar strip,
+408,35:24:47N,120:05:52W,2070F,TL,Bitterwater, Huge field other fileds nearby
+409,35:21:00N,120:01:00W,2000F,TL,Hwy 58 Hay, Hay fields
+410,35:17:30N,119:58:05W,1940F,TL,Soda Road N,No obstructions 1000f
+411,35:15:02N,119:55:10W,1940F,TL,Soda Field,
+412,35:10:00N,119:49:37W,1960F,TL,Soda Rd Spur, Dirt Road
+413,35:09:10N,119:48:21W,2040F,TL,Soda Road S, No obstructions 1000f
+************04/17 added strips above, changed California Valley, updated SNella field, Patterson, Westley, removed pinnacles landing attr
+414,36:43:43N,121:16:49W,675F,T,Paicines field,Good field when cut
+*************03/18 added paicines 
+*************01/19 fixed Avneal Freq, updated York, added 3 strips below near Avenal, added Byron field 
+415,35:57.392N,120:13.010W,1518F,TL,Powrlines strip, power lines over N end
+416,36:02.664N,120:14.883W,875F,TL,Mantes strip, Near a few buildings
+417,36:00.298N,120:18.195W,1200F,TL,Sketchy strip, sketchy
+418,37:52:40N,121:38:30W,100F,TL,Field, plowed field near the road
+****
+**** 04/20 updates
+**** Removed Priest Strip
+**** Moved PriestField
+**** Updated LostHills, RedHill, OldCanyon, Paicines
+**** updated comments Los Banos, Patterson, NewJerusalem, Bird Strip, New Cuyama 
+**** added Huasna and Garey strips, Coit Ranch,Millux strip,Deepwell, Alfalfa field,Quien Sabe, Newman
+**** added TP CerroBonito,CerroColorado,GriswoldMt 
+419,35:07:54N,120:21:23W,750F,TL,Huasna strip,windsock NE end. ranch mgr Randy Cambell 805-489-8517. 1 locked gate no cell coverage
+420,34:53:27N,120:17:57W,380F,TL,Garey strip, Grass field/strip 100x1100 
+421,36:41:24N,120:28:23W,246F,TL,Coit Ranch
+422,36:48:24N,120:36:57W,246F,TL,Millux Strip
+423,37:04:45N,120:43:14W,120F,TL,Deepwell Strip
+434,37:03:12N,120:55:52W,120F,TL,Alfalfa field, large field easy access
+435,36:48:47N,121:10:51W,1618F,TL,QuienSabe,unknown strip/field
+436,37:20:14N,121:01:42W,95F,TL,Newman, duster strip
+437,36:33:58N,120:55:17W,3400F,T,CerroBonito
+438,36:43:06N,120:57:26W,3660F,T,CerroColorado
+439,36:32:30N,120:48:44W,3200F,T,GriswoldMt
+****
+**** 03/21 updates
+**** Corrected spelling for Bikle and Quien Sabe
+**** Added Camatta comment
+**** Updated Cholam field and strip, York
+**** Added waypoints below (removed duplicates later)
+440,36:11:19N,120:07:21W,390F,TL,Woolf Strip
+441,36:43:38N,120:28:00W,225F,TL,Stamoules Strip, unknown large strip
+*442,37:04:47N,120:43:17W,100F,TL,Deepwell Strip, Good strip
+*443,36:41:23N,120:28:24W,250F,TL,Coit Strip,
+*444,36:48:23N,120:36:57W,225F,TL,Milux Strip,
+*****
+***** 04/22 updates
+***** Removed I5/140 and I5 Duster,Added Santa Nella Jct fields and ManningRd field and CrowsLanding duster,updated comment for Lost Hills LstHllsKrnCn and Crows Landing and Patterson, 
+***** changed Belridge to unlandable. Added Mt Pinos. updated parkfield. Replaced Cholam with CholameRd
+445,37:06:36N,121:01:12W,150F,TL,SantaNellaJct fields,big fields both sides of I5
+446,37:45:04N,121:46:17W,600F,TL,ManningRd field,big field near Morgan Territory Rd
+447,37:25:13N,121:06:58W,144F,TL,CrowsLanding Duster, strip/fields north of Crows Landing Airport
+448,34:48:45N,119:08:44W,8847F,T,MtPinos, 
+449,35:50:22N,120:22:54W,1300F,TL,CholameRd, Good dirt road off the west side of the main cholame road behind locked gate
+**
+** North wind wave waypoints
+**
+1000,37:25:00N,121:49:30W,0F,T,WaveFremont
+1001,39:59:00N,123:23:30W,0F,T,WaveIslandMt
+1002,38:29:00N,122:35:00W,0F,T,WaveKenwood
+1003,37:51:30N,122:35:00W,0F,T,WaveTam
+1004,40:02:00N,123:15:30W,0F,T,WaveNorthFork
+1005,38:06:30N,122:35:30W,0F,T,WaveNovato
+1006,38:17:00N,122:34:00W,0F,T,WavePetaluma
+1007,40:14:00N,123:19:00W,0F,T,WaveRuth
+1008,37:08:30N,121:55:30W,0F,T,WaveSantaCruz
+1009,38:38:00N,122:39:00W,0F,T,WaveStHelena
+**
+**
+** ------------ Williams 2012 wsc12a     11Mar12 ------------
+**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+**           Control Points for Williams Soaring Center, California            +
+**                                                                             +
+**                        Contributed by Peter J. Kelly                        +
+**                                                                             +
+**                     Contribution date was 10 March 2012                     +
+**               File created Sunday, 11 March 2012 at 06:40 GMT               +
+**         Available from the Worldwide Soaring Turnpoint Exchange at          +
+**                 http://soaringweb.org/TP     [ North America ]              +
+**              or http://soaring.gahsys.com/TP [ North America ]              +
+**              or http://soaring.xinqu.net/TP  [ New Zealand ]                +
+**                                                                             +
+**                          Magnetic variation: 15.3E                          +
+**                                                                             +
+**                            Time zone: US/Pacific                            +
+**         Summer offset from GMT is -7:00, and in Winter it is -8:00          +
+**                                                                             +
+**                                                                             +
+**                      UNOFFICIAL, USE AT YOUR OWN RISK                       +
+**                                                                             +
+**          Do not use for navigation, for flight verification only.           +
+**                                                                             +
+**      Always consult the relevant publications for current and correct       +
+**  information. This service is provided free of charge with no warrantees,   +
+**                            expressed or implied.                            +
+**                        User assumes all risk of use.                        +
+**                                                                             +
+** Names:TP Names are alphabetical with WSC (the home base) listed first with
+** a numeric one preceding the name WSC
+** ICAO ID may be included in name   Elevations: Many Elevations are rounded
+** Classification of each TP is included at the end of each name:
+** Letter at end will be either: R , E, or U.    - R = Runway on sectional,
+** - E = Emergency Landing area,      - U = Unlandable area
+** After the letter is a qualification number:
+** 1, 2, or 3 is good,           7, 8, or 9 is bad.
+** Comments at end of line may include:
+** Runway size:    Length in hundreds     ( H for Hard or S for Soft surface)
+** e.g      "20H" means 2000 ft hard surface
+** Width may be shown after length  e.g. "25Hx90" 2500 long x 90 ft wide
+** Width sometimes is only the paved area, but other times it
+** estimates width  and it may contain obstructions
+** Type of runway surface:
+** H=Hard (concrete/ asphalt/paved)    S=Soft (gravel, sod or dirt)
+** Runway direction e.g. 14/32, N/S, 16/34
+** Radio frequency examples 22.9=122.9   22.7=122.7
+** Aviation Weather = AW24.5=124.5   Control Tower CT18.7=118.7
+** Notice about Landing Sites :   INFO MAY NOT BE ACCURATE
+** Choice of landing sites is a pilot's personal responsibility.
+** The Landing Attribute "L" has been amended to a few of the control points that
+** MAY have been landable in the past, but they may not be landable any longer.
+** ---
+** Pilots must decide for themselves which control points may be landable for
+** them, and then add or delete attributes as appropriate.
+**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+**
+*******Update 03/12 per JJ
+** added an "L" to Crazy Creek, 7M, Pope Valley, Bear Valley,
+** Charters and Guinda and removed it from Mystrious and Big Bluff. 
+** Renamed T to Trinity Apt, Y to Yolo Apt
+** Added Montgomrty
+********Update 02/16  Strain, ElkC1
+**06/17 added Joneses
+**04/20 added Stonyford Ostrich Farm
+**04/22 updated crazy creek and Larrys unlandable
+1,39:09:48N,122:07:54W,68F,HSFTA,1WSC  -R1   ,25HX90  16/34 23.3
+2,39:00:47N,122:21:31W,1100F,T,20-16xtn-E9 ,            
+3,39:07:18N,122:19:58W,2000F,T,3Sistr-E6   ,            
+4,38:43:56N,122:33:50W,113F,TL,7M   -R2    ,20SX90  12/30
+5,39:39:10N,122:43:19W,4550F,T,AldrSpr-U8  ,            
+6,38:34:43N,122:26:07W,1850F,TA,Angwn-203-R1,32HX50  23.0
+7,39:08:47N,122:21:25W,500F,TA,AntlpVly-R3 ,20SX?  15/33
+8,39:50:46N,122:57:53W,6954F,T,AntnyM5-U9  ,            
+9,39:01:02N,122:03:27W,140F,T,Arbkle-I5-U4,I-5 Overpass
+10,38:30:48N,122:06:16W,500F,T,Bdam -U8    ,            
+11,39:08:09N,121:26:10W,110F,TA,Beale ARSA  ,15/33 CT19.3
+12,39:06:17N,122:25:55W,1400F,TL,BearVly-E3  ,25SX?  E/W Driveway
+13,40:34:28N,122:24:27W,725F,TA,Bentn-O85-R2,25HX80  22.8 15/33
+14,39:43:36N,122:52:21W,7448F,T,BlkBute-U9  ,Peak On Hill
+15,39:17:08N,121:41:39W,75F,TA,Bowles-R4   ,26HX50  15/33
+16,38:39:51N,122:11:25W,3060F,T,BTwrs-U8    ,            
+17,40:37:05N,122:42:40W,5015F,T,Buckhrn-U9  ,            
+18,39:46:09N,122:31:16W,800F,T,Buro1Gap-E4 ,12SX90  N/S S of house
+19,39:45:02N,122:31:04W,800F,T,Buro2Gap-E4 ,?SX90  N/S E of  crek
+20,38:34:44N,122:34:24W,350F,T,Calistoga-E8,Betwn Trlrs and Road
+21,39:40:33N,122:18:40W,400F,TL,CalWrthtn-E9,40HX?  Priv
+22,38:43:57N,122:08:33W,390F,T,C-Casino-U9 ,Use nearby fields
+23,39:09:48N,122:15:49W,150F,TL,Charter-E5  ,20SX?  Narrow
+24,39:47:37N,121:51:48W,200F,TA,Chico-CIC   ,67HX90  CT21.0 13/31
+25,39:10:44N,121:59:36W,47F,TA,Colusa-O08  ,30HX60  22.8 13/31
+26,39:11:27N,122:11:58W,100F,TL,Cooks-E3    ,20HX?  Weeds Equip
+27,39:56:38N,122:10:16W,292F,TA,Corng-O04   ,27HX50  23.0 17/35
+28,38:46:10N,122:34:10W,1000F,T,CrzyCrk , no longer landable           
+29,40:26:44N,121:52:56W,2030F,TA,DblCrek-CN42,30SX80  06/24 916-474-5757 mgr
+30,39:57:00N,121:59:29W,285F,TA,DeerCrk-h-E3,30HX400  16/34 Sq Pad 916-839-2192
+31,39:34:17N,122:36:37W,1300F,TA,DimndM-R3   ,24SX?  LND To W Uphill
+32,38:55:03N,121:56:48W,60F,T,DngnN    -E7,N/S 1400 FT
+33,38:51:00N,121:57:54W,100F,T,DngnS    -E7,            
+34,39:58:04N,122:44:21W,6663F,T,Eagle Pk-U7 ,Betwen-Yolla/M3
+35,39:35:07N,122:35:03W,1050F,TL,ElkC1-E3    ,15SX250  E/W Between Rds
+36,39:36:12N,122:32:47W,800F,T,ElkC2-E5    ,25SX?  E/W W Of Town
+37,38:39:13N,122:01:41W,240F,TL,Esparto-E3  ,20HX?  Al Adobe N-S
+38,40:05:02N,122:13:00W,300F,T,Ger-5-U9    ,I-5 Overpass
+39,38:52:00N,122:26:19W,2200F,T,GoMine-U9   ,Ctr Of Pond
+40,38:53:54N,122:26:47W,2500F,T,GoRch-E7    ,Cattle - Crops
+41,39:04:47N,121:54:55W,40F,TA,Grimes-E2   ,20SX?  Dirt
+42,39:27:04N,122:57:16W,190F,TA,GrvlyVy-R4  ,20SX?  Ne-Sw Rough 22.9 01/19
+43,39:15:37N,122:42:54W,6100F,T,Gt   M14-U2 ,            
+44,39:19:57N,122:46:01W,4500F,T,GtNPass-U7  ,Pass N Of Goat
+45,39:12:50N,122:39:03W,4400F,T,GtSPass-U7  ,Pass S end of Goat
+46,38:44:22N,122:31:23W,980F,T,Guenoc-E5   ,15/33 Beside Hill
+47,38:47:54N,122:10:42W,200F,TL,Guinda-E9   ,use nerby fields
+48,39:21:10N,122:05:38W,60F,TA,Gunersfld-R4,20SX?  22.8 16/34
+49,40:32:49N,123:10:47W,2320F,TA,Hafrk-R3    ,41HX60  22.8 07/25
+50,40:28:26N,122:59:29W,6399F,T,Ha-Pk6399-U7,            
+51,40:08:31N,123:23:41W,2500F,TA,HHWtr-R4    ,20Sx60  dirt  18/36 pvt on hill
+52,39:02:57N,122:41:34W,1800F,T,HiVly -E3   ,E/W Near Road
+53,38:52:19N,122:40:38W,2080F,T,Hobrg-E3    ,Closed-14/32
+54,40:37:34N,123:28:07W,1280F,TA,Hympm -R3   ,29HX60  14/32 22.8
+55,39:16:09N,122:28:50W,1280F,TL,Indn -E4    ,20SX?  Cows Horses Weeds
+56,39:40:17N,121:53:02W,190F,TA,Jonsen-4CA7 ,27SX60  16/34 530-342-1665
+57,38:48:27N,122:35:37W,1000F,T,Johnsons-E3 ,            
+58,39:27:21N,121:41:28W,110F,TA,Jones-R5    ,26SX?  15/33
+59,38:58:29N,122:45:57W,4300F,T,Knocti-U5   ,            
+60,40:21:40N,122:12:57W,610F,TA,Lake 68 CA-R,30Hx75 15/33-Pvt-No Aero Tow
+61,38:59:25N,122:54:00W,1340F,TA,Lampson-R1  ,30HX?  22.8 10/28
+62,38:45:53N,122:38:39W,1140F,T,Larrys-E4   , no longer landable           
+63,38:54:33N,121:21:05W,120F,TA,Lincoln-R2  ,25HX?  23.0 Aw24.25
+64,39:05:54N,122:41:31W,1350F,T,LongVly-E9  ,Cultvtd fields
+65,39:56:20N,122:46:50W,6580F,T,M3   -U8    ,3SM SW Of Eagle6663
+66,39:46:17N,122:41:04W,5068F,T,M6   -U9    ,            
+67,39:17:14N,122:11:22W,85F,TA,MaxMoller-R9,Weeds Ruts
+68,38:40:04N,121:24:02W,75F,TA,MCC ClasC   ,122.95
+69,39:04:32N,122:04:56W,80F,T,Millrs-E7   ,20SX50   E/W Rwy Lites
+70,39:06:12N,121:51:00W,35F,TA,Mronis-R7   ,16/34
+71,38:40:09N,122:37:43W,4200F,T,MtSHna-U8   ,            
+72,38:45:00N,122:22:05W,1410F,T,Mysterios-R9,35SX50  14/32 Lites see others
+73,38:12:35N,122:16:42W,20F,TA,Napa Cnty-R2,40HX100  CT18.7 18/36
+74,39:34:46N,122:11:53W,145F,TA,Noltas-98CL ,19SX80 N/S
+75,38:22:40N,121:57:43W,110F,TA,NutTree-R1  ,25HX100  22.7 02/20
+76,39:43:16N,122:08:47W,215F,TA,OrlndHg-O37 ,45HX60  22.7 15/33
+77,39:29:25N,121:37:19W,190F,TA,Orovlle-R2  ,25HX100   22.8 N/S
+78,40:20:39N,121:46:23W,3450F,TA,PondrSky-Rx ,20Sx100   09/27
+79,39:42:37N,121:36:59W,1300F,TA,Prdise-CA92 ,30HX60  22.8 17/35
+80,38:38.098N,122:24.165W,640F,TL,PopeV D   ,06/24 Grassn Of PV
+81,38:36.646N,122:23.503W,620F,TL,PopeVly  N/S 15 meter only
+82,40:09:03N,122:15:09W,350F,TA,R-Blf  -RBL ,54HX100  23.0  AW20.77 15/33
+83,39:43:11N,121:52:14W,170F,TA,Rchro-R4    ,15SX250  22.9 15/33
+84,38:53:23N,122:17:28W,2800F,T,Rdg-N-U9    ,            
+85,38:43:48N,122:14:38W,1500F,T,Rdg-S-U9    ,            
+86,40:30:35N,122:17:41W,500F,TA,Redng-RDD   ,75HX150   T19.8 16/34
+87,39:29:51N,121:46:15W,100F,TA,Richval-R4  ,16/34
+88,38:11:37N,121:42:21W,20F,TA,RioVist-O88 ,42HX75   07/25 22.72 AW27.07
+89,39:47:28N,123:16:15W,1500F,TA,RndVly-R2   ,36HX60   22.8 10/28
+90,40:16:56N,121:14:28W,4530F,TA,Rogrs-O05-R3,50HX100   16/34 22.8 AW18.27
+91,40:00:55N,122:23:29W,530F,TA,R-Tehama-R2 ,25HX100  E/W
+92,38:55:14N,122:18:14W,2550F,T,RumsyGp-U7  ,N Of Gap
+93,40:12:42N,123:17:52W,2800F,TA,Ruth -R9    ,35HX?  22.8 No Tows 13/31
+94,39:29:28N,122:44:03W,6500F,T,sIron Mtn-U2,            
+95,39:18:31N,122:20:33W,300F,T,Sites-E7    ,Crop Fields
+96,40:19:03N,123:15:14W,2510F,TA,SlvrCrk-R9  ,20SX?  13/31
+97,38:41:43N,121:36:04W,80F,TA,SMF ClasC   ,Class C 122.95
+98,39:22:42N,122:45:36W,7000F,T,SnowMtn-U6  ,            
+99,39:25:55N,122:41:37W,6500F,T,StJohn-U2   ,            
+100,39:21:59N,122:33:08W,1230F,T,Stonyfrd-E7 ,Dirt -
+101,39:03:12N,122:05:44W,120F,TL,Strain-E3   ,25HX?  16/34
+102,39:12:21N,121:49:14W,2080F,T,SutrBts-U6  ,            
+103,40:12:18N,123:00:35W,7770F,T,T15  -U8    ,            
+104,40:08:13N,122:49:02W,6730F,T,T16  -U8    ,24 SM To R-Tehama
+105,41:00:16N,123:02:13W,8900F,T,TAlps-U8    ,15N Of Weavrvl
+106,40:58:57N,122:41:37W,2400F,TA,Trinity-R7 ,32HX?   14/32 22.9
+107,38:15:46N,121:55:38W,60F,TA,Travs AFB-R9,Class D CT19.9 03/21
+108,39:17:03N,122:40:19W,4200F,T,TreFrmGat-E9,            
+109,39:07:35N,123:12:04W,615F,TA,Ukiah-R2    ,44HX75  23.0 15/33
+110,38:31:53N,121:47:11W,70F,TA,UnivDavis-R1,31HX50  C23.07 AW34.75 17/35
+111,38:21:41N,122:04:32W,2000F,T,VacaPnd-U7  ,            
+112,39:05:38N,121:43:03W,40F,TA,Vndrfrd-R5  ,15SX?  16/34 Fences
+113,38:52:29N,121:42:36W,20F,TA,Wagnr-E5    ,14/32-May Be Ok
+114,39:27:06N,123:22:21W,2020F,TA,Wilits-R1   ,30HX?  22.8 16/34
+115,39:31:00N,122:13:11W,130F,TA,WilowsG-WLW ,40HX75   22.8 16/34
+116,39:05:55N,122:29:19W,3560F,T,WlkrRdg-U1  ,            
+117,38:40:27N,121:52:19W,120F,TA,WoodWat-R1  ,37HX60   22.8 18/36
+118,40:44:50N,122:55:21W,2300F,TA,Wvrvl-R2    ,30HX?   Uphill To N 22.8
+119,38:34:47N,121:51:25W,100F,TA,YoloArpt  ,60HX100  23.0 16/34 AW25.77
+120,40:02:20N,122:51:51W,8000F,T,YolaPk-U8   ,25 SM To R-Tehama
+121,39:24:07N,122:29:59W,1100F,TL,Montgomry-E2,40Sx50 15/33
+122,39:08:56N,122:10:14W,68F,TL,Joneses
+123,39:21:39N,122:34:46W,1325F,TL,Stonyford, Ostrich Farm?
