@@ -41,10 +41,23 @@ def parseLength(elevStr):
 	else:
 		raise ValueError('Unknown length unit {0}'.format(match.group(2)))
 
+def parseStyle(style):
+    styleMap = {
+        0: 'Unknown',
+        1: 'Waypoint',
+        2: 'Grass surface runway',
+        3: 'Outlanding',
+        4: 'Gliding airfield',
+        5: 'Paved runway'
+    }
+    k = int(style)
+    return styleMap[k] if k in styleMap else 'Unknown'
+
 def comments(row):
     ret = ''
     #for k in ['style','rwdir','rwlen','freq','desc','userdata','pics']:
-    for k in ['style','desc','userdata','pics']:
+    ret += 'Landability: {0},'.format(parseStyle(row['style']))
+    for k in ['desc']:
         ret += '{0},'.format(row[k])
     return ret
 

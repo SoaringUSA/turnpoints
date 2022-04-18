@@ -20,6 +20,18 @@ def parseLon(lonStr):
 		deg = -deg
 	return deg
 
+def styleRef(style):
+    styleMap = {
+        0: '#waypoint',
+        1: '#waypoint',
+        2: '#unpavedAirfield',
+        3: '#landout',
+        4: '#unpavedAirfield',
+        5: '#pavedAirfield'
+    }
+    k = int(style)
+    return styleMap[k] if k in styleMap else '#waypoint'
+
 if __name__=='__main__':
 	# name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc,userdata,pics
 	cvr = csv.DictReader(sys.stdin, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','freq','desc','userdata','pics'])
@@ -32,6 +44,27 @@ if __name__=='__main__':
 	kmlDocName.text = 'Document name'
 	kmlDocDesc = ET.SubElement(kmlDocument, 'description')
 	kmlDocDesc.text = 'Document description'
+
+	# Placemark styles
+	style = ET.SubElement(kmlDocument, 'Style', attrib={'id' : 'waypoint'})
+	icon = ET.SubElement(style, 'Icon')
+	href = ET.SubElement(icon, 'href')
+	href.text = 'https://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png'
+
+	style = ET.SubElement(kmlDocument, 'Style', attrib={'id' : 'landout'})
+	icon = ET.SubElement(style, 'Icon')
+	href = ET.SubElement(icon, 'href')
+	href.text = 'https://maps.google.com/mapfiles/kml/paddle/ylw-circle.png'
+
+	style = ET.SubElement(kmlDocument, 'Style', attrib={'id' : 'unpavedAirfield'})
+	icon = ET.SubElement(style, 'Icon')
+	href = ET.SubElement(icon, 'href')
+	href.text = 'https://maps.google.com/mapfiles/kml/paddle/grn-circle.png'
+
+	style = ET.SubElement(kmlDocument, 'Style', attrib={'id' : 'pavedAirfield'})
+	icon = ET.SubElement(style, 'Icon')
+	href = ET.SubElement(icon, 'href')
+	href.text = 'https://maps.google.com/mapfiles/kml/shapes/airports.png'
 
 	for row in cvr:
 		if not row['lat']:
@@ -48,6 +81,9 @@ if __name__=='__main__':
 		kmlPoint = ET.SubElement(kmlPlacemark, 'Point')
 		kmlCoords = ET.SubElement(kmlPoint, 'coordinates')
 		kmlCoords.text = '{0},{1}'.format(lon, lat)
+		styleUrl = ET.SubElement(kmlPlacemark, 'styleUrl')
+		styleUrl.text = styleRef(row['style'])
+		
 
 	kmlTree = ET.ElementTree(kmlRoot)
 	kmlTree.write(sys.stdout.buffer, xml_declaration=True, encoding='UTF-8')

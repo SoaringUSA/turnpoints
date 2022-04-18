@@ -39,12 +39,14 @@ def parseLength(elevStr):
 	if not elevStr:
 		return ''
 	match = re.match('(\d*[.]?\d*)(m|ft)', elevStr)
-	if match.group(2) == 'm':
-		return int(float(match.group(1)) * 3.28084)
-	elif match.group(2) == 'ft':
-		return int(float(match.group(1)))
+	value = float(match.group(1))
+	unit = match.group(2)
+	if unit == 'm':
+		return int(value * 3.28084)
+	elif unit == 'ft':
+		return int(value)
 	else:
-		raise ValueError('Unknown length unit {0}'.format(group(2)))
+		raise ValueError('Unknown length unit {0}'.format(unit))
 
 def parseRwdir(rwdir):
 	if not rwdir:
