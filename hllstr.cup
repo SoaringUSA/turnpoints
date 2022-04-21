@@ -44,7 +44,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc,userdata,pics
 "Buchanan CA",,,3759.383N,12203.417W,7.9m,2,0,0.0m,"18.75 01L/19R","18.75 01L/19R",,
 "Buena Vista",,,3512.400N,11915.067W,97.5m,1,,,,,,
 "Bumrn",,,3638.083N,12100.617W,647.7m,3,0,0.0m,,"Land To East",,
-"Buttonwillow N",,,3525.861N,11929.145W,81.0m,5,0,753.0m,160,"Paved ag strip",,
+"Buttonwillow N",,,3525.861N,11929.145W,81.0m,5,160,753.0m,,"Paved ag strip",,
 "BYRON",,,3749.700N,12137.550W,23.2m,2,0,0.0m,"05/23  23.05","05/23  23.05",,
 "Cal City",,,3508.983N,11801.550W,742.8m,2,0,0.0m,"06/24 60A","06/24 60A",,
 "CalifornVlly",,,3519.217N,12000.183W,600.5m,3,0,0.0m,,"overgrown but landable motel nearby",,

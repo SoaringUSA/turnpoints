@@ -44,20 +44,28 @@ if __name__=='__main__':
 		if not row['lat']:
 			continue
 		name = row['name'].strip()
-		outDict[name] = {
-            'name' : name,
-            'code' : str(row['code']).strip() if row['code'] else None,
-            'country' : str(row['country']).strip() if row['country'] else None,
-            'lat' : parseLat(row['lat']), # float. decimal degrees
-            'lon' : parseLon(row['lon']), # float. decimal degrees
-            'elev' : parseLength(row['elev']), # float. meters
-            'style' : int(row['style']) if row['style'] else None,
-            'rwdir' : int(row['rwdir']) if row['rwdir'] else None,
-            'rwlen' : parseLength(row['rwlen']), # float. meters
-            'freq' : str(row['freq']).strip() if row['freq'] else None,
-            'desc' : str(row['desc']).strip() if row['desc'] else None,
-            'userdata' : None,
-            'pics' : None,
-        }
+		d = {
+			#'name' : name,
+			'lat' : round(parseLat(row['lat']), 6), # float. decimal degrees
+			'lon' : round(parseLon(row['lon']), 6), # float. decimal degrees
+			'elev' : parseLength(row['elev']), # float. meters
+			'style' : int(row['style'])
+		}
 
-	print(json.dumps(outDict, sort_keys=True, indent=2))
+		if row['code']:
+			d['code'] = str(row['code']).strip()
+		if row['country']:
+			d['country'] = str(row['country']).strip()
+		if row['rwdir']:
+			d['rwdir'] = int(row['rwdir'])
+		if row['rwlen']:
+			d['rwlen'] = parseLength(row['rwlen']) # float. meters
+		if row['freq']:
+			d['freq'] = str(row['freq']).strip()
+		if row['desc']:
+			d['desc'] = str(row['desc']).strip()
+		#'userdata' : None,
+		#'pics' : None,
+		outDict[name] = d
+
+	print(json.dumps(outDict, sort_keys=False, indent=2))
