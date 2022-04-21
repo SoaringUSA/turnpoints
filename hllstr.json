@@ -22,9 +22,6 @@
     "lon": -119.451667,
     "elev": 968.0,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "Land To SE fence accros SE end",
     "desc": "Land To SE fence accros SE end"
   },
   "AVENAL": {
@@ -43,9 +40,6 @@
     "lon": -117.46055,
     "elev": 937.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "E/W 51D",
     "desc": "E/W 51D"
   },
   "Agua Dulce": {
@@ -53,9 +47,6 @@
     "lon": -118.312783,
     "elev": 810.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "4/22 46A",
     "desc": "4/22 46A"
   },
   "Ahlem Farms": {
@@ -63,9 +54,6 @@
     "lon": -120.9275,
     "elev": 22.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "8/26 26A",
     "desc": "8/26 26A"
   },
   "Al Divine": {
@@ -73,9 +61,6 @@
     "lon": -119.763883,
     "elev": 76.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "16/34 24A",
     "desc": "16/34 24A"
   },
   "Alailpi Ranch": {
@@ -83,8 +68,6 @@
     "lon": -119.035833,
     "elev": 1645.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Nice Fields"
   },
   "Alameda": {
@@ -92,8 +75,6 @@
     "lon": -122.320267,
     "elev": 3.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Closed airport"
   },
   "Alfalfa field": {
@@ -101,8 +82,6 @@
     "lon": -120.931117,
     "elev": 36.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "large field easy access"
   },
   "Alta": {
@@ -117,9 +96,6 @@
     "lon": -117.18555,
     "elev": 916.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "22.8   18/36",
     "desc": "22.8   18/36"
   },
   "Arnold Meadow": {
@@ -127,8 +103,6 @@
     "lon": -119.367233,
     "elev": 1504.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "unknown meadow/strip"
   },
   "Arnold Ranch": {
@@ -142,18 +116,14 @@
     "lon": -119.49,
     "elev": 609.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "old strip"
   },
   "BYRON": {
     "lat": 37.828333,
     "lon": -121.625833,
     "elev": 23.2,
-    "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "05/23  23.05",
+    "style": 5,
+    "freq": "123.050",
     "desc": "05/23  23.05"
   },
   "Baker + Hall": {
@@ -161,9 +131,6 @@
     "lon": -119.136933,
     "elev": 655.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "E/W 34D",
     "desc": "E/W 34D"
   },
   "Bakersfield": {
@@ -171,8 +138,6 @@
     "lon": -118.995833,
     "elev": 114.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "freq": "16/34 22.8",
     "desc": "16/34 22.8"
   },
@@ -188,9 +153,6 @@
     "lon": -120.04,
     "elev": 2155.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "1/19     32S",
     "desc": "1/19     32S"
   },
   "Bell Station": {
@@ -198,8 +160,6 @@
     "lon": -121.3125,
     "elev": 105.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "field/dirt road"
   },
   "BelmontTrail": {
@@ -207,8 +167,6 @@
     "lon": -119.892217,
     "elev": 623.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "18D"
   },
   "Belridge": {
@@ -216,8 +174,6 @@
     "lon": -119.728883,
     "elev": 175.3,
     "style": 1,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "NW/SE rough may be unlandable due to obstructions good fields SE"
   },
   "Big Spring": {
@@ -225,8 +181,6 @@
     "lon": -119.993883,
     "elev": 640.1,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
   },
   "Bikle": {
     "lat": 36.77555,
@@ -243,8 +197,6 @@
     "lon": -121.0725,
     "elev": 176.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Dirt road/fields near ranch"
   },
   "Bird strip": {
@@ -252,8 +204,6 @@
     "lon": -121.373617,
     "elev": 48.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "20m wide fence each side"
   },
   "Bitter": {
@@ -261,8 +211,6 @@
     "lon": -121.003333,
     "elev": 457.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "rough strip or fields"
   },
   "Bitterwater": {
@@ -270,8 +218,6 @@
     "lon": -120.097783,
     "elev": 630.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Huge field other fileds nearby"
   },
   "Black Mtn": {
@@ -298,8 +244,6 @@
     "lon": -120.338883,
     "elev": 347.5,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "16/34 33A unknown"
   },
   "Bogdan": {
@@ -314,8 +258,6 @@
     "lon": -118.28305,
     "elev": 734.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "09/27 19D"
   },
   "Bolsa": {
@@ -329,9 +271,6 @@
     "lon": -120.397783,
     "elev": 89.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "7/25 41S",
     "desc": "7/25 41S"
   },
   "Bonel": {
@@ -339,8 +278,6 @@
     "lon": -120.548617,
     "elev": 313.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "17/35 20T"
   },
   "BonnyDoonVlg": {
@@ -348,9 +285,6 @@
     "lon": -122.1275,
     "elev": 615.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 22A",
     "desc": "12/30 22A"
   },
   "Boron": {
@@ -358,9 +292,6 @@
     "lon": -117.60695,
     "elev": 761.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 23D",
     "desc": "07/25 23D"
   },
   "Brian Ranch": {
@@ -368,9 +299,6 @@
     "lon": -117.761933,
     "elev": 984.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "3/21 15D",
     "desc": "3/21 15D"
   },
   "Buchanan CA": {
@@ -378,9 +306,6 @@
     "lon": -122.05695,
     "elev": 7.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "18.75 01L/19R",
     "desc": "18.75 01L/19R"
   },
   "Buena Vista": {
@@ -394,8 +319,6 @@
     "lon": -121.010283,
     "elev": 647.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Land To East"
   },
   "Buttonwillow N": {
@@ -412,9 +335,6 @@
     "lon": -118.025833,
     "elev": 742.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "06/24 60A",
     "desc": "06/24 60A"
   },
   "CalifornVlly": {
@@ -422,8 +342,6 @@
     "lon": -120.00305,
     "elev": 600.5,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "overgrown but landable motel nearby"
   },
   "Camarillo": {
@@ -431,9 +349,6 @@
     "lon": -119.09445,
     "elev": 22.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "8/26 60A",
     "desc": "8/26 60A"
   },
   "Camatta": {
@@ -441,8 +356,6 @@
     "lon": -120.315267,
     "elev": 411.5,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "better field on the S or on the road 0.5m NW watch for powerwline across the road"
   },
   "CarmelValley": {
@@ -450,16 +363,12 @@
     "lon": -121.73,
     "elev": 137.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
   },
   "Carmen": {
     "lat": 38.050833,
     "lon": -120.67195,
     "elev": 529.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "decent strip"
   },
   "Casa Wave": {
@@ -474,8 +383,6 @@
     "lon": -121.376117,
     "elev": 82.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "tight fields"
   },
   "Cashen": {
@@ -490,9 +397,6 @@
     "lon": -120.56805,
     "elev": 57.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "13/31 118A",
     "desc": "13/31 118A"
   },
   "Center Pk": {
@@ -506,9 +410,6 @@
     "lon": -119.67,
     "elev": 84.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "N/S 26S",
     "desc": "N/S 26S"
   },
   "CerroBonito": {
@@ -528,9 +429,6 @@
     "lon": -120.378333,
     "elev": 53.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 30A",
     "desc": "07/25 30A"
   },
   "Chemise Look": {
@@ -544,8 +442,6 @@
     "lon": -119.975833,
     "elev": 457.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "32D"
   },
   "ChnLkNwsrmtg": {
@@ -553,9 +449,6 @@
     "lon": -117.69055,
     "elev": 695.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "3/21 100A",
     "desc": "3/21 100A"
   },
   "Cholam Strip": {
@@ -563,8 +456,6 @@
     "lon": -120.340833,
     "elev": 359.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "unknown old strip"
   },
   "CholameRd": {
@@ -579,9 +470,6 @@
     "lon": -120.24695,
     "elev": 73.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 22.9",
     "desc": "12/30 22.9"
   },
   "Christensen": {
@@ -605,8 +493,6 @@
     "lon": -121.311117,
     "elev": 81.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Narrow"
   },
   "Coalinga": {
@@ -614,25 +500,19 @@
     "lon": -120.365833,
     "elev": 217.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "01/19 Closed"
   },
   "Coit Ranch": {
     "lat": 36.69,
     "lon": -120.473067,
     "elev": 75.0,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "ConoverArLdg": {
     "lat": 34.761117,
     "lon": -119.058883,
     "elev": 1572.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "East of the three intersecting runways. Land uphill N 1000' of 36"
   },
   "Copperopolis": {
@@ -640,8 +520,6 @@
     "lon": -120.672783,
     "elev": 306.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "dirt strip"
   },
   "Corcoran": {
@@ -649,9 +527,6 @@
     "lon": -119.594733,
     "elev": 60.0,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "13/31 22.9",
     "desc": "13/31 22.9"
   },
   "Cortopassi": {
@@ -666,8 +541,6 @@
     "lon": -120.60945,
     "elev": 167.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Good strip"
   },
   "Coy Wave": {
@@ -682,8 +555,6 @@
     "lon": -121.10945,
     "elev": 50.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "closed airport access may be restricted"
   },
   "CrowsLanding Duster": {
@@ -691,8 +562,6 @@
     "lon": -121.116117,
     "elev": 43.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "strip/fields north of Crows Landing Airport"
   },
   "Crystal": {
@@ -700,9 +569,6 @@
     "lon": -117.834167,
     "elev": 1042.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 45A",
     "desc": "07/25 45A"
   },
   "DBCouperField": {
@@ -710,8 +576,6 @@
     "lon": -119.069717,
     "elev": 98.1,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "good strip"
   },
   "DZ": {
@@ -726,8 +590,6 @@
     "lon": -120.227783,
     "elev": 213.4,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "35/17 18D"
   },
   "Daulton": {
@@ -741,17 +603,13 @@
     "lat": 37.079167,
     "lon": -120.720567,
     "elev": 36.6,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "DeerValley": {
     "lat": 35.88945,
     "lon": -120.656383,
     "elev": 438.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "21D"
   },
   "Del Mar strip": {
@@ -759,8 +617,6 @@
     "lon": -121.157783,
     "elev": 18.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "12/30"
   },
   "Delano": {
@@ -768,9 +624,6 @@
     "lon": -119.233617,
     "elev": 95.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "14/32 22.8",
     "desc": "14/32 22.8"
   },
   "Di GiorgioRc": {
@@ -798,9 +651,6 @@
     "lon": -120.630283,
     "elev": 36.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "13/31",
     "desc": "13/31"
   },
   "Du Bois Rc": {
@@ -813,17 +663,13 @@
     "lat": 35.875283,
     "lon": -119.895283,
     "elev": 103.9,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "Duster": {
     "lat": 37.816667,
     "lon": -121.45055,
     "elev": 3.0,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "E Rdg Start": {
     "lat": 36.866667,
@@ -883,9 +729,6 @@
     "lon": -120.667783,
     "elev": 46.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 23A",
     "desc": "12/30 23A"
   },
   "Eckert": {
@@ -893,9 +736,6 @@
     "lon": -119.05,
     "elev": 129.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "13/31 22.8",
     "desc": "13/31 22.8"
   },
   "El Mirage": {
@@ -903,9 +743,6 @@
     "lon": -117.608883,
     "elev": 873.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "04/22 37A",
     "desc": "04/22 37A"
   },
   "El Peco Rc": {
@@ -913,9 +750,6 @@
     "lon": -120.1775,
     "elev": 64.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "NW/SE",
     "desc": "NW/SE"
   },
   "El Rico": {
@@ -923,8 +757,6 @@
     "lon": -119.646383,
     "elev": 55.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "16/34 45A"
   },
   "Elk Hills": {
@@ -932,9 +764,6 @@
     "lon": -119.483333,
     "elev": 99.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "11/29 22.9 watch for RC Jets",
     "desc": "11/29 22.9 watch for RC Jets"
   },
   "Emmett": {
@@ -949,8 +778,6 @@
     "lon": -121.13,
     "elev": 20.4,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "nice paved strip"
   },
   "Fat City": {
@@ -958,8 +785,6 @@
     "lon": -121.4061,
     "elev": 135.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Power Lines and vehicles"
   },
   "Field": {
@@ -967,8 +792,6 @@
     "lon": -121.641667,
     "elev": 30.5,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "plowed field near the road"
   },
   "Firebaugh": {
@@ -976,9 +799,6 @@
     "lon": -120.46445,
     "elev": 47.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 22.9",
     "desc": "12/30 22.9"
   },
   "FivePointsRc": {
@@ -986,8 +806,6 @@
     "lon": -120.265567,
     "elev": 89.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "16/34 26A"
   },
   "Flint Hills": {
@@ -1008,9 +826,6 @@
     "lon": -118.5,
     "elev": 1062.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "7/25 38D",
     "desc": "7/25 38D"
   },
   "FortMtnRcNR2": {
@@ -1018,9 +833,6 @@
     "lon": -120.477233,
     "elev": 874.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "8/26 40A (Eagle Ridge)",
     "desc": "8/26 40A (Eagle Ridge)"
   },
   "Fowler's": {
@@ -1035,8 +847,6 @@
     "lon": -121.300833,
     "elev": 259.1,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "strip sloping down to the south"
   },
   "Frazier Lake": {
@@ -1047,17 +857,13 @@
     "code": "1C9",
     "rwdir": 65,
     "rwlen": 766.0,
-    "freq": "123.050",
-    "desc": "23.0"
+    "freq": "123.050"
   },
   "Freds": {
     "lat": 34.622783,
     "lon": -120.0614,
     "elev": 209.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "06/24 22.8",
     "desc": "06/24 22.8"
   },
   "Fremont PK": {
@@ -1071,9 +877,6 @@
     "lon": -119.71805,
     "elev": 101.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "22.95",
     "desc": "22.95"
   },
   "FrsnChndlrDw": {
@@ -1081,10 +884,7 @@
     "lon": -119.82,
     "elev": 84.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "23.0",
-    "desc": "23.0"
+    "freq": "123.000"
   },
   "Funky Jog": {
     "lat": 34.883333,
@@ -1097,9 +897,6 @@
     "lon": -121.6475,
     "elev": 8.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "17/35 18A north half only",
     "desc": "17/35 18A north half only"
   },
   "Garey strip": {
@@ -1107,8 +904,6 @@
     "lon": -120.299167,
     "elev": 115.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Grass field/strip 100x1100"
   },
   "General Fox": {
@@ -1116,9 +911,6 @@
     "lon": -118.2261,
     "elev": 715.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "06/24 50A",
     "desc": "06/24 50A"
   },
   "GlbrthBrsDck": {
@@ -1152,9 +944,6 @@
     "lon": -120.963333,
     "elev": 22.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "18/36 32A",
     "desc": "18/36 32A"
   },
   "HOLLISTER": {
@@ -1178,18 +967,13 @@
     "lat": 36.108333,
     "lon": -120.16445,
     "elev": 179.8,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "Hanford": {
     "lat": 36.32305,
     "lon": -119.632217,
     "elev": 75.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "14/32 22.8",
     "desc": "14/32 22.8"
   },
   "Hansen": {
@@ -1197,9 +981,6 @@
     "lon": -117.653333,
     "elev": 879.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "7/25 59D",
     "desc": "7/25 59D"
   },
   "Harold": {
@@ -1235,9 +1016,6 @@
     "lon": -119.443617,
     "elev": 137.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 30A",
     "desc": "07/25 30A"
   },
   "Haws": {
@@ -1277,8 +1055,6 @@
     "lon": -120.582783,
     "elev": 762.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "unmaintained"
   },
   "HooverLake": {
@@ -1308,9 +1084,6 @@
     "lon": -120.403617,
     "elev": 68.0,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "16/34 23D",
     "desc": "16/34 23D"
   },
   "Hwy 58 Hay": {
@@ -1318,8 +1091,6 @@
     "lon": -120.016667,
     "elev": 609.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Hay fields"
   },
   "IdriaFld": {
@@ -1327,8 +1098,6 @@
     "lon": -120.758333,
     "elev": 553.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Field/road"
   },
   "IndianValley": {
@@ -1336,8 +1105,6 @@
     "lon": -120.633333,
     "elev": 518.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "strip?Land E"
   },
   "Inyokern": {
@@ -1345,9 +1112,6 @@
     "lon": -117.832217,
     "elev": 744.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "02/20 60A",
     "desc": "02/20 60A"
   },
   "Isabel": {
@@ -1362,8 +1126,6 @@
     "lon": -118.855,
     "elev": 118.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "07/25 25A"
   },
   "John Myers": {
@@ -1371,9 +1133,6 @@
     "lon": -120.284733,
     "elev": 85.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "2/20 30S",
     "desc": "2/20 30S"
   },
   "Johnson": {
@@ -1388,9 +1147,6 @@
     "lon": -119.50805,
     "elev": 390.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "15/33 20D",
     "desc": "15/33 20D"
   },
   "Jolon": {
@@ -1398,8 +1154,6 @@
     "lon": -121.1075,
     "elev": 304.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "26D"
   },
   "Jones Farms": {
@@ -1407,9 +1161,6 @@
     "lon": -119.840833,
     "elev": 60.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "15/33 19A",
     "desc": "15/33 19A"
   },
   "Junipero": {
@@ -1423,8 +1174,6 @@
     "lon": -120.475833,
     "elev": 396.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "14D"
   },
   "Kelly": {
@@ -1432,8 +1181,6 @@
     "lon": -121.345,
     "elev": 112.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Land to east"
   },
   "Kelso Valley": {
@@ -1441,9 +1188,6 @@
     "lon": -118.227233,
     "elev": 1240.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "4/22 26D",
     "desc": "4/22 26D"
   },
   "Kern Valley": {
@@ -1451,9 +1195,6 @@
     "lon": -118.419717,
     "elev": 796.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "17/35 35A",
     "desc": "17/35 35A"
   },
   "KettlmnHllsS": {
@@ -1467,9 +1208,6 @@
     "lon": -119.51,
     "elev": 161.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "02/20 20D",
     "desc": "02/20 20D"
   },
   "King City": {
@@ -1477,9 +1215,6 @@
     "lon": -121.121667,
     "elev": 112.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "11/29 22.9",
     "desc": "11/29 22.9"
   },
   "Kingdon": {
@@ -1487,18 +1222,13 @@
     "lon": -121.35945,
     "elev": 4.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "122.800",
-    "desc": "122.800"
+    "freq": "122.800"
   },
   "Kistler Rc": {
     "lat": 37.85,
     "lon": -120.543883,
     "elev": 304.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "20D"
   },
   "KngsRvrCmmnt": {
@@ -1513,9 +1243,6 @@
     "lon": -117.555567,
     "elev": 927.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "7/25 34D",
     "desc": "7/25 34D"
   },
   "Kurz strip": {
@@ -1532,9 +1259,7 @@
     "lat": 37.336117,
     "lon": -122.253333,
     "elev": 419.4,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "Las Trancas": {
     "lat": 37.08805,
@@ -1548,9 +1273,6 @@
     "lon": -119.952217,
     "elev": 71.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "28.3 14L/32R",
     "desc": "28.3 14L/32R"
   },
   "Leuthol NW": {
@@ -1570,18 +1292,13 @@
     "lat": 37.998617,
     "lon": -121.04945,
     "elev": 30.5,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "Little Butte": {
     "lat": 34.794167,
     "lon": -118.2775,
     "elev": 741.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "06/24 29T",
     "desc": "06/24 29T"
   },
   "Little Hands": {
@@ -1594,27 +1311,20 @@
     "lat": 36.78555,
     "lon": -120.7564,
     "elev": 152.4,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "Livermore": {
     "lat": 37.693333,
     "lon": -121.820283,
     "elev": 121.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "118.1",
-    "desc": "118.1"
+    "freq": "118.1"
   },
   "LloydsLandng": {
     "lat": 34.907217,
     "lon": -118.30805,
     "elev": 832.1,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "06/24 23D"
   },
   "Lodi": {
@@ -1622,19 +1332,13 @@
     "lon": -121.269167,
     "elev": 18.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "122.900",
-    "desc": "122.900"
+    "freq": "122.900"
   },
   "Lompoc": {
     "lat": 34.66555,
     "lon": -120.466667,
     "elev": 36.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 22.7",
     "desc": "07/25 22.7"
   },
   "Lonnie": {
@@ -1652,8 +1356,6 @@
     "lon": -120.916667,
     "elev": 319.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Fields"
   },
   "Lookout": {
@@ -1667,9 +1369,6 @@
     "lon": -120.869167,
     "elev": 36.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "14/32 30A wide xwind taxiway 800 ft combo #1228",
     "desc": "14/32 30A wide xwind taxiway 800 ft combo #1228"
   },
   "LstHllsKrnCn": {
@@ -1677,8 +1376,6 @@
     "lon": -119.685283,
     "elev": 83.5,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "15/33 22.9 abondoned field south of the road and rwy may be better"
   },
   "MC Millan": {
@@ -1686,9 +1383,6 @@
     "lon": -120.76805,
     "elev": 280.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "N/S (Closed)",
     "desc": "N/S (Closed)"
   },
   "MW Towers": {
@@ -1702,8 +1396,6 @@
     "lon": -120.848883,
     "elev": 467.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "4/22 34A"
   },
   "Madera": {
@@ -1711,9 +1403,6 @@
     "lon": -120.116667,
     "elev": 77.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 22.8",
     "desc": "07/25 22.8"
   },
   "Majors": {
@@ -1728,8 +1417,6 @@
     "lon": -121.771383,
     "elev": 182.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "big field near Morgan Territory Rd"
   },
   "Mantes strip": {
@@ -1737,8 +1424,6 @@
     "lon": -120.24805,
     "elev": 266.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Near a few buildings"
   },
   "Manzanita": {
@@ -1746,8 +1431,6 @@
     "lon": -119.742217,
     "elev": 920.5,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "122.75"
   },
   "Mapes Ranch": {
@@ -1755,8 +1438,6 @@
     "lon": -121.1986,
     "elev": 10.4,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "11/29 rough field behind gates"
   },
   "MargaritaRanch": {
@@ -1764,8 +1445,6 @@
     "lon": -120.616117,
     "elev": 301.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "28D"
   },
   "MaricopaNorth": {
@@ -1773,8 +1452,6 @@
     "lon": -119.407767,
     "elev": 268.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "16A"
   },
   "MaricopaSouth": {
@@ -1782,8 +1459,6 @@
     "lon": -119.410833,
     "elev": 295.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "20D"
   },
   "Marina": {
@@ -1791,9 +1466,6 @@
     "lon": -121.7625,
     "elev": 40.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "11/29 30A",
     "desc": "11/29 30A"
   },
   "MariposaYsmt": {
@@ -1801,9 +1473,6 @@
     "lon": -120.041933,
     "elev": 685.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "8/26 33A",
     "desc": "8/26 33A"
   },
   "MarkFrnzPrvt": {
@@ -1818,19 +1487,13 @@
     "lon": -121.693617,
     "elev": 223.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "122.75",
-    "desc": "122.75"
+    "freq": "122.75"
   },
   "Meadows": {
     "lat": 35.433617,
     "lon": -119.056667,
     "elev": 154.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 18.1",
     "desc": "12/30 18.1"
   },
   "Mefford": {
@@ -1838,9 +1501,6 @@
     "lon": -119.33,
     "elev": 82.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "13/31 22.7",
     "desc": "13/31 22.7"
   },
   "Mendota": {
@@ -1848,9 +1508,6 @@
     "lon": -120.371383,
     "elev": 49.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "14/32 22.9",
     "desc": "14/32 22.9"
   },
   "Merced": {
@@ -1858,9 +1515,6 @@
     "lon": -120.5139,
     "elev": 46.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 59A",
     "desc": "12/30 59A"
   },
   "Mercey HS": {
@@ -1878,18 +1532,13 @@
     "lon": -121.186667,
     "elev": 73.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "15/33 22.8",
     "desc": "15/33 22.8"
   },
   "Millux Strip": {
     "lat": 36.806667,
     "lon": -120.615833,
     "elev": 75.0,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "Mission Pk": {
     "lat": 37.5,
@@ -1902,19 +1551,13 @@
     "lon": -120.954433,
     "elev": 45.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "121.700",
-    "desc": "121.700"
+    "freq": "121.700"
   },
   "Mojave AP": {
     "lat": 35.059167,
     "lon": -118.164167,
     "elev": 849.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "04/22 40A",
     "desc": "04/22 40A"
   },
   "Monteray": {
@@ -1922,19 +1565,13 @@
     "lon": -121.844167,
     "elev": 30.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "118.4",
-    "desc": "118.4"
+    "freq": "118.4"
   },
   "MontryBycdmy": {
     "lat": 36.906117,
     "lon": -121.843067,
     "elev": 21.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "10/28 22D",
     "desc": "10/28 22D"
   },
   "Mt Oso": {
@@ -1976,8 +1613,6 @@
     "lon": -120.718067,
     "elev": 527.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Rough"
   },
   "NewCoalinga": {
@@ -1996,8 +1631,6 @@
     "lon": -121.299717,
     "elev": 18.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "combo #3075"
   },
   "Newman": {
@@ -2005,8 +1638,6 @@
     "lon": -121.028333,
     "elev": 29.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "duster strip"
   },
   "Newton": {
@@ -2014,9 +1645,6 @@
     "lon": -119.849433,
     "elev": 59.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "14/32 28A",
     "desc": "14/32 28A"
   },
   "Nichols Farm": {
@@ -2038,9 +1666,6 @@
     "lon": -120.7975,
     "elev": 365.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "17/35 22A",
     "desc": "17/35 22A"
   },
   "OakDuster": {
@@ -2048,8 +1673,6 @@
     "lon": -120.7075,
     "elev": 61.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "duster strip"
   },
   "Oakdale": {
@@ -2057,19 +1680,13 @@
     "lon": -120.800283,
     "elev": 72.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "122.800",
-    "desc": "122.800"
+    "freq": "122.800"
   },
   "OceanoCounty": {
     "lat": 35.101383,
     "lon": -120.622217,
     "elev": 4.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "11/29 22.7",
     "desc": "11/29 22.7"
   },
   "OldCanyon": {
@@ -2077,8 +1694,6 @@
     "lon": -120.14,
     "elev": 469.4,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "50D marginal difficult access"
   },
   "OldCuyama": {
@@ -2086,8 +1701,6 @@
     "lon": -119.5714,
     "elev": 716.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "25D Power Lines north end"
   },
   "Orchard Pk": {
@@ -2101,9 +1714,6 @@
     "lon": -117.266667,
     "elev": 883.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "2/20 26G",
     "desc": "2/20 26G"
   },
   "OsoPmpngSt.1": {
@@ -2117,8 +1727,6 @@
     "lon": -119.207217,
     "elev": 13.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "freq": "7/25 60A",
     "desc": "7/25 60A"
   },
@@ -2129,16 +1737,13 @@
     "style": 3,
     "rwdir": 270,
     "rwlen": 607.0,
-    "freq": "123.300",
-    "desc": "123.3"
+    "freq": "123.300"
   },
   "Pacheco Pass": {
     "lat": 37.063333,
     "lon": -121.2125,
     "elev": 426.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "tight fields both sides of road"
   },
   "Paicines": {
@@ -2167,9 +1772,6 @@
     "lon": -118.08445,
     "elev": 775.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "04/22 120A",
     "desc": "04/22 120A"
   },
   "ParadiseFlat": {
@@ -2177,8 +1779,6 @@
     "lon": -121.371383,
     "elev": 365.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "strip"
   },
   "ParadiseLakes": {
@@ -2186,9 +1786,6 @@
     "lon": -118.923067,
     "elev": 102.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "16/34 20S",
     "desc": "16/34 20S"
   },
   "Paramount": {
@@ -2206,8 +1803,6 @@
     "lon": -120.436383,
     "elev": 460.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "good field west of the road with easy access"
   },
   "Paso Robles": {
@@ -2226,8 +1821,6 @@
     "lon": -121.169433,
     "elev": 51.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Abandoned with obstacles but fields both sides of rwy may be landable gate combo #8241"
   },
   "Peaker Plant": {
@@ -2235,8 +1828,6 @@
     "lon": -121.845833,
     "elev": 12.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Field and dirt road"
   },
   "Peoria": {
@@ -2244,8 +1835,6 @@
     "lon": -120.515267,
     "elev": 253.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "09/27    25T"
   },
   "Peterson": {
@@ -2265,8 +1854,6 @@
     "lon": -120.476117,
     "elev": 539.5,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "clear dirt road in field"
   },
   "Pinnacles Rc": {
@@ -2281,8 +1868,6 @@
     "lon": -119.30805,
     "elev": 78.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "13/31 22.9"
   },
   "Pk 4077": {
@@ -2296,8 +1881,6 @@
     "lon": -120.799167,
     "elev": 1179.9,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Airstrip Pond"
   },
   "Pontious": {
@@ -2305,9 +1888,6 @@
     "lon": -118.169717,
     "elev": 795.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "03/21 19D",
     "desc": "03/21 19D"
   },
   "Porter Ranch": {
@@ -2322,9 +1902,6 @@
     "lon": -119.062783,
     "elev": 135.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 22.8",
     "desc": "12/30 22.8"
   },
   "PosoKernCnty": {
@@ -2332,9 +1909,6 @@
     "lon": -119.1275,
     "elev": 193.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "16/34 22.9",
     "desc": "16/34 22.9"
   },
   "Powrlines strip": {
@@ -2342,8 +1916,6 @@
     "lon": -120.216833,
     "elev": 462.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "power lines over N end"
   },
   "PozoEast": {
@@ -2361,8 +1933,6 @@
     "lon": -120.4225,
     "elev": 432.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "20D Land to West"
   },
   "PriestFld": {
@@ -2370,8 +1940,6 @@
     "lon": -120.694167,
     "elev": 746.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Field"
   },
   "PriestVOR": {
@@ -2391,9 +1959,6 @@
     "lon": -118.731667,
     "elev": 1027.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "Land Western end",
     "desc": "Land Western end"
   },
   "QuienSabe": {
@@ -2401,8 +1966,6 @@
     "lon": -121.180833,
     "elev": 493.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "unknown strip/field"
   },
   "Quinn": {
@@ -2410,9 +1973,6 @@
     "lon": -119.639717,
     "elev": 94.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "13/31 24A",
     "desc": "13/31 24A"
   },
   "RC Field": {
@@ -2420,8 +1980,6 @@
     "lon": -120.6925,
     "elev": 357.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "3 dirt strips"
   },
   "Radar Site32": {
@@ -2435,8 +1993,6 @@
     "lon": -121.258883,
     "elev": 213.4,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "field"
   },
   "Ranch": {
@@ -2450,8 +2006,6 @@
     "lon": -120.591117,
     "elev": 335.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "36D"
   },
   "Red Hill": {
@@ -2479,9 +2033,6 @@
     "lon": -119.449717,
     "elev": 116.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "15/33 22.7",
     "desc": "15/33 22.7"
   },
   "Reid": {
@@ -2492,8 +2043,7 @@
     "code": "KRHV",
     "rwdir": 130,
     "rwlen": 945.0,
-    "freq": "119.800",
-    "desc": "119.8"
+    "freq": "119.800"
   },
   "Reinoso pk": {
     "lat": 36.821117,
@@ -2536,8 +2086,6 @@
     "lon": -120.7439,
     "elev": 192.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Military"
   },
   "Rockie": {
@@ -2555,9 +2103,6 @@
     "lon": -118.209167,
     "elev": 736.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 36A",
     "desc": "07/25 36A"
   },
   "RourkesRoost": {
@@ -2565,8 +2110,6 @@
     "lon": -119.47,
     "elev": 914.4,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Land To East"
   },
   "S.Quien Sabe": {
@@ -2581,9 +2124,6 @@
     "lon": -118.080283,
     "elev": 1958.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "11/29 33T",
     "desc": "11/29 33T"
   },
   "Salinas": {
@@ -2594,8 +2134,7 @@
     "code": "KSNS",
     "rwdir": 260,
     "rwlen": 1800.0,
-    "freq": "119.400",
-    "desc": "119.4"
+    "freq": "119.400"
   },
   "SallaberryRc": {
     "lat": 37.057217,
@@ -2609,8 +2148,6 @@
     "lon": -120.758067,
     "elev": 312.4,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "dirt strip"
   },
   "Salyer": {
@@ -2618,26 +2155,19 @@
     "lon": -119.54555,
     "elev": 62.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "14/32 70A",
     "desc": "14/32 70A"
   },
   "San Ardo": {
     "lat": 35.975283,
     "lon": -120.896667,
     "elev": 134.4,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "San Benito": {
     "lat": 36.525,
     "lon": -121.083333,
     "elev": 548.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Fields"
   },
   "San Benito Mtn": {
@@ -2651,8 +2181,6 @@
     "lon": -120.218617,
     "elev": 50.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "15/33 25S"
   },
   "San Lucas": {
@@ -2660,9 +2188,6 @@
     "lon": -120.013883,
     "elev": 169.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "10/28 21A",
     "desc": "10/28 21A"
   },
   "San Miguel": {
@@ -2670,8 +2195,6 @@
     "lon": -120.68695,
     "elev": 197.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "32A watch for obstruction and brush"
   },
   "San Rafael": {
@@ -2679,26 +2202,19 @@
     "lon": -122.520567,
     "elev": 1.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "Private airport",
     "desc": "Private airport"
   },
   "San Simeon": {
     "lat": 35.662783,
     "lon": -121.197767,
     "elev": 57.9,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "SanAntonioStrip": {
     "lat": 37.37055,
     "lon": -121.468617,
     "elev": 646.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Land to east on western half"
   },
   "SanAntonioVly": {
@@ -2706,8 +2222,6 @@
     "lon": -121.47805,
     "elev": 624.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Good field fence on north end"
   },
   "SanArdo2": {
@@ -2715,8 +2229,6 @@
     "lon": -120.904717,
     "elev": 125.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "39A"
   },
   "SanLuisObisp": {
@@ -2724,9 +2236,6 @@
     "lon": -120.63445,
     "elev": 58.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 24.0",
     "desc": "07/25 24.0"
   },
   "Santa Maria": {
@@ -2734,9 +2243,6 @@
     "lon": -120.446383,
     "elev": 78.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "02/20 18.3",
     "desc": "02/20 18.3"
   },
   "Santa Paula": {
@@ -2744,9 +2250,6 @@
     "lon": -119.061117,
     "elev": 74.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "4/22 27A",
     "desc": "4/22 27A"
   },
   "Santa Ynez": {
@@ -2754,8 +2257,6 @@
     "lon": -120.068333,
     "elev": 190.2,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "freq": "08/26 22.8",
     "desc": "08/26 22.8"
   },
@@ -2764,26 +2265,19 @@
     "lon": -119.839433,
     "elev": 5.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 19.7",
     "desc": "07/25 19.7"
   },
   "SantaNella": {
     "lat": 37.163333,
     "lon": -121.05,
     "elev": 61.0,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "SantaNellaJct fields": {
     "lat": 37.11,
     "lon": -121.02,
     "elev": 45.7,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "big fields both sides of I5"
   },
   "Sequoia": {
@@ -2791,9 +2285,6 @@
     "lon": -119.320833,
     "elev": 95.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "13/31 22.9",
     "desc": "13/31 22.9"
   },
   "Sequoia Rc": {
@@ -2801,9 +2292,6 @@
     "lon": -118.802217,
     "elev": 351.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "N/S 28A",
     "desc": "N/S 28A"
   },
   "Shafter": {
@@ -2811,9 +2299,6 @@
     "lon": -119.186667,
     "elev": 128.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 22.9",
     "desc": "12/30 22.9"
   },
   "Shandon": {
@@ -2821,8 +2306,6 @@
     "lon": -120.415833,
     "elev": 335.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "dirt strip"
   },
   "SheddCanyon": {
@@ -2840,9 +2323,6 @@
     "lon": -119.87055,
     "elev": 97.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 22.7",
     "desc": "12/30 22.7"
   },
   "Sketchy strip": {
@@ -2850,8 +2330,6 @@
     "lon": -120.30325,
     "elev": 365.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "sketchy"
   },
   "Skyotee": {
@@ -2865,17 +2343,13 @@
     "lat": 35.25055,
     "lon": -119.91945,
     "elev": 591.3,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "Soda Rd Spur": {
     "lat": 35.166667,
     "lon": -119.826933,
     "elev": 597.4,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "Dirt Road"
   },
   "Soda Road N": {
@@ -2883,8 +2357,6 @@
     "lon": -119.96805,
     "elev": 591.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "No obstructions 1000f"
   },
   "Soda Road S": {
@@ -2892,8 +2364,6 @@
     "lon": -119.805833,
     "elev": 621.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "No obstructions 1000f"
   },
   "Soledad": {
@@ -2901,8 +2371,6 @@
     "lon": -121.303883,
     "elev": 79.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "15A"
   },
   "SotoCanyon": {
@@ -2920,16 +2388,13 @@
     "code": "E16",
     "rwdir": 140,
     "rwlen": 944.0,
-    "freq": "122.700",
-    "desc": "22.7"
+    "freq": "122.700"
   },
   "Stamoules Strip": {
     "lat": 36.727217,
     "lon": -120.466667,
     "elev": 68.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "unknown large strip"
   },
   "Stevinson": {
@@ -2937,8 +2402,6 @@
     "lon": -120.862783,
     "elev": 24.1,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "N/S 24A"
   },
   "SthrnClfrnLg": {
@@ -2946,8 +2409,6 @@
     "lon": -117.37945,
     "elev": 876.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "freq": "3/21 91A",
     "desc": "3/21 91A"
   },
@@ -2956,9 +2417,6 @@
     "lon": -121.238333,
     "elev": 10.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "18.25 11L/29R",
     "desc": "18.25 11L/29R"
   },
   "Stone": {
@@ -2966,9 +2424,6 @@
     "lon": -119.825,
     "elev": 67.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "16/34 25A",
     "desc": "16/34 25A"
   },
   "Stone LandCo": {
@@ -2976,9 +2431,6 @@
     "lon": -119.98555,
     "elev": 80.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "16/34 33A",
     "desc": "16/34 33A"
   },
   "StratfordGrn": {
@@ -2986,9 +2438,6 @@
     "lon": -119.813333,
     "elev": 58.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "14/32 26A",
     "desc": "14/32 26A"
   },
   "Sun Hill Rc": {
@@ -2996,9 +2445,6 @@
     "lon": -117.496667,
     "elev": 909.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "7/25 53D",
     "desc": "7/25 53D"
   },
   "Swanson RC1": {
@@ -3027,9 +2473,6 @@
     "lon": -119.445,
     "elev": 266.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 22.8",
     "desc": "07/25 22.8"
   },
   "Taft Ridge": {
@@ -3050,9 +2493,6 @@
     "lon": -118.439733,
     "elev": 1218.0,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "11/29 23.0",
     "desc": "11/29 23.0"
   },
   "TehachapiMtn": {
@@ -3060,9 +2500,6 @@
     "lon": -118.431383,
     "elev": 1286.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "23.0",
     "desc": "23.0"
   },
   "Tejon Ag": {
@@ -3070,8 +2507,6 @@
     "lon": -118.914433,
     "elev": 324.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "13/31 32S"
   },
   "TennisonCanyon": {
@@ -3079,8 +2514,6 @@
     "lon": -119.54195,
     "elev": 951.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "19D Strip/Dirt Road"
   },
   "Tera": {
@@ -3088,9 +2521,6 @@
     "lon": -117.633617,
     "elev": 765.0,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "6/24 35T",
     "desc": "6/24 35T"
   },
   "Thunderhawk": {
@@ -3098,9 +2528,6 @@
     "lon": -119.149433,
     "elev": 103.6,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "13/31 22.9",
     "desc": "13/31 22.9"
   },
   "Tin Roof": {
@@ -3114,8 +2541,6 @@
     "lon": -121.063883,
     "elev": 381.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "strip/field"
   },
   "Tracy": {
@@ -3123,9 +2548,6 @@
     "lon": -121.441933,
     "elev": 58.8,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 123.075",
     "desc": "07/25 123.075"
   },
   "Triangle TRc": {
@@ -3139,9 +2561,6 @@
     "lon": -120.844167,
     "elev": 30.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "13/31 21A",
     "desc": "13/31 21A"
   },
   "Turner": {
@@ -3156,8 +2575,6 @@
     "lon": -120.210833,
     "elev": 577.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "field to the west may be better"
   },
   "Twisselman S": {
@@ -3165,8 +2582,6 @@
     "lon": -120.09445,
     "elev": 626.1,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "strip or fields"
   },
   "Van Nuys": {
@@ -3174,19 +2589,13 @@
     "lon": -118.49,
     "elev": 243.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "119.3",
-    "desc": "119.3"
+    "freq": "119.3"
   },
   "Vandenberg": {
     "lat": 34.729717,
     "lon": -120.57695,
     "elev": 111.9,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 24.95",
     "desc": "12/30 24.95"
   },
   "Visalia": {
@@ -3194,9 +2603,6 @@
     "lon": -119.383333,
     "elev": 89.0,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 23.05",
     "desc": "12/30 23.05"
   },
   "WSideFildSt.": {
@@ -3204,8 +2610,6 @@
     "lon": -120.110283,
     "elev": 85.3,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "16/34 22.75"
   },
   "Wallom": {
@@ -3213,9 +2617,6 @@
     "lon": -121.2075,
     "elev": 17.1,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "Private",
     "desc": "Private"
   },
   "Wasco Kern": {
@@ -3223,9 +2624,6 @@
     "lon": -119.354167,
     "elev": 95.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 22.8",
     "desc": "12/30 22.8"
   },
   "Wasioja": {
@@ -3233,8 +2631,6 @@
     "lon": -119.79695,
     "elev": 670.6,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "28D Land to South"
   },
   "Watsonville": {
@@ -3332,8 +2728,6 @@
     "lon": -121.086117,
     "elev": 137.2,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "46A"
   },
   "WestlakeFrms": {
@@ -3341,9 +2735,6 @@
     "lon": -119.888333,
     "elev": 58.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "14/32 36A",
     "desc": "14/32 36A"
   },
   "Westley": {
@@ -3351,9 +2742,6 @@
     "lon": -121.205,
     "elev": 29.3,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "3/21 16A narrow",
     "desc": "3/21 16A narrow"
   },
   "Whiteman": {
@@ -3361,9 +2749,6 @@
     "lon": -118.413333,
     "elev": 305.7,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "12/30 41A",
     "desc": "12/30 41A"
   },
   "Willett": {
@@ -3385,8 +2770,6 @@
     "lon": -119.309167,
     "elev": 201.8,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "12/30 23A"
   },
   "Woodlake": {
@@ -3394,18 +2777,13 @@
     "lon": -119.103333,
     "elev": 129.5,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "07/25 22.9",
     "desc": "07/25 22.9"
   },
   "Woolf Strip": {
     "lat": 36.188617,
     "lon": -120.1225,
     "elev": 118.9,
-    "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0
+    "style": 3
   },
   "Wright Mtn": {
     "lat": 36.327217,
@@ -3424,8 +2802,6 @@
     "lon": -120.083333,
     "elev": 224.0,
     "style": 3,
-    "rwdir": 0,
-    "rwlen": 0.0,
     "desc": "good dirt road"
   },
   "YsmtHddnLkRc": {
@@ -3433,9 +2809,6 @@
     "lon": -119.913333,
     "elev": 152.4,
     "style": 2,
-    "rwdir": 0,
-    "rwlen": 0.0,
-    "freq": "17/35 37D",
     "desc": "17/35 37D"
   },
   "pk 2770": {
