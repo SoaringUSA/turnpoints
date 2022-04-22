@@ -2,8 +2,8 @@
 
 import csv
 import re
+import json
 import sys
-import xml.etree.ElementTree as ET
 
 def dms(decimalDeg):
 	sign = False if decimalDeg < 0 else True
@@ -52,7 +52,7 @@ if __name__=='__main__':
 		freq = ''
 		rwdir = ''
 		rwlen = ''
-		if 'landable' in tp
+		if 'landable' in tp:
 			if 'runways' in tp['landable'] and len(tp['landable']['runways']) > 0:
 				rw0 = tp['landable']['runways'][0]
 				if 'dir' in rw0:
