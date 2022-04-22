@@ -1,0 +1,2221 @@
+{
+  "7990 Peak U4": {
+    "lat": 40.0297,
+    "lon": -119.9788,
+    "elev": 2435.4,
+    "code": "7990PKU4",
+    "desc": "Towers"
+  },
+  "AdamsPK U7": {
+    "lat": 39.910667,
+    "lon": -120.10025,
+    "elev": 2498.4,
+    "code": "ADAMSPK7",
+    "desc": "Turn Point, #3, E Frncmn Lk"
+  },
+  "Adin R3": {
+    "lat": 41.186,
+    "lon": -120.952167,
+    "elev": 1289.0,
+    "landable": {
+      "runways": [
+        {
+          "name": "09/27",
+          "len": 868.7,
+          "dir": "090",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "A26",
+    "desc": "A26, 09/27   22.9, RW width: 40, CTAF: 122.9"
+  },
+  "AirSailg R1": {
+    "lat": 39.870333,
+    "lon": -119.702,
+    "elev": 1310.6,
+    "landable": {
+      "runways": [
+        {
+          "name": "17/35",
+          "len": 2133.6,
+          "dir": "170",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "NV23",
+    "desc": "Turn Point, #4, Private, NV23, 03/21 122.9, RW width: 100"
+  },
+  "AlmanrDam U8": {
+    "lat": 40.172867,
+    "lon": -121.08855,
+    "elev": 1371.6,
+    "code": "ALMNRDM8"
+  },
+  "AlpineCty R3": {
+    "lat": 38.736,
+    "lon": -119.766167,
+    "elev": 1788.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 1354.2,
+          "dir": "184",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "M45",
+    "desc": "Turn Point, #5, M45, 17/35   22.9, RW width: 50, CTAF: 122.9"
+  },
+  "Alturas R3": {
+    "lat": 41.483,
+    "lon": -120.565333,
+    "elev": 1333.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "04/22",
+          "len": 943.7,
+          "dir": "046",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "AAT",
+    "desc": "AAT, 03/21   22.8, RW width: 60, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "Amedee R9": {
+    "lat": 40.266167,
+    "lon": -120.152667,
+    "elev": 1221.6,
+    "code": "AHC",
+    "desc": "Military, AHC, Military, don't land, RW width: 150, CTAF: 126.2"
+  },
+  "Austin R3": {
+    "lat": 39.468,
+    "lon": -117.195333,
+    "elev": 1746.5,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 1828.8,
+          "dir": "180",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "TMT",
+    "desc": "Turn Point, #6, TMT, 36/18   22.9, RW width: 75, CTAF: 122.9, Fuel: 100LL"
+  },
+  "Bailey Ranch": {
+    "lat": 39.282783,
+    "lon": -119.828333,
+    "elev": 1542.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "07/25",
+          "len": 792.5,
+          "dir": "070",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "BAILEYRC",
+    "desc": "Private, Landable, NV13, 07/25 26T fields, RW width: 50"
+  },
+  "Basalt U7": {
+    "lat": 38.010167,
+    "lon": -118.274667,
+    "elev": 1914.1,
+    "code": "BASALTU7",
+    "desc": "Turn Point, #7, Overgrown, unlandable"
+  },
+  "BatesFld E2": {
+    "lat": 41.443617,
+    "lon": -120.592783,
+    "elev": 1353.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 762.0,
+          "dir": "180",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "CL88",
+    "desc": "Private, Landable, CL88, 3/21, RW width: 50"
+  },
+  "Battl Mtn R1": {
+    "lat": 40.598333,
+    "lon": -116.875,
+    "elev": 1380.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "04/22",
+          "len": 2224.7,
+          "dir": "049",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "BAM",
+    "desc": "Turn Point, #8, BAM, 702-635-2245, RW width: 150, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "BearVlly E6": {
+    "lat": 38.458833,
+    "lon": -120.04,
+    "elev": 2154.9,
+    "landable": {
+      "runways": [
+        {
+          "name": "01/19",
+          "len": 975.4,
+          "dir": "010",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "73CA",
+    "desc": "Private, 73CA, STOL, RW width: 50"
+  },
+  "Beatty AP R2": {
+    "lat": 36.86,
+    "lon": -116.785,
+    "elev": 966.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 1706.9,
+          "dir": "160",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "BTY",
+    "desc": "BTY, A/P, RW width: 60, CTAF: 122.9"
+  },
+  "Beatty VOR": {
+    "lat": 36.8,
+    "lon": -116.748333,
+    "elev": 975.4,
+    "code": "BEATTYVR",
+    "desc": "BTY VOR"
+  },
+  "Bishop AP R2": {
+    "lat": 37.373167,
+    "lon": -118.363667,
+    "elev": 1255.8,
+    "landable": {
+      "runways": [
+        {
+          "name": "13/31",
+          "len": 2285.4,
+          "dir": "135",
+          "surface": "paved"
+        }
+      ],
+      "freq": "123.000"
+    },
+    "code": "BIH",
+    "desc": "Turn Point, #9, BIH, 07/25   23.0, RW width: 100, UNICOM: 123.0, Fuel: 100LL"
+  },
+  "BlkRkCty E3": {
+    "lat": 40.757333,
+    "lon": -119.212833,
+    "elev": 1188.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "04/22",
+          "len": 1609.3,
+          "dir": "040",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "88NV",
+    "desc": "Private, 88NV, Burning Man, RW width: 50, Fuel: 100/MOGAS"
+  },
+  "BluCnynNy R9": {
+    "lat": 39.274833,
+    "lon": -120.709333,
+    "elev": 1612.4,
+    "landable": {
+      "runways": [
+        {
+          "name": "15/33",
+          "len": 1005.8,
+          "dir": "150",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "BLU",
+    "desc": "BLU, 15/33 22.9, RW width: 50, CTAF: 122.9"
+  },
+  "Blue Wing E5": {
+    "lat": 40.231717,
+    "lon": -118.9908,
+    "elev": 1173.5,
+    "landable": {},
+    "code": "BLUEWNG5",
+    "desc": "Landable, Access remote"
+  },
+  "Bndry Pk U8": {
+    "lat": 37.846167,
+    "lon": -118.350833,
+    "elev": 4007.2,
+    "code": "BNDRYPK8"
+  },
+  "Boca E7": {
+    "lat": 39.411667,
+    "lon": -120.085283,
+    "elev": 1722.1,
+    "landable": {},
+    "code": "BOCA E7",
+    "desc": "Landable, Land on center"
+  },
+  "Bodad E2": {
+    "lat": 39.995567,
+    "lon": -120.216117,
+    "elev": 1798.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "15/33",
+          "len": 670.6,
+          "dir": "150",
+          "surface": "paved"
+        }
+      ]
+    },
+    "code": "CA11",
+    "desc": "Private, CA11, Landable Strip 15/33, RW width: 40"
+  },
+  "Bodi U4": {
+    "lat": 38.210833,
+    "lon": -119.004333,
+    "elev": 2579.8,
+    "code": "BODI U4"
+  },
+  "Boondocks E5": {
+    "lat": 40.817,
+    "lon": -119.321217,
+    "elev": 1280.2,
+    "landable": {},
+    "code": "BONDCKS5",
+    "desc": "Landable, Land SW corner"
+  },
+  "BoronStrp E7": {
+    "lat": 35.002633,
+    "lon": -117.6115,
+    "elev": 762.0,
+    "landable": {
+      "runways": [
+        {
+          "name": "07/25",
+          "len": 698.0,
+          "dir": "070",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "57CL",
+    "desc": "Private, 57CL, Land W corner, RW width: 50"
+  },
+  "Bridgeprt R2": {
+    "lat": 38.2625,
+    "lon": -119.222833,
+    "elev": 1972.1,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 1292.0,
+          "dir": "160",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "O57",
+    "desc": "Turn Point, #10, O57, 16/34 22.9, RW width: 60, CTAF: 122.9, Fuel: 100"
+  },
+  "Brockway U2": {
+    "lat": 39.261167,
+    "lon": -120.071667,
+    "elev": 2194.3,
+    "code": "BROCKWA2",
+    "desc": "Summit pass"
+  },
+  "BuenaVsta E6": {
+    "lat": 40.25,
+    "lon": -117.966667,
+    "elev": 1310.6,
+    "landable": {},
+    "code": "BUENVST6",
+    "desc": "Landable, Aero Only"
+  },
+  "Cal City  R1": {
+    "lat": 35.151667,
+    "lon": -118.013333,
+    "elev": 743.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "07/25",
+          "len": 1837.0,
+          "dir": "075",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.700"
+    },
+    "code": "L71",
+    "desc": "L71, Muni A/P, RW width: 60, UNICOM: 122.7, Fuel: 100LL/80"
+  },
+  "Cal Pines R3": {
+    "lat": 41.412333,
+    "lon": -120.684333,
+    "elev": 1340.5,
+    "landable": {
+      "runways": [
+        {
+          "name": "05/23",
+          "len": 1295.4,
+          "dir": "050",
+          "surface": "paved"
+        }
+      ],
+      "freq": "123.000"
+    },
+    "code": "A24",
+    "desc": "A24, 05/23   23.0, RW width: 45, UNICOM: 123.0"
+  },
+  "CarsnCty R2": {
+    "lat": 39.195333,
+    "lon": -119.745833,
+    "elev": 1431.6,
+    "landable": {
+      "runways": [
+        {
+          "name": "10/28",
+          "len": 1859.3,
+          "dir": "103",
+          "surface": "paved"
+        }
+      ],
+      "freq": "123.000"
+    },
+    "code": "CXP",
+    "desc": "Turn Point, #11, CXP, 09/27   23.0, RW width: 75, UNICOM: 123.0, Fuel: 100LL"
+  },
+  "Cedarvlle R4": {
+    "lat": 41.552667,
+    "lon": -120.166333,
+    "elev": 1409.1,
+    "landable": {
+      "runways": [
+        {
+          "name": "01/19",
+          "len": 1345.7,
+          "dir": "010",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "O59",
+    "desc": "Turn Point, #12, O59, 01/19   22.8, RW width: 50, UNICOM: 122.8"
+  },
+  "CerroGord U8": {
+    "lat": 36.549833,
+    "lon": -117.803,
+    "elev": 2828.5,
+    "code": "CERRGRD8",
+    "desc": "North R/F"
+  },
+  "Chester R4": {
+    "lat": 40.282333,
+    "lon": -121.241167,
+    "elev": 1379.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "05/23",
+          "len": 1621.5,
+          "dir": "050",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "O05",
+    "desc": "Turn Point, #13, O05, 05/23   22.8, RW width: 120, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "ChurchlDL E5": {
+    "lat": 39.296667,
+    "lon": -119.039,
+    "elev": 1280.2,
+    "landable": {},
+    "code": "CHRCHLDL",
+    "desc": "Landable"
+  },
+  "Cinder Cone DL U7": {
+    "lat": 35.982783,
+    "lon": -117.9,
+    "elev": 1020.8,
+    "landable": {},
+    "code": "CNDRCNDL",
+    "desc": "Landable, DL SE of Cone. Wind sock"
+  },
+  "Circle L R2": {
+    "lat": 37.7275,
+    "lon": -118.07175,
+    "elev": 1473.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "03/21",
+          "len": 1341.1,
+          "dir": "030",
+          "surface": "paved"
+        }
+      ]
+    },
+    "code": "NV27",
+    "desc": "Private, NV27, 3/21, RW width: 60"
+  },
+  "CoaldalDL E5": {
+    "lat": 38.025067,
+    "lon": -117.88965,
+    "elev": 1421.6,
+    "landable": {},
+    "code": "COLDLDL5",
+    "desc": "Landable, Col Slt Mrsh 50' width"
+  },
+  "Coaldale VOR": {
+    "lat": 38.003283,
+    "lon": -117.770483,
+    "elev": 1463.0,
+    "code": "COALDLVR",
+    "desc": "Turn Point, #14, OAL STATN"
+  },
+  "ColdSprng E4": {
+    "lat": 39.658333,
+    "lon": -119.975,
+    "elev": 1554.5,
+    "landable": {},
+    "code": "CLDSPRNG",
+    "desc": "Landable, Land Near Edge"
+  },
+  "Coso Junction DL U7": {
+    "lat": 36.041667,
+    "lon": -117.93445,
+    "elev": 1036.0,
+    "landable": {},
+    "code": "CSJNCDL7",
+    "desc": "Landable, Wind sock NE corner"
+  },
+  "CoyotFlts R7": {
+    "lat": 37.202,
+    "lon": -118.476167,
+    "elev": 3044.3,
+    "landable": {
+      "freq": "122.800"
+    },
+    "code": "CTFLTSR7",
+    "desc": "Turn Point, #15, Landable, 14/32   22.8"
+  },
+  "Crestview E2": {
+    "lat": 37.7855,
+    "lon": -118.999167,
+    "elev": 2420.1,
+    "landable": {},
+    "code": "CRESTVW2",
+    "desc": "Landable, Landable Strip"
+  },
+  "CrscntVal E7": {
+    "lat": 40.416667,
+    "lon": -116.568933,
+    "elev": 1459.1,
+    "landable": {
+      "runways": [
+        {
+          "name": "15/33",
+          "len": 1417.3,
+          "dir": "152",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "U74",
+    "desc": "U74, 5/23, RW width: 75, CTAF: 122.9"
+  },
+  "Crystal R1": {
+    "lat": 34.485167,
+    "lon": -117.8245,
+    "elev": 1042.4,
+    "landable": {
+      "runways": [
+        {
+          "name": "07/25",
+          "len": 1371.6,
+          "dir": "070",
+          "surface": "paved"
+        }
+      ],
+      "freq": "123.000"
+    },
+    "code": "46CN",
+    "desc": "Private, 46CN, 23.0 2.5k, RW width: 250, UNICOM: 123.0"
+  },
+  "Daggett Pass": {
+    "lat": 38.976667,
+    "lon": -119.887783,
+    "elev": 2235.4,
+    "code": "DGGTTPSS"
+  },
+  "Darwin E7": {
+    "lat": 36.253333,
+    "lon": -117.596833,
+    "elev": 1441.7,
+    "landable": {},
+    "code": "DARWINE7",
+    "desc": "Landable, 60'w Land N end"
+  },
+  "DaytonVly R3": {
+    "lat": 39.237667,
+    "lon": -119.557333,
+    "elev": 1344.8,
+    "landable": {
+      "runways": [
+        {
+          "name": "06/24",
+          "len": 1628.5,
+          "dir": "065",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "A34",
+    "desc": "A34, 05/23   22.9, RW width: 75, CTAF: 122.9"
+  },
+  "DesertCrk U6": {
+    "lat": 38.614,
+    "lon": -119.315667,
+    "elev": 2730.4,
+    "code": "DSRTCRK6"
+  },
+  "DixieVal R3": {
+    "lat": 39.9665,
+    "lon": -117.8275,
+    "elev": 1049.4,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 1828.8,
+          "dir": "160",
+          "surface": "paved"
+        }
+      ]
+    },
+    "code": "NV30",
+    "desc": "Private, NV30, 16/34, RW width: 60"
+  },
+  "DonnerSmt U7": {
+    "lat": 39.36525,
+    "lon": -120.3493,
+    "elev": 2154.9,
+    "code": "DNNRSMT7",
+    "desc": "Turn Point, #16"
+  },
+  "Double Creek E4": {
+    "lat": 40.445667,
+    "lon": -121.882167,
+    "elev": 609.9,
+    "landable": {
+      "runways": [
+        {
+          "name": "06/24",
+          "len": 1036.3,
+          "dir": "060",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "CN42",
+    "desc": "Turn Point, #17, Private, CN42, RW width: 80"
+  },
+  "DrbyLvlck R1": {
+    "lat": 40.066333,
+    "lon": -118.565167,
+    "elev": 1189.9,
+    "landable": {
+      "runways": [
+        {
+          "name": "03/21",
+          "len": 1685.2,
+          "dir": "030",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "LOL",
+    "desc": "Turn Point, #18, LOL, 01/19   22.8, RW width: 75, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "Dry Lk 16 E6": {
+    "lat": 38.545667,
+    "lon": -118.375833,
+    "elev": 1362.5,
+    "landable": {},
+    "code": "DRYLK166",
+    "desc": "Landable, 12mi E Hwthrn"
+  },
+  "Dyer E3": {
+    "lat": 37.6095,
+    "lon": -118.006333,
+    "elev": 1493.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "12/30",
+          "len": 874.8,
+          "dir": "120",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "2Q9",
+    "desc": "2Q9, 12/30   22.9, RW width: 50, CTAF: 122.9"
+  },
+  "Eaglville E5": {
+    "lat": 41.309833,
+    "lon": -120.050333,
+    "elev": 1371.6,
+    "code": "EAGLVLL5",
+    "desc": "Turn Point, #19, 17/35 Overgrown Crossed"
+  },
+  "Elko Muni R1": {
+    "lat": 40.823333,
+    "lon": -115.79,
+    "elev": 1563.6,
+    "landable": {
+      "runways": [
+        {
+          "name": "06/24",
+          "len": 2198.8,
+          "dir": "069",
+          "surface": "paved"
+        }
+      ],
+      "freq": "123.000"
+    },
+    "code": "EKO",
+    "desc": "EKO, CTAF 123.0, RW width: 150, UNICOM: 123.0, Fuel: 100LL"
+  },
+  "Ely R1": {
+    "lat": 39.298333,
+    "lon": -114.84,
+    "elev": 1908.0,
+    "landable": {
+      "runways": [
+        {
+          "name": "01/19",
+          "len": 1834.3,
+          "dir": "194",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "ELY",
+    "desc": "ELY, 22.8   18/36, RW width: 150, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "Empire E6": {
+    "lat": 40.580133,
+    "lon": -119.350683,
+    "elev": 1216.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "07/25",
+          "len": 966.2,
+          "dir": "070",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "1A8",
+    "desc": "Private, 1A8, 07/25   22.9, RW width: 48, CTAF: 122.9"
+  },
+  "Empr Farm E7": {
+    "lat": 40.434917,
+    "lon": -119.4403,
+    "elev": 1245.1,
+    "landable": {},
+    "code": "EMPRFRM7",
+    "desc": "Turn Point, #20, Landable, E/W Road"
+  },
+  "EmrsnPass E6": {
+    "lat": 40.321767,
+    "lon": -119.6793,
+    "elev": 1197.6,
+    "landable": {},
+    "code": "EMRSNPSS",
+    "desc": "Landable, Land E/W"
+  },
+  "Eureka R1": {
+    "lat": 39.604167,
+    "lon": -116.005,
+    "elev": 1813.6,
+    "landable": {
+      "runways": [
+        {
+          "name": "17/35",
+          "len": 2225.0,
+          "dir": "170",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "05U",
+    "desc": "05U, Rnway Lights, RW width: 60, CTAF: 122.9, Fuel: 100LL"
+  },
+  "Fallon R1": {
+    "lat": 39.4995,
+    "lon": -118.749,
+    "elev": 1207.9,
+    "landable": {
+      "runways": [
+        {
+          "name": "14/32",
+          "len": 1282.3,
+          "dir": "146",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "FLX",
+    "desc": "FLX, 03/21   22.8, RW width: 100, UNICOM: 122.8, Fuel: 100"
+  },
+  "FariasWhl R3": {
+    "lat": 38.833333,
+    "lon": -119.396,
+    "elev": 1477.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 1033.6,
+          "dir": "160",
+          "surface": "paved"
+        }
+      ]
+    },
+    "code": "NV33",
+    "desc": "Private, NV33, N/S, RW width: 22, Fuel: 100LL"
+  },
+  "Flanigan U2": {
+    "lat": 40.17055,
+    "lon": -119.886533,
+    "elev": 1219.2,
+    "code": "FLANIGN2",
+    "desc": "Turn Point, #21, S of RR int"
+  },
+  "FllRvrMls R2": {
+    "lat": 41.018833,
+    "lon": -121.433167,
+    "elev": 1012.9,
+    "landable": {
+      "runways": [
+        {
+          "name": "02/20",
+          "len": 1524.0,
+          "dir": "020",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "O89",
+    "desc": "O89, 02/20 22.8, RW width: 75, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "FlnDryLk E2": {
+    "lat": 40.116667,
+    "lon": -119.9,
+    "elev": 1249.7,
+    "landable": {},
+    "code": "FLNDRLK2",
+    "desc": "Landable"
+  },
+  "Freel Pk U4": {
+    "lat": 38.8575,
+    "lon": -119.9,
+    "elev": 3316.5,
+    "code": "FREELPK4"
+  },
+  "Gabbs E2": {
+    "lat": 38.924167,
+    "lon": -117.959,
+    "elev": 1385.9,
+    "landable": {
+      "runways": [
+        {
+          "name": "08/26",
+          "len": 1432.3,
+          "dir": "080",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "GAB",
+    "desc": "Turn Point, #22, GAB, 08/26   22.9, RW width: 65, CTAF: 122.9"
+  },
+  "Gabbs S E5": {
+    "lat": 38.838833,
+    "lon": -117.945167,
+    "elev": 1415.8,
+    "code": "GABBSSE5",
+    "desc": "Dirt Rough 70' width"
+  },
+  "GarfldFlt E4": {
+    "lat": 38.366667,
+    "lon": -118.283333,
+    "elev": 1676.4,
+    "landable": {},
+    "code": "GRFLDFLT",
+    "desc": "Landable, Dry Lake"
+  },
+  "Gerlach E9": {
+    "lat": 40.651783,
+    "lon": -119.346733,
+    "elev": 1204.0,
+    "landable": {},
+    "code": "GERLACH9",
+    "desc": "Turn Point, #23, Landable, S of RR int or dry lake"
+  },
+  "Gimmeys Bowl": {
+    "lat": 38.531667,
+    "lon": -119.123,
+    "elev": 2865.1,
+    "code": "GIMMSBWL"
+  },
+  "Glass Mtn U9": {
+    "lat": 37.774783,
+    "lon": -118.7085,
+    "elev": 3389.4,
+    "code": "GLSSMTN9",
+    "desc": "Turn Point, #24"
+  },
+  "Goldfield E1": {
+    "lat": 37.717833,
+    "lon": -117.238333,
+    "elev": 1731.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "17/35",
+          "len": 960.1,
+          "dir": "170",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "NV50",
+    "desc": "Private, Landable, NV50, 17/35, RW width: 37"
+  },
+  "Hammil E2": {
+    "lat": 37.677667,
+    "lon": -118.389333,
+    "elev": 1414.3,
+    "landable": {},
+    "code": "HAMMILE2",
+    "desc": "Landable"
+  },
+  "Hawthorne R2": {
+    "lat": 38.544333,
+    "lon": -118.634333,
+    "elev": 1284.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "15/33",
+          "len": 1066.8,
+          "dir": "150",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "HTH",
+    "desc": "Turn Point, #25, HTH, 05/23   22.8, RW width: 130, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "Herlong R8": {
+    "lat": 40.138833,
+    "lon": -120.178833,
+    "elev": 1237.5,
+    "landable": {
+      "runways": [
+        {
+          "name": "06/24",
+          "len": 993.6,
+          "dir": "060",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "H37",
+    "desc": "Turn Point, #26, Landable, H37, Land W of X, RW width: 40, CTAF: 122.9"
+  },
+  "HiltonRnc E1": {
+    "lat": 38.612,
+    "lon": -119.002167,
+    "elev": 1508.8,
+    "landable": {},
+    "code": "HLTNRNC1",
+    "desc": "Turn Point, #27, Landable, FlyingMRc"
+  },
+  "HlljhJnct U4": {
+    "lat": 39.7751,
+    "lon": -120.038617,
+    "elev": 1533.1,
+    "code": "HLLJHJNC",
+    "desc": "Turn Point, #28, Rts 395-70 Int."
+  },
+  "Hudson E8": {
+    "lat": 39.539667,
+    "lon": -117.7479,
+    "elev": 1578.9,
+    "code": "NV35",
+    "desc": "Private, NV35, 17/35, RW width: 100"
+  },
+  "HuntoonDL E4": {
+    "lat": 38.15,
+    "lon": -118.533333,
+    "elev": 1524.0,
+    "landable": {},
+    "code": "HUNTNDL4",
+    "desc": "Landable, Remote"
+  },
+  "Indepndnc R3": {
+    "lat": 36.811117,
+    "lon": -118.2025,
+    "elev": 1188.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "15/33",
+          "len": 1076.9,
+          "dir": "157",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "2O7",
+    "desc": "Turn Point, #29, 2O7, 05/23   22.9, RW width: 60, CTAF: 122.9"
+  },
+  "Inyokern R1": {
+    "lat": 35.658333,
+    "lon": -117.828333,
+    "elev": 749.8,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 2164.1,
+          "dir": "166",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "IYK",
+    "desc": "IYK, 1/21, RW width: 75, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "JeanLasVe R1": {
+    "lat": 35.770167,
+    "lon": -115.328333,
+    "elev": 862.6,
+    "landable": {
+      "runways": [
+        {
+          "name": "03/21",
+          "len": 1402.1,
+          "dir": "031",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "0L7",
+    "desc": "0L7, 02/20 22.9, RW width: 75, CTAF: 122.9, Fuel: 100LL"
+  },
+  "Kingsbury E3": {
+    "lat": 38.97695,
+    "lon": -119.937217,
+    "elev": 1920.2,
+    "landable": {},
+    "code": "KINGSBR3",
+    "desc": "Landable"
+  },
+  "KurnivaValE6": {
+    "lat": 40.383333,
+    "lon": -119.083333,
+    "elev": 1188.7,
+    "landable": {},
+    "code": "KURNVVL6",
+    "desc": "Landable, Aero Only"
+  },
+  "LabouFlat E2": {
+    "lat": 39.283333,
+    "lon": -118.466667,
+    "elev": 1219.2,
+    "landable": {},
+    "code": "LABOFLT2",
+    "desc": "Landable, Near R-4812"
+  },
+  "LakeTahoe R2": {
+    "lat": 38.893833,
+    "lon": -119.995333,
+    "elev": 1909.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "01/19",
+          "len": 2604.2,
+          "dir": "193",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.850"
+    },
+    "code": "TVL",
+    "desc": "TVL, 18/36  22.85, RW width: 150, CTAF: 122.85, Fuel: 100LL"
+  },
+  "LeeVining R3": {
+    "lat": 37.958333,
+    "lon": -119.1065,
+    "elev": 2073.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 1246.6,
+          "dir": "160",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "O24",
+    "desc": "O24, 14/32   22.9, RW width: 50, CTAF: 122.9"
+  },
+  "Lida Jct E5": {
+    "lat": 37.486667,
+    "lon": -117.190833,
+    "elev": 1429.5,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 1859.3,
+          "dir": "180",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "0L4",
+    "desc": "0L4, 02/20 22.9, RW width: 80, CTAF: 122.9"
+  },
+  "Likely E4": {
+    "lat": 41.239567,
+    "lon": -120.525733,
+    "elev": 1347.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "06/24",
+          "len": 597.4,
+          "dir": "060",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "9CL3",
+    "desc": "Turn Point, #30, Private, 9CL3, 6/24, RW width: 50"
+  },
+  "Lonepine R2": {
+    "lat": 36.5905,
+    "lon": -118.0465,
+    "elev": 1121.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "13/31",
+          "len": 731.5,
+          "dir": "130",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "O26",
+    "desc": "O26, 22.8 13G/31G, RW width: 100, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "LuckyBoyPass": {
+    "lat": 38.421167,
+    "lon": -118.768,
+    "elev": 2447.8,
+    "code": "LUCKBPSS",
+    "desc": "Turn Point, #31"
+  },
+  "LuningDrL E2": {
+    "lat": 38.491667,
+    "lon": -118.158333,
+    "elev": 1367.3,
+    "landable": {},
+    "code": "LNNGDRL2",
+    "desc": "Landable, Land NW.SmmrOnly"
+  },
+  "LvlckDust E3": {
+    "lat": 40.189167,
+    "lon": -118.45195,
+    "elev": 1216.2,
+    "landable": {},
+    "code": "LVLCKDST",
+    "desc": "Landable, 70' width"
+  },
+  "Malpaise U8": {
+    "lat": 36.43905,
+    "lon": -117.740833,
+    "elev": 2356.1,
+    "code": "MALPAIS8",
+    "desc": "E Edge Mesa"
+  },
+  "MammthLks R2": {
+    "lat": 37.624,
+    "lon": -118.837833,
+    "elev": 2172.6,
+    "landable": {
+      "runways": [
+        {
+          "name": "10/28",
+          "len": 2133.6,
+          "dir": "109",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "MMH",
+    "desc": "Turn Point, #32, MMH, 09/27   22.8, RW width: 100, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "Manzanar E4": {
+    "lat": 36.741667,
+    "lon": -118.144333,
+    "elev": 1167.4,
+    "code": "MANZANR4",
+    "desc": "Crossed but landable"
+  },
+  "MartisPeakU4": {
+    "lat": 39.2914,
+    "lon": -120.033017,
+    "elev": 2664.6,
+    "code": "MARTSPK4",
+    "desc": "Turn Point, #33"
+  },
+  "Mina R2": {
+    "lat": 38.38,
+    "lon": -118.096667,
+    "elev": 1387.4,
+    "landable": {
+      "runways": [
+        {
+          "name": "13/31",
+          "len": 1402.1,
+          "dir": "130",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "3Q0",
+    "desc": "Turn Point, #34, 3Q0, 13/31   22.9, RW width: 165, CTAF: 122.9"
+  },
+  "Mina VOR": {
+    "lat": 38.565,
+    "lon": -118.033333,
+    "elev": 2386.6,
+    "code": "MINA VOR",
+    "desc": "MVA VOR"
+  },
+  "Minden R1": {
+    "lat": 39.0,
+    "lon": -119.752,
+    "elev": 1438.0,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 2255.5,
+          "dir": "180",
+          "surface": "paved"
+        }
+      ],
+      "freq": "123.050"
+    },
+    "code": "MEV",
+    "desc": "Turn Point, #35, MEV, 12/30   23.05, RW width: 100, UNICOM: 123.05, Fuel: 100LL"
+  },
+  "MinerlPK U4": {
+    "lat": 39.047167,
+    "lon": -119.538333,
+    "elev": 2535.6,
+    "code": "MINRLPK4"
+  },
+  "Mojave R2": {
+    "lat": 35.058333,
+    "lon": -118.15,
+    "elev": 850.4,
+    "landable": {
+      "runways": [
+        {
+          "name": "13/31",
+          "len": 3810.9,
+          "dir": "135",
+          "surface": "paved"
+        }
+      ],
+      "freq": "127.600"
+    },
+    "code": "MHV",
+    "desc": "MHV, 27.6   12/30, RW width: 200, Tower: 127.6, Fuel: 100LL"
+  },
+  "Montague R1": {
+    "lat": 41.781667,
+    "lon": -122.466667,
+    "elev": 807.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "01/19",
+          "len": 2281.1,
+          "dir": "191",
+          "surface": "paved"
+        }
+      ],
+      "freq": "123.000"
+    },
+    "code": "SIY",
+    "desc": "SIY, 17/35, RW width: 150, UNICOM: 123.0, Fuel: 100LL"
+  },
+  "Mt Grant U5": {
+    "lat": 38.570333,
+    "lon": -118.791383,
+    "elev": 3428.1,
+    "code": "MTGRANT5"
+  },
+  "Mt Inyo U8": {
+    "lat": 36.735167,
+    "lon": -117.9856,
+    "elev": 3345.2,
+    "code": "MTINYOU8",
+    "desc": "Turn Point, #36"
+  },
+  "Mt Lassen U9": {
+    "lat": 40.488,
+    "lon": -121.505167,
+    "elev": 3187.3,
+    "code": "MTLASSN9",
+    "desc": "Turn Point, #37"
+  },
+  "Mt Patrsn U6": {
+    "lat": 38.436833,
+    "lon": -119.304833,
+    "elev": 3557.9,
+    "code": "MTPTRSN6"
+  },
+  "Mt Pluto U2": {
+    "lat": 39.241383,
+    "lon": -120.13985,
+    "elev": 2627.4,
+    "code": "MTPLUTO2",
+    "desc": "Turn Point, #38, Northstar"
+  },
+  "Mt Rose U3": {
+    "lat": 39.3438,
+    "lon": -119.917933,
+    "elev": 3284.5,
+    "code": "MTROSEU3",
+    "desc": "Turn Point, #39"
+  },
+  "Mt Siegel U4": {
+    "lat": 38.8895,
+    "lon": -119.502233,
+    "elev": 2880.7,
+    "code": "MTSIEGL4",
+    "desc": "Siegel Peak"
+  },
+  "Mt Whitny U7": {
+    "lat": 36.578617,
+    "lon": -118.2922,
+    "elev": 4416.6,
+    "code": "MTWHITN7"
+  },
+  "N Mono Lk U7": {
+    "lat": 38.103333,
+    "lon": -119.053833,
+    "elev": 2066.5,
+    "code": "NMONOLK7",
+    "desc": "Turn Point, #40, T IntDirtRds"
+  },
+  "N Valley E3": {
+    "lat": 37.869,
+    "lon": -118.095,
+    "elev": 1511.8,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 1615.4,
+          "dir": "160",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "9CA6",
+    "desc": "Private, 9CA6, 16/34, RW width: 100"
+  },
+  "Nervino R2": {
+    "lat": 39.820667,
+    "lon": -120.354333,
+    "elev": 1491.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "09/27",
+          "len": 1417.6,
+          "dir": "090",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "O02",
+    "desc": "Turn Point, #41, O02, 07/25   22.8, RW width: 75, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "NineMile E2": {
+    "lat": 38.384333,
+    "lon": -118.937667,
+    "elev": 1828.8,
+    "landable": {},
+    "code": "NINEMIL2",
+    "desc": "Landable, 75' w"
+  },
+  "NixonDrLk E4": {
+    "lat": 39.8495,
+    "lon": -119.340667,
+    "elev": 1219.2,
+    "landable": {
+      "freq": "1.500"
+    },
+    "code": "NXNDRLK4",
+    "desc": "Landable, 1.5 NE Town"
+  },
+  "OToole Rc E7": {
+    "lat": 39.0665,
+    "lon": -117.421667,
+    "elev": 1987.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "07/25",
+          "len": 1219.2,
+          "dir": "070",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "NV02",
+    "desc": "Private, NV02, 07/25 dirt road/strip, RW width: 40"
+  },
+  "Olancha E7": {
+    "lat": 36.256667,
+    "lon": -117.997667,
+    "elev": 579.1,
+    "code": "OLANCHA7",
+    "desc": "20 deg fr395"
+  },
+  "Panamint DL U7": {
+    "lat": 36.338167,
+    "lon": -117.400333,
+    "elev": 609.6,
+    "landable": {},
+    "code": "PNMNTDL7",
+    "desc": "Landable, Crossed but landable"
+  },
+  "ParkrCrsn E4": {
+    "lat": 39.202,
+    "lon": -119.684833,
+    "elev": 1493.5,
+    "landable": {
+      "runways": [
+        {
+          "name": "06/24",
+          "len": 518.2,
+          "dir": "060",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "2Q5",
+    "desc": "Private, 2Q5, 06/24 22.9 48'w Land either end, RW width: 40, CTAF: 122.9"
+  },
+  "PeavinePk U3": {
+    "lat": 39.5895,
+    "lon": -119.9285,
+    "elev": 2519.5,
+    "code": "PEAVNPK3",
+    "desc": "Turn Point, #42, Radio Twr"
+  },
+  "Pnut Apt E4": {
+    "lat": 38.900833,
+    "lon": -119.6495,
+    "elev": 1603.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 609.6,
+          "dir": "160",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "NV55",
+    "desc": "Private, NV55, 16/34 75'w, RW width: 45"
+  },
+  "Pond Peak U5": {
+    "lat": 39.651667,
+    "lon": -119.464167,
+    "elev": 2449.1,
+    "code": "PONDPKU5",
+    "desc": "Turn Point, #43"
+  },
+  "PortlaTwr U6": {
+    "lat": 39.769,
+    "lon": -120.436667,
+    "elev": 2209.8,
+    "code": "PRTLTWR6"
+  },
+  "Potato Pk U4": {
+    "lat": 38.234667,
+    "lon": -119.086767,
+    "elev": 3112.9,
+    "code": "POTATPK4"
+  },
+  "Qncy East U7": {
+    "lat": 40.015267,
+    "lon": -120.800183,
+    "elev": 2350.3,
+    "code": "QNCY EU7",
+    "desc": "Turn Point, #44"
+  },
+  "Quincy R3": {
+    "lat": 39.943833,
+    "lon": -120.946833,
+    "elev": 1040.9,
+    "landable": {
+      "runways": [
+        {
+          "name": "08/26",
+          "len": 1251.2,
+          "dir": "082",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.700"
+    },
+    "code": "2O1",
+    "desc": "Turn Point, #45, 2O1, 06/24   22.7, RW width: 60, UNICOM: 122.7, Fuel: 100LL"
+  },
+  "RabbitDL E2": {
+    "lat": 39.333333,
+    "lon": -119.383333,
+    "elev": 1310.6,
+    "landable": {},
+    "code": "RABBTDL2",
+    "desc": "Landable, SW Slvr Sprng"
+  },
+  "Ravendale R3": {
+    "lat": 40.803167,
+    "lon": -120.366333,
+    "elev": 1615.1,
+    "landable": {
+      "runways": [
+        {
+          "name": "17/35",
+          "len": 890.0,
+          "dir": "170",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "O39",
+    "desc": "Turn Point, #46, Unlandable, O39, Paved, RW width: 30, CTAF: 122.9"
+  },
+  "Rawe Peak U2": {
+    "lat": 39.197167,
+    "lon": -119.4895,
+    "elev": 2542.0,
+    "code": "RAWEPKU2",
+    "desc": "Turn Point, #47"
+  },
+  "Reese U8": {
+    "lat": 38.866333,
+    "lon": -118.85,
+    "elev": 1969.0,
+    "code": "REESE U8",
+    "desc": "MicrowaveTwr"
+  },
+  "RenoIntnl R4": {
+    "lat": 39.4985,
+    "lon": -119.768,
+    "elev": 1344.8,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 3353.4,
+          "dir": "180",
+          "surface": "paved"
+        }
+      ],
+      "freq": "118.700"
+    },
+    "code": "RNO",
+    "desc": "RNO, 118.7 135.8wx, RW width: 150, Tower: 118.7, UNICOM: 122.95, Fuel: 100LL"
+  },
+  "RenoStead R2": {
+    "lat": 39.667333,
+    "lon": -119.875333,
+    "elev": 1538.0,
+    "landable": {
+      "runways": [
+        {
+          "name": "15/33",
+          "len": 2743.2,
+          "dir": "153",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.700"
+    },
+    "code": "RTS",
+    "desc": "Turn Point, #48, RTS, 08/26   22.7, RW width: 150, UNICOM: 122.7, Fuel: 100LL"
+  },
+  "Rnch Strp E5": {
+    "lat": 40.425833,
+    "lon": -118.06055,
+    "elev": 1320.7,
+    "landable": {},
+    "code": "RNCHSTRP",
+    "desc": "Landable, Landable fields"
+  },
+  "RndMtnHad R4": {
+    "lat": 38.6945,
+    "lon": -117.146833,
+    "elev": 1750.8,
+    "landable": {
+      "runways": [
+        {
+          "name": "17/35",
+          "len": 2065.3,
+          "dir": "170",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "NV83",
+    "desc": "Turn Point, #49, Private, NV83, 17/35   22.9, RW width: 60"
+  },
+  "Rocket7nm U9": {
+    "lat": 40.883333,
+    "lon": -119.033333,
+    "elev": 1204.0,
+    "code": "RCKT7NM9",
+    "desc": "Avoid overfly, see NOTAM"
+  },
+  "RosachiRc U5": {
+    "lat": 38.717167,
+    "lon": -119.319333,
+    "elev": 1630.7,
+    "code": "ROSCHRC5",
+    "desc": "Rd Int 50' width"
+  },
+  "Rosamond R1": {
+    "lat": 34.8705,
+    "lon": -118.209167,
+    "elev": 737.6,
+    "landable": {
+      "runways": [
+        {
+          "name": "08/26",
+          "len": 1097.3,
+          "dir": "080",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "L00",
+    "desc": "L00, 07/25 22.9, RW width: 50, CTAF: 122.9, Fuel: 100LL"
+  },
+  "Rosaschi R2": {
+    "lat": 38.839333,
+    "lon": -119.338167,
+    "elev": 1466.1,
+    "landable": {
+      "runways": [
+        {
+          "name": "17/35",
+          "len": 1127.8,
+          "dir": "170",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "N59",
+    "desc": "N59, 50'w 7/25 17/35 22.9, RW width: 64, CTAF: 122.9"
+  },
+  "RvrSpngDL E4": {
+    "lat": 37.916667,
+    "lon": -118.616667,
+    "elev": 1981.2,
+    "landable": {},
+    "code": "RVRSPNGD",
+    "desc": "Landable, Mid Lake Bst"
+  },
+  "RyePatch U4": {
+    "lat": 40.46935,
+    "lon": -118.309217,
+    "elev": 1264.9,
+    "code": "RYEPTCH4",
+    "desc": "Turn Point, #50, Fields 8SW"
+  },
+  "Schulman U6": {
+    "lat": 37.38555,
+    "lon": -118.178883,
+    "elev": 3075.7,
+    "code": "SCHULMN6",
+    "desc": "T O to Loop"
+  },
+  "Schurz U8": {
+    "lat": 38.934533,
+    "lon": -118.80765,
+    "elev": 1280.2,
+    "code": "SCHURZU8",
+    "desc": "Turn Point, #51, Marginal, land N or E"
+  },
+  "SergioEL U2": {
+    "lat": 39.200833,
+    "lon": -119.914833,
+    "elev": 2633.5,
+    "code": "SERGIOL2"
+  },
+  "SieravlD R3": {
+    "lat": 39.581,
+    "lon": -120.354333,
+    "elev": 1519.1,
+    "landable": {
+      "runways": [
+        {
+          "name": "03/21",
+          "len": 993.6,
+          "dir": "030",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "O79",
+    "desc": "Turn Point, #52, O79, 03/21   22.9, RW width: 50, CTAF: 122.9"
+  },
+  "SldrMdwN1 E6": {
+    "lat": 41.382667,
+    "lon": -119.169,
+    "elev": 1369.8,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 1219.2,
+          "dir": "180",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "NV06",
+    "desc": "Turn Point, #53, Private, NV06, 18/36 N half better, RW width: 40"
+  },
+  "SldrMdwN2 E7": {
+    "lat": 41.1235,
+    "lon": -119.1385,
+    "elev": 1264.9,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 1219.2,
+          "dir": "180",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "NV05",
+    "desc": "Turn Point, #54, Private, NV05, Land N/S, RW width: 40"
+  },
+  "SlvrSprng R2": {
+    "lat": 39.403333,
+    "lon": -119.251833,
+    "elev": 1301.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "05/23",
+          "len": 1828.2,
+          "dir": "050",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "SPZ",
+    "desc": "Turn Point, #55, SPZ, 05/23   22.9, RW width: 75, CTAF: 122.9, Fuel: 100LL"
+  },
+  "Southard R3": {
+    "lat": 41.139667,
+    "lon": -121.123833,
+    "elev": 1267.4,
+    "landable": {
+      "runways": [
+        {
+          "name": "04/22",
+          "len": 908.3,
+          "dir": "040",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "O55",
+    "desc": "O55, 04/22 22.9, RW width: 35, CTAF: 122.9"
+  },
+  "Spaulding R4": {
+    "lat": 40.650167,
+    "lon": -120.7685,
+    "elev": 1559.4,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 1402.1,
+          "dir": "181",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "1Q2",
+    "desc": "Turn Point, #56, 1Q2, 16/34   22.9, RW width: 50, CTAF: 122.9"
+  },
+  "Spnsh Spr E3": {
+    "lat": 39.671,
+    "lon": -119.724833,
+    "elev": 1402.1,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 1079.0,
+          "dir": "160",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "N86",
+    "desc": "N86, 09/27   22.9, RW width: 71, CTAF: 122.9, Fuel: 100LL"
+  },
+  "SpoonrSmt U5": {
+    "lat": 39.104167,
+    "lon": -119.896833,
+    "elev": 2178.1,
+    "code": "SPNRSMT5",
+    "desc": "Summit pass"
+  },
+  "Squaw VOR U7": {
+    "lat": 39.180383,
+    "lon": -120.269883,
+    "elev": 2746.2,
+    "code": "SQUAWVR7",
+    "desc": "Turn Point, #57"
+  },
+  "Start U1": {
+    "lat": 39.325,
+    "lon": -120.098333,
+    "elev": 1878.5,
+    "code": "START U1",
+    "desc": "Start Point, #2, Start"
+  },
+  "Sul DrLk E4": {
+    "lat": 40.773,
+    "lon": -118.859167,
+    "elev": 1300.3,
+    "landable": {},
+    "code": "SULDRLK4",
+    "desc": "Landable, E/W dry lake"
+  },
+  "Sulphur E7": {
+    "lat": 40.86915,
+    "lon": -118.728717,
+    "elev": 1239.9,
+    "landable": {},
+    "code": "SULPHUR7",
+    "desc": "Turn Point, #58, Landable, 07/25   E49 Marginal, E best"
+  },
+  "Susanvlle R3": {
+    "lat": 40.376833,
+    "lon": -120.573,
+    "elev": 1264.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "12/30",
+          "len": 1234.1,
+          "dir": "129",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "SVE",
+    "desc": "Turn Point, #59, SVE, 07/25   22.8, RW width: 75, UNICOM: 122.8, Fuel: 100LL/80"
+  },
+  "Swanson E5": {
+    "lat": 40.008167,
+    "lon": -117.392,
+    "elev": 1505.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 762.0,
+          "dir": "160",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "NV64",
+    "desc": "Private, Landable, NV64, 16/34    25G? , RW width: 50"
+  },
+  "Sweetwatr R3": {
+    "lat": 38.504667,
+    "lon": -119.218,
+    "elev": 2093.4,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 1127.8,
+          "dir": "180",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "NV72",
+    "desc": "Turn Point, #60, Private, NV72, 18/36, RW width: 60, CTAF: 122.9"
+  },
+  "Taboose Pass U7": {
+    "lat": 36.9849,
+    "lon": -118.41405,
+    "elev": 3475.9,
+    "code": "TABSPSS7",
+    "desc": "Turn Point, #61"
+  },
+  "TeelsMrsh E3": {
+    "lat": 38.225,
+    "lon": -118.333333,
+    "elev": 1524.0,
+    "code": "TLSMRSH3",
+    "desc": "Land at NE"
+  },
+  "Tehachapi R2": {
+    "lat": 35.1,
+    "lon": -118.421667,
+    "elev": 1286.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "09/27",
+          "len": 1490.5,
+          "dir": "090",
+          "surface": "paved"
+        }
+      ],
+      "freq": "123.000"
+    },
+    "code": "L94",
+    "desc": "L94, 23.0 09L/27R, RW width: 36, UNICOM: 123.0"
+  },
+  "TgrFldFrn R3": {
+    "lat": 39.558667,
+    "lon": -119.24,
+    "elev": 1324.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 1211.3,
+          "dir": "163",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "N58",
+    "desc": "N58, 05/23   22.9, RW width: 40, CTAF: 122.9"
+  },
+  "Tinnimaha U7": {
+    "lat": 37.052033,
+    "lon": -118.220917,
+    "elev": 1249.7,
+    "code": "TINNIMH7",
+    "desc": "Dam"
+  },
+  "TiogaPass U5": {
+    "lat": 37.91075,
+    "lon": -119.2579,
+    "elev": 3035.8,
+    "code": "TIOGPSS5",
+    "desc": "Turn Point, #62"
+  },
+  "Tonopah R1": {
+    "lat": 38.060167,
+    "lon": -117.087167,
+    "elev": 1653.8,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 2182.7,
+          "dir": "165",
+          "surface": "paved"
+        }
+      ],
+      "freq": "123.000"
+    },
+    "code": "TPH",
+    "desc": "Turn Point, #63, TPH, 11/29   23.0, RW width: 80, UNICOM: 123.0, Fuel: 100LL"
+  },
+  "TopazInt R4": {
+    "lat": 38.731017,
+    "lon": -119.465983,
+    "elev": 1539.2,
+    "landable": {
+      "runways": [
+        {
+          "name": "18/36",
+          "len": 1318.3,
+          "dir": "180",
+          "surface": "unpaved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "43NV",
+    "desc": "Turn Point, #64, Private, Landable, 43NV, FlyinMouse, RW width: 50, CTAF: 122.9"
+  },
+  "TotemPole E4": {
+    "lat": 39.652167,
+    "lon": -120.4365,
+    "elev": 1519.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "02/20",
+          "len": 548.6,
+          "dir": "020",
+          "surface": "unpaved"
+        }
+      ]
+    },
+    "code": "CA38",
+    "desc": "Private, CA38, 2/20, RW width: 100"
+  },
+  "TracyPwr U7": {
+    "lat": 39.5625,
+    "lon": -119.526833,
+    "elev": 1301.5,
+    "code": "TRACPWR7"
+  },
+  "Trona R4": {
+    "lat": 35.8125,
+    "lon": -117.327333,
+    "elev": 524.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "17/35",
+          "len": 1807.5,
+          "dir": "170",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.900"
+    },
+    "code": "L72",
+    "desc": "L72, A/P, RW width: 60, CTAF: 122.9"
+  },
+  "Truckee R1": {
+    "lat": 39.325267,
+    "lon": -120.131983,
+    "elev": 1798.3,
+    "landable": {
+      "runways": [
+        {
+          "name": "12/30",
+          "len": 2133.6,
+          "dir": "120",
+          "surface": "paved"
+        }
+      ],
+      "freq": "120.575"
+    },
+    "code": "TRK",
+    "desc": "Home Field, Finish Point, Turn Point, #1, TRK, 02/20 20.575, RW width: 100, Tower: 120.575, UNICOM: 122.95, Fuel: 100LL"
+  },
+  "USMC STOL R9": {
+    "lat": 38.35555,
+    "lon": -119.518883,
+    "elev": 2072.6,
+    "code": "USMCSTLR",
+    "desc": "Turn Point, #65, Military, don't land"
+  },
+  "VerdiPeak U8": {
+    "lat": 39.472333,
+    "lon": -120.039667,
+    "elev": 2573.7,
+    "code": "VERDIPK8",
+    "desc": "Turn Point, #66"
+  },
+  "WaucobaMt U8": {
+    "lat": 37.021683,
+    "lon": -118.00795,
+    "elev": 3390.3,
+    "code": "WAUCBMT8"
+  },
+  "WhiteHouse U6": {
+    "lat": 39.540233,
+    "lon": -120.18785,
+    "elev": 2481.1,
+    "code": "WHITEHS6",
+    "desc": "Turn Point, #67,  CH 1.000"
+  },
+  "WhiteMtPk U7": {
+    "lat": 37.634033,
+    "lon": -118.255717,
+    "elev": 4342.2,
+    "code": "WHTMTPK7",
+    "desc": "Turn Point, #68"
+  },
+  "Williams R1": {
+    "lat": 39.163333,
+    "lon": -122.131667,
+    "elev": 20.7,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 762.0,
+          "dir": "160",
+          "surface": "paved"
+        }
+      ]
+    },
+    "code": "CN12",
+    "desc": "Private, CN12, 16/34, RW width: 40"
+  },
+  "Winnemucc R2": {
+    "lat": 40.896667,
+    "lon": -117.805833,
+    "elev": 1311.9,
+    "landable": {
+      "runways": [
+        {
+          "name": "16/34",
+          "len": 2133.6,
+          "dir": "160",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "WMC",
+    "desc": "Turn Point, #69, WMC, 02/20   22.8, RW width: 100, UNICOM: 122.8, Fuel: 100LL"
+  },
+  "Yerington R1": {
+    "lat": 39.004167,
+    "lon": -119.157833,
+    "elev": 1334.4,
+    "landable": {
+      "runways": [
+        {
+          "name": "01/19",
+          "len": 1767.8,
+          "dir": "010",
+          "surface": "paved"
+        }
+      ],
+      "freq": "122.800"
+    },
+    "code": "O43",
+    "desc": "Turn Point, #70, O43, 01/19   22.8  , RW width: 75, UNICOM: 122.8, Fuel: 100LL"
+  }
+}
