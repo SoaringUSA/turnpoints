@@ -33,22 +33,29 @@ if __name__=='__main__':
 	cvw.writeheader()
 
 	for (name, tp) in cvr.items():
-		if not tp['lat']:
-			continue
-
 		outDict = {
 			'name' : name,
-			'code' : optionally(tp['code']),
-			'country' : optionally(tp['country']),
 			'lat' : parseLat(tp['lat']),
 			'lon' : parseLon(tp['lon']),
 			'elev' : parseElev(tp['elev']),
-			'style' : str(tp['style']),
-			'rwdir' : optionally(tp['rwdir']),
-			'rwlen' : '{0:.1f}m'.format(tp['rwlen']) if tp['rwlen'] else '',
-			'freq' : optionally(tp['freq']),
-			'desc' : optionally(tp['desc']),
-			'userdata' : '',
-			'pics' : '',
 		}
+		if 'desc' in tp:
+			outDict['desc'] = tp['desc']
+		if 'code' in tp:
+			outDict['code'] = tp['code']
+		style = 1
+		if 'landable' in tp:
+			style = 3
+			if 'freq' in tp['landable']:
+				outDict['freq'] = tp['landable']['freq']
+			if 'runways' in tp['landable']:
+				style = 2
+				rw0 = tp['landable']['runways'][0]
+				if 'surface' in rw0 and rw0['surface'] == 'paved':
+					style = 5
+				if 'dir' in rw0:
+					outDict['rwdir'] = str(rw0['dir'])
+				if 'len' in rw0:
+					outDict['rwlen'] = '{0:.1f}m'.format(rw0['len'])
+		outDict['style'] = str(style)
 		cvw.writerow(outDict)
