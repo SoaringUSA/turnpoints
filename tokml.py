@@ -25,9 +25,9 @@ if __name__=='__main__':
 	kmlRoot = ET.Element('kml', attrib={'xmlns' : 'http://www.opengis.net/kml/2.2', 'xmlns:gx' : 'http://www.google.com/kml/ext/2.2'})
 	kmlDocument = ET.SubElement(kmlRoot, 'Document')
 	kmlDocName = ET.SubElement(kmlDocument, 'name')
-	kmlDocName.text = 'Document name'
+	kmlDocName.text = input['name']
 	kmlDocDesc = ET.SubElement(kmlDocument, 'description')
-	kmlDocDesc.text = 'Document description'
+	kmlDocDesc.text = input['desc']
 
 	# Placemark styles
 	style = ET.SubElement(kmlDocument, 'Style', attrib={'id' : 'waypoint'})
@@ -50,7 +50,7 @@ if __name__=='__main__':
 	href = ET.SubElement(icon, 'href')
 	href.text = 'https://maps.google.com/mapfiles/kml/shapes/airports.png'
 
-	for (name, tp) in input.items():
+	for (name, tp) in input['turnpoints'].items():
 		lat = tp['lat']
 		lon = tp['lon']
 		kmlPlacemark = ET.SubElement(kmlDocument, 'Placemark')

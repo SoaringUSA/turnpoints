@@ -27,12 +27,12 @@ def optionally(val):
 	return str(val) if val else ''
 
 if __name__=='__main__':
-	cvr = json.load(sys.stdin)
+	input = json.load(sys.stdin)
 
 	cvw = cupWriter(sys.stdout)
 	cvw.writeheader()
 
-	for (name, tp) in cvr.items():
+	for (name, tp) in input['turnpoints'].items():
 		outDict = {
 			'name' : name,
 			'lat' : parseLat(tp['lat']),
