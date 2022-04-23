@@ -1,15 +1,16 @@
 #!/bin/sh -e
 
-CUPFILES="hllstr.cup truckee.cup wsc.cup"
+INFILES="hllstr.json truckee.json wsc.json"
 DATE=$(date '+%Y%m%d')
 
 TMPDIR=$(mktemp -d)
 DIR=$TMPDIR/SUSATurnpoints
 mkdir $DIR
-for cupfile in $CUPFILES; do
-	BNAME="$(basename $cupfile .cup)_$DATE"
-	cp $cupfile "$DIR/$BNAME.cup"
-	./tokml.py < $cupfile > "$DIR/$BNAME.kml"
+for infile in $INFILES; do
+	BNAME="$(basename $infile .json)_$DATE"
+	cp $infile "$DIR/$BNAME.json"
+	./tocup.py < $infile > "$DIR/$BNAME.cup"
+	./tokml.py < $infile > "$DIR/$BNAME.kml"
 done
 
 tar -czf "SUSATurnpoints_$DATE.tar.gz" -C $TMPDIR .

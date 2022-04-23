@@ -1,42 +1,26 @@
 #!/usr/bin/env python3
 
-import csv
+import json
 import re
 import sys
 import xml.etree.ElementTree as ET
 
-def parseLat(latStr):
-	# 3653.583N,12115.800W
-	match = re.match('(\d*)(\d\d[.]\d*)([NS])', latStr)
-	deg = float(match.group(1)) + float(match.group(2)) / 60.0
-	if match.group(3) == 'S':
-		deg = -deg
-	return deg
-
-def parseLon(lonStr):
-	match = re.match('(\d*)(\d\d[.]\d*)([EW])', lonStr)
-	deg = float(match.group(1)) + float(match.group(2)) / 60.0
-	if match.group(3) == 'W':
-		deg = -deg
-	return deg
-
-def styleRef(style):
-    styleMap = {
-        0: '#waypoint',
-        1: '#waypoint',
-        2: '#unpavedAirfield',
-        3: '#landout',
-        4: '#unpavedAirfield',
-        5: '#pavedAirfield'
-    }
-    k = int(style)
-    return styleMap[k] if k in styleMap else '#waypoint'
+def styleRef(tp):
+    if 'landable' in tp:
+        landable = tp['landable']
+        if 'runways' in landable and len(landable['runways']) > 0:
+            rw0 = landable['runways'][0]
+            if 'surface' in rw0 and rw0['surface'] == 'paved':
+                return '#pavedAirfield'
+            else:
+                return '#unpavedAirfield'
+        else:
+            return '#landout'
+    else:
+        return '#waypoint'
 
 if __name__=='__main__':
-	# name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc,userdata,pics
-	cvr = csv.DictReader(sys.stdin, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','freq','desc','userdata','pics'])
-	# Skip first row
-	next(cvr)
+	input = json.load(sys.stdin)
 
 	kmlRoot = ET.Element('kml', attrib={'xmlns' : 'http://www.opengis.net/kml/2.2', 'xmlns:gx' : 'http://www.google.com/kml/ext/2.2'})
 	kmlDocument = ET.SubElement(kmlRoot, 'Document')
@@ -66,23 +50,20 @@ if __name__=='__main__':
 	href = ET.SubElement(icon, 'href')
 	href.text = 'https://maps.google.com/mapfiles/kml/shapes/airports.png'
 
-	for row in cvr:
-		if not row['lat']:
-			continue
-		name = row['name']
-		lat = parseLat(row['lat'])
-		lon = parseLon(row['lon'])
-		desc = row['desc']
+	for (name, tp) in input.items():
+		lat = tp['lat']
+		lon = tp['lon']
 		kmlPlacemark = ET.SubElement(kmlDocument, 'Placemark')
 		kmlName = ET.SubElement(kmlPlacemark, 'name')
 		kmlName.text = name
-		kmlDescription = ET.SubElement(kmlPlacemark, 'description')
-		kmlDescription.text = desc
+		if 'desc' in tp:
+			kmlDescription = ET.SubElement(kmlPlacemark, 'description')
+			kmlDescription.text = tp['desc']
 		kmlPoint = ET.SubElement(kmlPlacemark, 'Point')
 		kmlCoords = ET.SubElement(kmlPoint, 'coordinates')
 		kmlCoords.text = '{0},{1}'.format(lon, lat)
 		styleUrl = ET.SubElement(kmlPlacemark, 'styleUrl')
-		styleUrl.text = styleRef(row['style'])
+		styleUrl.text = styleRef(tp)
 		
 
 	kmlTree = ET.ElementTree(kmlRoot)
