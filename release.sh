@@ -13,5 +13,10 @@ for infile in $INFILES; do
 	./tokml.py < $infile > "$DIR/$BNAME.kml"
 done
 
+# California
+./combine.py 'California' hllstr.json wsc.json truckee.json > "$DIR/california_$DATE.json"
+./tocup.py < "$DIR/california_$DATE.json" > "$DIR/california_$DATE.cup"
+./tokml.py < "$DIR/california_$DATE.json" > "$DIR/california_$DATE.kml"
+
 tar -czf "SUSATurnpoints_$DATE.tar.gz" -C $TMPDIR .
-rm -rf $TMPDIR
+#rm -rf $TMPDIR

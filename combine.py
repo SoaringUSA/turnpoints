@@ -7,11 +7,18 @@ import sys
 def absNorm(a, b):
 	return abs(a[0] - b[0]) + abs(a[1] - b[1])
 
+def help():
+	print('Usage: ./combine.py <output name> [file.json]...')
+
 if __name__=='__main__':
-	numInputs = len(sys.argv)
+	if len(sys.argv) < 2:
+		help()
+		sys.exit(1)
+
+	numInputs = len(sys.argv) - 1
+	outputName = sys.argv[1]
 	data = []
-	for fileNo in range(1,numInputs):
-		filename = sys.argv[fileNo]
+	for filename in sys.argv[2:]:
 		input = json.load(open(filename))
 		data.append(input['turnpoints'])
 
@@ -52,7 +59,7 @@ if __name__=='__main__':
 	for filename in sys.argv[1:]:
 		description += ' ' + filename
 	outDict = {
-		'name' : '',
+		'name' : outputName,
 		'desc' : description,
 		'schema' : 1,
 		'turnpoints' : outData
