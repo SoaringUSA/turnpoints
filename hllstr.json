@@ -1,6 +1,6 @@
 {
   "name": "hllstr",
-  "desc": "Turnpoints for Hollister CA and surrounding region.",
+  "desc": "Soaring turnpoints for Hollister CA and surrounding region.",
   "schema": 1,
   "turnpoints": {
     "3Sisters": {
@@ -451,6 +451,7 @@
           {
             "name": "16/34",
             "len": 753.0,
+            "dir": 160,
             "surface": "paved"
           }
         ]
@@ -1274,6 +1275,7 @@
           {
             "name": "06/24",
             "len": 960.0,
+            "dir" : 71,
             "surface": "paved"
           }
         ]
@@ -1357,6 +1359,7 @@
           {
             "name": "14/32",
             "len": 854.0,
+            "dir": 140,
             "surface": "paved"
           }
         ]
@@ -1400,6 +1403,7 @@
           {
             "name": "13/31",
             "len": 705.0,
+            "dir": 313,
             "surface": "unpaved"
           }
         ]
@@ -1415,6 +1419,7 @@
           {
             "name": "14/32",
             "len": 759.0,
+            "dir": 140,
             "surface": "unpaved"
           }
         ]
@@ -1443,6 +1448,7 @@
           {
             "name": "16/34",
             "len": 750.0,
+            "dir": 160,
             "surface": "unpaved"
           }
         ]
@@ -1674,6 +1680,7 @@
           {
             "name": "04/22",
             "len": 498.0,
+            "dir": 220,
             "surface": "unpaved"
           }
         ]
@@ -2085,6 +2092,7 @@
           {
             "name": "15/33",
             "len": 635.0,
+            "dir": 150,
             "surface": "unpaved"
           }
         ]
@@ -2234,6 +2242,7 @@
           {
             "name": "12/30",
             "len": 1500.0,
+            "dir" : 310,
             "surface": "paved"
           }
         ]
@@ -2401,6 +2410,7 @@
           {
             "name": "09/27",
             "len": 607.0,
+            "dir": 270,
             "surface": "unpaved"
           }
         ]
@@ -2489,6 +2499,7 @@
           {
             "name": "01/19",
             "len": 1815.0,
+            "dir": 10,
             "surface": "paved"
           }
         ]
@@ -2629,6 +2640,7 @@
           {
             "name": "09/27",
             "len": 812.0,
+            "dir": 90,
             "surface": "unpaved"
           }
         ]
@@ -2820,6 +2832,7 @@
           {
             "name": "03/21",
             "len": 490.0,
+            "dir": 211,
             "surface": "unpaved"
           }
         ]
@@ -2872,6 +2885,7 @@
           {
             "name": "08/26",
             "len": 1800.0,
+            "dir": 96,
             "surface": "paved"
           }
         ]
@@ -3241,6 +3255,7 @@
           {
             "name": "14/32",
             "len": 944.0,
+            "dir": 336,
             "surface": "paved"
           }
         ]
@@ -3647,6 +3662,7 @@
           {
             "name": "09/27",
             "len": 1220.0,
+            "dir": 99,
             "surface": "paved"
           }
         ]
