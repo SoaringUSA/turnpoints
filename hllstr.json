@@ -19,42 +19,94 @@
     "lon": -119.451667,
     "elev": 968.0,
     "desc": "Land To SE fence accros SE end",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 715,
+          "dir" : 121,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "AVENAL": {
     "lat": 36.006117,
     "lon": -120.146383,
     "elev": 240.8,
-    "desc": "12/30 23.3",
-    "landable": {}
+    "desc": "glider operation soaravenal.com",
+    "landable": {
+      "freq" : "123.300",
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 952,
+          "dir" : 312,
+          "surface" : "unpaved"
+        },
+        {
+          "name" : "08/26",
+          "len" : 643,
+          "dir" : 90,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Adelanto": {
     "lat": 34.5375,
     "lon": -117.46055,
     "elev": 937.3,
     "desc": "E/W 51D",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "09/27",
+          "len" : 1367,
+          "dir" : 90,
+          "surface" : "unpaved"
+        },
+        {
+          "name" : "18/36",
+          "len" : 1011,
+          "dir" : 0,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Agua Dulce": {
     "lat": 34.504167,
     "lon": -118.312783,
     "elev": 810.8,
     "desc": "4/22 46A",
-    "landable": {}
+    "landable": {
+      "freq" : "122.800",
+      "runways" : [
+        {
+          "name" : "04/22",
+          "len" : 1121,
+          "dir" : 53,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Ahlem Farms": {
     "lat": 37.388333,
     "lon": -120.9275,
     "elev": 22.3,
     "desc": "8/26 26A",
-    "landable": {}
-  },
-  "Al Divine": {
-    "lat": 36.51445,
-    "lon": -119.763883,
-    "elev": 76.8,
-    "desc": "16/34 24A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "08/26",
+          "len" : 691,
+          "dir" : 271,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Alailpi Ranch": {
     "lat": 34.796383,
@@ -88,7 +140,17 @@
     "lon": -117.18555,
     "elev": 916.5,
     "desc": "22.8   18/36",
-    "landable": {}
+    "landable": {
+      "freq" : "122.800",
+      "runways" : [
+        {
+          "name" : "18/36",
+          "len" : 1794,
+          "dir" : 15,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Arnold Meadow": {
     "lat": 37.417217,
@@ -115,7 +177,15 @@
     "elev": 23.2,
     "desc": "05/23  23.05",
     "landable": {
-      "freq": "123.050"
+      "freq": "123.050",
+      "runways" : [
+        {
+          "name" : "05/23",
+          "len" : 907,
+          "dir" : 63,
+          "surface" : "paved"
+        }
+      ]
     }
   },
   "Baker + Hall": {
@@ -130,7 +200,17 @@
     "lon": -118.995833,
     "elev": 114.6,
     "desc": "16/34 22.8",
-    "landable": {}
+    "landable": {
+      "freq" : "122.800",
+      "runways" : [
+        {
+          "name" : "16/34",
+          "len" : 1211,
+          "dir" : 354,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "BarrettCreek": {
     "lat": 35.15,
@@ -143,7 +223,16 @@
     "lon": -120.04,
     "elev": 2155.9,
     "desc": "1/19     32S",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "01/19",
+          "len" : 627,
+          "dir" : 31,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Bell Station": {
     "lat": 37.03445,
@@ -182,7 +271,8 @@
         {
           "name": "13/31",
           "len": 487.0,
-          "surface": "unpaved"
+          "dir": 130,
+          "surface": "paved"
         }
       ]
     }
@@ -275,28 +365,65 @@
     "lon": -122.1275,
     "elev": 615.7,
     "desc": "12/30 22A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 602,
+          "dir" : 311,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Boron": {
     "lat": 35.003617,
     "lon": -117.60695,
     "elev": 761.7,
     "desc": "07/25 23D",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 810,
+          "dir" : 63,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Brian Ranch": {
     "lat": 34.515283,
     "lon": -117.761933,
     "elev": 984.5,
     "desc": "3/21 15D",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "03/21",
+          "len" : 672,
+          "dir" : 42,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Buchanan CA": {
     "lat": 37.989717,
     "lon": -122.05695,
     "elev": 7.9,
     "desc": "18.75 01L/19R",
-    "landable": {}
+    "landable": {
+      "freq" : "118.750",
+      "runways" : [
+        {
+          "name" : "01L/19R",
+          "len" : 1331,
+          "dir" : 23,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Buena Vista": {
     "lat": 35.206667,
@@ -330,7 +457,16 @@
     "lon": -118.025833,
     "elev": 742.8,
     "desc": "06/24 60A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "06/24",
+          "len" : 1835,
+          "dir" : 75,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "CalifornVlly": {
     "lat": 35.320283,
@@ -344,13 +480,22 @@
     "lon": -119.09445,
     "elev": 22.9,
     "desc": "8/26 60A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "08/26",
+          "len" : 1839,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Camatta": {
     "lat": 35.48,
     "lon": -120.315267,
     "elev": 411.5,
-    "desc": "better field on the S or on the road 0.5m NW watch for powerwline across the road",
+    "desc": "Strip is unsafe. Land on Camatta Creek Rd. Watch for powerlines at intersections.",
     "landable": {}
   },
   "CarmelValley": {
@@ -390,7 +535,16 @@
     "lon": -120.56805,
     "elev": 57.6,
     "desc": "13/31 118A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "13/31",
+          "len" : 3600,
+          "dir" : 321,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Center Pk": {
     "lat": 36.202783,
@@ -402,7 +556,16 @@
     "lon": -119.67,
     "elev": 84.1,
     "desc": "N/S 26S",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "18/36",
+          "len" : 639,
+          "dir" : 180,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "CerroBonito": {
     "lat": 36.566117,
@@ -419,7 +582,16 @@
     "lon": -120.378333,
     "elev": 53.3,
     "desc": "07/25 30A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 876,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Chemise Look": {
     "lat": 36.625,
@@ -438,7 +610,16 @@
     "lon": -117.69055,
     "elev": 695.9,
     "desc": "3/21 100A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "03/21",
+          "len" : 3123,
+          "dir" : 222,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Cholam Strip": {
     "lat": 35.789717,
@@ -459,7 +640,16 @@
     "lon": -120.24695,
     "elev": 73.8,
     "desc": "12/30 22.9",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 981,
+          "dir" : 135,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Christensen": {
     "lat": 36.871667,
@@ -521,7 +711,16 @@
     "lon": -119.594733,
     "elev": 60.0,
     "desc": "13/31 22.9",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "13/31",
+          "len" : 806,
+          "dir" : 146,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Cortopassi": {
     "lat": 38.013883,
@@ -557,11 +756,21 @@
     "landable": {}
   },
   "Crystal": {
-    "lat": 34.485,
-    "lon": -117.834167,
+    "lat": 34.48478,
+    "lon": -117.825898,
     "elev": 1042.4,
     "desc": "07/25 45A",
-    "landable": {}
+    "landable": {
+      "freq" : "123.000",
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 723,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "DBCouperField": {
     "lat": 35.0975,
@@ -614,7 +823,16 @@
     "lon": -119.233617,
     "elev": 95.4,
     "desc": "14/32 22.8",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "14/32",
+          "len" : 1225,
+          "dir" : 158,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Di GiorgioRc": {
     "lat": 35.25695,
@@ -637,8 +855,23 @@
     "lat": 36.9625,
     "lon": -120.630283,
     "elev": 36.6,
-    "desc": "13/31",
+    "desc": "Old strip. Looks rough.",
     "landable": {}
+  },
+  "Double K": {
+    "lat": 36.50043,
+    "lon": -119.77731,
+    "elev": 75,
+    "landable": {
+      "runways" : [
+        {
+          "name" : "09/27",
+          "len" : 1008,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Du Bois Rc": {
     "lat": 36.703617,
@@ -703,32 +936,68 @@
     "elev": 1002.8
   },
   "Eagle": {
-    "lat": 36.9,
-    "lon": -120.667783,
+    "lat": 36.898586,
+    "lon": -120.671497,
     "elev": 46.6,
     "desc": "12/30 23A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 617,
+          "dir" : 315,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Eckert": {
     "lat": 36.1625,
     "lon": -119.05,
     "elev": 129.8,
     "desc": "13/31 22.8",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "13/31",
+          "len" : 467,
+          "dir" : 151,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "El Mirage": {
     "lat": 34.623617,
     "lon": -117.608883,
     "elev": 873.3,
     "desc": "04/22 37A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "09/27",
+          "len" : 1580,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "El Peco Rc": {
     "lat": 36.90555,
     "lon": -120.1775,
     "elev": 64.9,
     "desc": "NW/SE",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "14/32",
+          "len" : 821,
+          "dir" : 139,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "El Rico": {
     "lat": 36.047217,
@@ -742,7 +1011,17 @@
     "lon": -119.483333,
     "elev": 99.4,
     "desc": "11/29 22.9 watch for RC Jets",
-    "landable": {}
+    "landable": {
+      "freq": "122.900",
+      "runways" : [
+        {
+          "name" : "11/29",
+          "len" : 970,
+          "dir" : 311,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Emmett": {
     "lat": 37.088883,
@@ -776,7 +1055,16 @@
     "lon": -120.46445,
     "elev": 47.9,
     "desc": "12/30 22.9",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 939,
+          "dir" : 139,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "FivePointsRc": {
     "lat": 36.425,
@@ -801,14 +1089,32 @@
     "lon": -118.5,
     "elev": 1062.2,
     "desc": "7/25 38D",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 1451,
+          "dir" : 272,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "FortMtnRcNR2": {
     "lat": 38.327783,
     "lon": -120.477233,
     "elev": 874.8,
     "desc": "8/26 40A (Eagle Ridge)",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "08/26",
+          "len" : 1176,
+          "dir" : 96,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Fowler's": {
     "lat": 38.003617,
@@ -827,13 +1133,23 @@
     "lat": 36.953333,
     "lon": -121.465,
     "elev": 46.0,
-    "landable": {}
+    "landable": {
+      "freq" : "123.050",
+      "runways" : [
+        {
+          "name" : "06/24",
+          "len" : 767,
+          "dir" : 245,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Freds": {
     "lat": 34.622783,
     "lon": -120.0614,
     "elev": 209.7,
-    "desc": "06/24 22.8",
+    "desc": "overgrown rough strip",
     "landable": {}
   },
   "Fremont PK": {
@@ -845,14 +1161,33 @@
     "lat": 36.776117,
     "lon": -119.71805,
     "elev": 101.5,
-    "desc": "22.95",
-    "landable": {}
+    "desc": "international airport",
+    "landable": {
+      "freq" : "122.950",
+      "runways" : [
+        {
+          "name" : "11L/29R",
+          "len" : 2807,
+          "dir" : 385,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "FrsnChndlrDw": {
     "lat": 36.7325,
     "lon": -119.82,
     "elev": 84.7,
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 810,
+          "dir" : 305,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Funky Jog": {
     "lat": 34.883333,
@@ -864,7 +1199,16 @@
     "lon": -121.6475,
     "elev": 8.8,
     "desc": "17/35 18A north half only",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "17/35",
+          "len" : 542,
+          "dir" : 0,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Garey strip": {
     "lat": 34.890833,
@@ -878,7 +1222,16 @@
     "lon": -118.2261,
     "elev": 715.4,
     "desc": "06/24 50A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "06/24",
+          "len" : 2184,
+          "dir" : 72,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "GlbrthBrsDck": {
     "lat": 35.68695,
@@ -907,7 +1260,16 @@
     "lon": -120.963333,
     "elev": 22.9,
     "desc": "18/36 32A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "18/36",
+          "len" : 977,
+          "dir" : 185,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "HOLLISTER": {
     "lat": 36.891667,
@@ -942,14 +1304,33 @@
     "lon": -119.632217,
     "elev": 75.9,
     "desc": "14/32 22.8",
-    "landable": {}
+    "landable": {
+      "freq": "122.800",
+      "runways" : [
+        {
+          "name" : "14/32",
+          "len" : 1582,
+          "dir" : 331,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Hansen": {
-    "lat": 34.63,
-    "lon": -117.653333,
+    "lat": 34.636580,
+    "lon": -117.655050,
     "elev": 879.3,
     "desc": "7/25 59D",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 764,
+          "dir" : 92,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Harold": {
     "lat": 35.06,
@@ -962,7 +1343,16 @@
     "lon": -120.247233,
     "elev": 102.1,
     "desc": "16/34 30A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "16/34",
+          "len" : 1103,
+          "dir" : 0,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Harris Ranch": {
     "lat": 36.250833,
@@ -986,7 +1376,16 @@
     "lon": -119.443617,
     "elev": 137.2,
     "desc": "07/25 30A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 874,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Haws": {
     "lat": 36.941667,
@@ -1063,13 +1462,6 @@
     "lon": -121.69,
     "elev": 121.9
   },
-  "Hunt Farms": {
-    "lat": 37.342783,
-    "lon": -120.403617,
-    "elev": 68.0,
-    "desc": "16/34 23D",
-    "landable": {}
-  },
   "Hwy 58 Hay": {
     "lat": 35.35,
     "lon": -120.016667,
@@ -1096,7 +1488,16 @@
     "lon": -117.832217,
     "elev": 744.3,
     "desc": "02/20 60A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "02/20",
+          "len" : 1809,
+          "dir" : 30,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Isabel": {
     "lat": 37.323333,
@@ -1116,20 +1517,22 @@
     "lon": -120.284733,
     "elev": 85.3,
     "desc": "2/20 30S",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "02/20",
+          "len" : 937,
+          "dir" : 32,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Johnson": {
     "lat": 37.191117,
     "lon": -120.2764,
     "elev": 73.2,
     "desc": "9/27 22D"
-  },
-  "Johnston": {
-    "lat": 37.141383,
-    "lon": -119.50805,
-    "elev": 390.1,
-    "desc": "15/33 20D",
-    "landable": {}
   },
   "Jolon": {
     "lat": 35.962783,
@@ -1143,7 +1546,16 @@
     "lon": -119.840833,
     "elev": 60.7,
     "desc": "15/33 19A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "15/33",
+          "len" : 574,
+          "dir" : 345,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Junipero": {
     "lat": 36.14555,
@@ -1168,7 +1580,7 @@
     "lat": 35.381383,
     "lon": -118.227233,
     "elev": 1240.8,
-    "desc": "4/22 26D",
+    "desc": "Old torn up runways. Looks rough.",
     "landable": {}
   },
   "Kern Valley": {
@@ -1176,7 +1588,16 @@
     "lon": -118.419717,
     "elev": 796.7,
     "desc": "17/35 35A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "17/35",
+          "len" : 1066,
+          "dir" : 4,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "KettlmnHllsS": {
     "lat": 35.940283,
@@ -1188,20 +1609,48 @@
     "lon": -119.51,
     "elev": 161.2,
     "desc": "02/20 20D",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "02/20",
+          "len" : 414,
+          "dir" : 46,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "King City": {
     "lat": 36.228333,
     "lon": -121.121667,
     "elev": 112.8,
     "desc": "11/29 22.9",
-    "landable": {}
+    "landable": {
+      "freq": "122.900",
+      "runways" : [
+        {
+          "name" : "11/29",
+          "len" : 1355,
+          "dir" : 310,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Kingdon": {
     "lat": 38.091667,
     "lon": -121.35945,
     "elev": 4.6,
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 1019,
+          "dir" : 315,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Kistler Rc": {
     "lat": 37.85,
@@ -1220,7 +1669,7 @@
     "lat": 34.56945,
     "lon": -117.555567,
     "elev": 927.2,
-    "desc": "7/25 34D",
+    "desc": "old rough airfield",
     "landable": {}
   },
   "Kurz strip": {
@@ -1256,7 +1705,16 @@
     "lon": -119.952217,
     "elev": 71.3,
     "desc": "28.3 14L/32R",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "14L/32R",
+          "len" : 4128,
+          "dir" : 156,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Leuthol NW": {
     "lat": 35.075833,
@@ -1280,7 +1738,16 @@
     "lon": -118.2775,
     "elev": 741.6,
     "desc": "06/24 29T",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "06/24",
+          "len" : 1067,
+          "dir" : 73,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Little Hands": {
     "lat": 37.803333,
@@ -1297,7 +1764,17 @@
     "lat": 37.693333,
     "lon": -121.820283,
     "elev": 121.9,
-    "landable": {}
+    "landable": {
+      "freq" : "118.100",
+      "runways" : [
+        {
+          "name" : "07L/25R",
+          "len" : 1595,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "LloydsLandng": {
     "lat": 34.907217,
@@ -1310,14 +1787,34 @@
     "lat": 38.2025,
     "lon": -121.269167,
     "elev": 18.3,
-    "landable": {}
+    "landable": {
+      "freq" : "122.900",
+      "runways" : [
+        {
+          "name" : "08/26",
+          "len" : 803,
+          "dir" : 92,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Lompoc": {
     "lat": 34.66555,
     "lon": -120.466667,
     "elev": 36.6,
     "desc": "07/25 22.7",
-    "landable": {}
+    "landable": {
+      "freq" : "122.700",
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 1306,
+          "dir" : 271,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Lonnie": {
     "lat": 36.84445,
@@ -1352,7 +1849,16 @@
     "lon": -120.869167,
     "elev": 36.3,
     "desc": "14/32 30A wide xwind taxiway 800 ft combo #1228",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "14/32",
+          "len" : 1148,
+          "dir" : 153,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "LstHllsKrnCn": {
     "lat": 35.621383,
@@ -1366,7 +1872,16 @@
     "lon": -120.76805,
     "elev": 280.4,
     "desc": "N/S (Closed)",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "10/28",
+          "len" : 1039,
+          "dir" : 295,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "MW Towers": {
     "lat": 36.30445,
@@ -1385,7 +1900,16 @@
     "lon": -120.116667,
     "elev": 77.1,
     "desc": "07/25 22.8",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 1686,
+          "dir" : 135,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Majors": {
     "lat": 35.526117,
@@ -1447,14 +1971,32 @@
     "lon": -121.7625,
     "elev": 40.8,
     "desc": "11/29 30A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "11/29",
+          "len" : 1079,
+          "dir" : 222,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "MariposaYsmt": {
     "lat": 37.510833,
     "lon": -120.041933,
     "elev": 685.8,
     "desc": "8/26 33A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "08/26",
+          "len" : 1004,
+          "dir" : 99,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "MarkFrnzPrvt": {
     "lat": 37.175,
@@ -1466,35 +2008,80 @@
     "lat": 37.661383,
     "lon": -121.693617,
     "elev": 223.1,
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "09/27",
+          "len" : 551,
+          "dir" : 270,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Meadows": {
     "lat": 35.433617,
     "lon": -119.056667,
     "elev": 154.5,
     "desc": "12/30 18.1",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12L/30R",
+          "len" : 2261,
+          "dir" : 315,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Mefford": {
     "lat": 36.16055,
     "lon": -119.33,
     "elev": 82.6,
     "desc": "13/31 22.7",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "13/31",
+          "len" : 1188,
+          "dir" : 327,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Mendota": {
     "lat": 36.75805,
     "lon": -120.371383,
     "elev": 49.4,
     "desc": "14/32 22.9",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "15/33",
+          "len" : 822,
+          "dir" : 341,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Merced": {
     "lat": 37.284717,
     "lon": -120.5139,
     "elev": 46.6,
     "desc": "12/30 59A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 1798,
+          "dir" : 318,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Mercey HS": {
     "lat": 36.70555,
@@ -1517,7 +2104,16 @@
     "lon": -121.186667,
     "elev": 73.2,
     "desc": "15/33 22.8",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "15/33",
+          "len" : 911,
+          "dir" : 315,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Millux Strip": {
     "lat": 36.806667,
@@ -1534,27 +2130,63 @@
     "lat": 37.625833,
     "lon": -120.954433,
     "elev": 45.7,
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "10L/28R",
+          "len" : 1798,
+          "dir" : 304,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Mojave AP": {
     "lat": 35.059167,
     "lon": -118.164167,
     "elev": 849.5,
     "desc": "04/22 40A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "04/22",
+          "len" : 1438,
+          "dir" : 51,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
-  "Monteray": {
+  "Monterey": {
     "lat": 36.584717,
     "lon": -121.844167,
     "elev": 30.5,
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "10R/28L",
+          "len" : 2129,
+          "dir" : 112,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "MontryBycdmy": {
     "lat": 36.906117,
     "lon": -121.843067,
     "elev": 21.3,
     "desc": "10/28 22D",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "10/28",
+          "len" : 702,
+          "dir" : 122,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Mt Oso": {
     "lat": 37.503883,
@@ -1635,7 +2267,16 @@
     "lon": -119.849433,
     "elev": 59.1,
     "desc": "14/32 28A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "14/32",
+          "len" : 869,
+          "dir" : 334,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Nichols Farm": {
     "lat": 34.593333,
@@ -1654,7 +2295,16 @@
     "lon": -120.7975,
     "elev": 365.8,
     "desc": "17/35 22A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "17/35",
+          "len" : 635,
+          "dir" : 175,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "OakDuster": {
     "lat": 37.736383,
@@ -1667,14 +2317,32 @@
     "lat": 37.756383,
     "lon": -120.800283,
     "elev": 72.2,
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "10/28",
+          "len" : 910,
+          "dir" : 111,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "OceanoCounty": {
     "lat": 35.101383,
     "lon": -120.622217,
     "elev": 4.3,
     "desc": "11/29 22.7",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "11/29",
+          "len" : 703,
+          "dir" : 123,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "OldCanyon": {
     "lat": 35.359167,
@@ -1700,7 +2368,16 @@
     "lon": -117.266667,
     "elev": 883.9,
     "desc": "2/20 26G",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "02/20",
+          "len" : 645,
+          "dir" : 35,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "OsoPmpngSt.1": {
     "lat": 34.8075,
@@ -1712,7 +2389,16 @@
     "lon": -119.207217,
     "elev": 13.1,
     "desc": "7/25 60A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 1671,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "PANOCHE": {
     "lat": 36.61055,
@@ -1759,7 +2445,16 @@
     "lon": -118.08445,
     "elev": 775.1,
     "desc": "04/22 120A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "04/22",
+          "len" : 3648,
+          "dir" : 51,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "ParadiseFlat": {
     "lat": 37.227783,
@@ -1773,7 +2468,16 @@
     "lon": -118.923067,
     "elev": 102.1,
     "desc": "16/34 20S",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "16/34",
+          "len" : 633,
+          "dir" : 180,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Paramount": {
     "lat": 35.659167,
@@ -1883,7 +2587,16 @@
     "lon": -118.169717,
     "elev": 795.5,
     "desc": "03/21 19D",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "03/31",
+          "len" : 618,
+          "dir" : 88,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Porter Ranch": {
     "lat": 36.022217,
@@ -1896,14 +2609,32 @@
     "lon": -119.062783,
     "elev": 135.3,
     "desc": "12/30 22.8",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 1798,
+          "dir" : 135,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "PosoKernCnty": {
     "lat": 35.596667,
     "lon": -119.1275,
     "elev": 193.5,
     "desc": "16/34 22.9",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "16/34",
+          "len" : 824,
+          "dir" : 179,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Powrlines strip": {
     "lat": 35.956533,
@@ -1957,7 +2688,16 @@
     "lon": -118.731667,
     "elev": 1027.2,
     "desc": "Land Western end",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "10/28",
+          "len" : 970,
+          "dir" : 99,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "QuienSabe": {
     "lat": 36.81305,
@@ -1967,11 +2707,20 @@
     "landable": {}
   },
   "Quinn": {
-    "lat": 36.583333,
-    "lon": -119.639717,
+    "lat": 36.585933,
+    "lon": -119.636694,
     "elev": 94.5,
     "desc": "13/31 24A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "13/31",
+          "len" : 750,
+          "dir" : 138,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "RC Field": {
     "lat": 38.041667,
@@ -2026,7 +2775,16 @@
     "lon": -119.449717,
     "elev": 116.7,
     "desc": "15/33 22.7",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "15/33",
+          "len" : 999,
+          "dir" : 348,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Reid": {
     "lat": 37.333333,
@@ -2102,7 +2860,16 @@
     "lon": -118.209167,
     "elev": 736.1,
     "desc": "07/25 36A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "08/26",
+          "len" : 937,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "RourkesRoost": {
     "lat": 34.88555,
@@ -2121,7 +2888,7 @@
     "lat": 35.99,
     "lon": -118.080283,
     "elev": 1958.9,
-    "desc": "11/29 33T",
+    "desc": "Very rough. Maybe unlandable.",
     "landable": {}
   },
   "Salinas": {
@@ -2158,7 +2925,16 @@
     "lon": -119.54555,
     "elev": 62.5,
     "desc": "14/32 70A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "14/32",
+          "len" : 1642,
+          "dir" : 337,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "San Ardo": {
     "lat": 35.975283,
@@ -2190,7 +2966,16 @@
     "lon": -120.013883,
     "elev": 169.2,
     "desc": "10/28 21A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "10/28",
+          "len" : 652,
+          "dir" : 297,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "San Miguel": {
     "lat": 35.760833,
@@ -2204,7 +2989,16 @@
     "lon": -122.520567,
     "elev": 1.5,
     "desc": "Private airport",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "04/22",
+          "len" : 647,
+          "dir" : 50,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "San Simeon": {
     "lat": 35.662783,
@@ -2238,35 +3032,80 @@
     "lon": -120.63445,
     "elev": 58.2,
     "desc": "07/25 24.0",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 759,
+          "dir" : 269,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Santa Maria": {
     "lat": 34.890833,
     "lon": -120.446383,
     "elev": 78.6,
     "desc": "02/20 18.3",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "02/20",
+          "len" : 1567,
+          "dir" : 215,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Santa Paula": {
     "lat": 34.347217,
     "lon": -119.061117,
     "elev": 74.7,
     "desc": "4/22 27A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "04/22",
+          "len" : 692,
+          "dir" : 57,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Santa Ynez": {
     "lat": 34.606383,
     "lon": -120.068333,
     "elev": 190.2,
     "desc": "08/26 22.8",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "08/26",
+          "len" : 856,
+          "dir" : 98,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "SantaBarbara": {
     "lat": 34.4275,
     "lon": -119.839433,
     "elev": 5.8,
     "desc": "07/25 19.7",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 1839,
+          "dir" : 88,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "SantaNella": {
     "lat": 37.163333,
@@ -2286,13 +3125,22 @@
     "lon": -119.320833,
     "elev": 95.4,
     "desc": "13/31 22.9",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "13/31",
+          "len" : 854,
+          "dir" : 142,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Sequoia Rc": {
     "lat": 36.15,
     "lon": -118.802217,
     "elev": 351.4,
-    "desc": "N/S 28A",
+    "desc": "Rough. Maybe unlandable.",
     "landable": {}
   },
   "Shafter": {
@@ -2300,7 +3148,16 @@
     "lon": -119.186667,
     "elev": 128.6,
     "desc": "12/30 22.9",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 1364,
+          "dir" : 133,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Shandon": {
     "lat": 35.662783,
@@ -2330,7 +3187,16 @@
     "lon": -119.87055,
     "elev": 97.8,
     "desc": "12/30 22.7",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 694,
+          "dir" : 132,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Sketchy strip": {
     "lat": 36.004967,
@@ -2420,42 +3286,96 @@
     "lon": -117.37945,
     "elev": 876.3,
     "desc": "3/21 91A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "17/35",
+          "len" : 4519,
+          "dir" : 180,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Stockton CA": {
     "lat": 37.894167,
     "lon": -121.238333,
     "elev": 10.1,
     "desc": "18.25 11L/29R",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "11L/29R",
+          "len" : 2633,
+          "dir" : 307,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Stone": {
     "lat": 36.333333,
     "lon": -119.825,
     "elev": 67.1,
     "desc": "16/34 25A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "16/34",
+          "len" : 693,
+          "dir" : 180,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Stone LandCo": {
     "lat": 36.13195,
     "lon": -119.98555,
     "elev": 80.8,
     "desc": "16/34 33A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "16/34",
+          "len" : 1147,
+          "dir" : 180,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "StratfordGrn": {
     "lat": 36.160283,
     "lon": -119.813333,
     "elev": 58.5,
     "desc": "14/32 26A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "14/32",
+          "len" : 653,
+          "dir" : 158,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Sun Hill Rc": {
     "lat": 34.75805,
     "lon": -117.496667,
     "elev": 909.5,
     "desc": "7/25 53D",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 1603,
+          "dir" : 90,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Swanson RC1": {
     "lat": 36.4,
@@ -2480,7 +3400,16 @@
     "lon": -119.445,
     "elev": 266.7,
     "desc": "07/25 22.8",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 1004,
+          "dir" : 79,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Taft Ridge": {
     "lat": 35.066667,
@@ -2498,14 +3427,33 @@
     "lon": -118.439733,
     "elev": 1218.0,
     "desc": "11/29 23.0",
-    "landable": {}
+    "landable": {
+      "freq" : "123.000",
+      "runways" : [
+        {
+          "name" : "11/29",
+          "len" : 1023,
+          "dir" : 124,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "TehachapiMtn": {
-    "lat": 35.1025,
-    "lon": -118.431383,
+    "lat": 35.100538,
+    "lon": -118.423412,
     "elev": 1286.3,
     "desc": "23.0",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "09/27",
+          "len" : 1120,
+          "dir" : 102,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Tejon Ag": {
     "lat": 34.989167,
@@ -2526,14 +3474,32 @@
     "lon": -117.633617,
     "elev": 765.0,
     "desc": "6/24 35T",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "06/24",
+          "len" : 883,
+          "dir" : 258,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "Thunderhawk": {
     "lat": 36.24305,
     "lon": -119.149433,
     "elev": 103.6,
     "desc": "13/31 22.9",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "13/31",
+          "len" : 696,
+          "dir" : 151,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Tin Roof": {
     "lat": 36.904167,
@@ -2552,7 +3518,16 @@
     "lon": -121.441933,
     "elev": 58.8,
     "desc": "07/25 123.075",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "08/26",
+          "len" : 1042,
+          "dir" : 89,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Triangle TRc": {
     "lat": 36.998617,
@@ -2560,11 +3535,20 @@
     "elev": 39.6
   },
   "Turlock": {
-    "lat": 37.470833,
-    "lon": -120.844167,
-    "elev": 30.5,
+    "lat": 37.483726,
+    "lon": -120.696996,
+    "elev": 49,
     "desc": "13/31 21A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 905,
+          "dir" : 136,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Turner": {
     "lat": 36.673333,
@@ -2590,21 +3574,48 @@
     "lat": 34.209717,
     "lon": -118.49,
     "elev": 243.5,
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "16L/34R",
+          "len" : 774,
+          "dir" : 175,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Vandenberg": {
     "lat": 34.729717,
     "lon": -120.57695,
     "elev": 111.9,
     "desc": "12/30 24.95",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 4533,
+          "dir" : 136,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Visalia": {
-    "lat": 36.316667,
-    "lon": -119.383333,
+    "lat": 36.317772,
+    "lon": -119.391812,
     "elev": 89.0,
     "desc": "12/30 23.05",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 1710,
+          "dir" : 134,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "WSideFildSt.": {
     "lat": 36.338883,
@@ -2618,14 +3629,32 @@
     "lon": -121.2075,
     "elev": 17.1,
     "desc": "Private",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "17/35",
+          "len" : 1035,
+          "dir" : 178,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Wasco Kern": {
     "lat": 35.61945,
     "lon": -119.354167,
     "elev": 95.4,
     "desc": "12/30 22.8",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 820,
+          "dir" : 135,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Wasioja": {
     "lat": 34.962783,
@@ -2729,21 +3758,48 @@
     "lon": -119.888333,
     "elev": 58.5,
     "desc": "14/32 36A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "14/32",
+          "len" : 964,
+          "dir" : 155,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Westley": {
     "lat": 37.54805,
     "lon": -121.205,
     "elev": 29.3,
     "desc": "3/21 16A narrow",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "03/21",
+          "len" : 518,
+          "dir" : 44,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Whiteman": {
     "lat": 34.25945,
     "lon": -118.413333,
     "elev": 305.7,
     "desc": "12/30 41A",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "12/30",
+          "len" : 880,
+          "dir" : 138,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Willett": {
     "lat": 36.201117,
@@ -2769,7 +3825,16 @@
     "lon": -119.103333,
     "elev": 129.5,
     "desc": "07/25 22.9",
-    "landable": {}
+    "landable": {
+      "runways" : [
+        {
+          "name" : "07/25",
+          "len" : 664,
+          "dir" : 90,
+          "surface" : "paved"
+        }
+      ]
+    }
   },
   "Woolf Strip": {
     "lat": 36.188617,
@@ -2798,8 +3863,17 @@
     "lat": 37.11805,
     "lon": -119.913333,
     "elev": 152.4,
-    "desc": "17/35 37D",
-    "landable": {}
+    "desc": "now used as a dirt road",
+    "landable": {
+      "runways" : [
+        {
+          "name" : "17/35",
+          "len" : 626,
+          "dir" : 4,
+          "surface" : "unpaved"
+        }
+      ]
+    }
   },
   "pk 2770": {
     "lat": 37.011667,
