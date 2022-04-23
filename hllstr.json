@@ -772,13 +772,6 @@
       ]
     }
   },
-  "DBCouperField": {
-    "lat": 35.0975,
-    "lon": -119.069717,
-    "elev": 98.1,
-    "desc": "good strip",
-    "landable": {}
-  },
   "DZ": {
     "lat": 36.787783,
     "lon": -121.316667,
@@ -833,12 +826,6 @@
         }
       ]
     }
-  },
-  "Di GiorgioRc": {
-    "lat": 35.25695,
-    "lon": -118.833333,
-    "elev": 157.6,
-    "desc": "17/35 26A"
   },
   "Diablo": {
     "lat": 37.883333,
@@ -2479,22 +2466,6 @@
       ]
     }
   },
-  "Paramount": {
-    "lat": 35.659167,
-    "lon": -119.88945,
-    "elev": 191.1,
-    "desc": "New good strip no aeroretrieve",
-    "landable": {
-      "freq": "123.300",
-      "runways": [
-        {
-          "name": "13/31",
-          "len": 1525.0,
-          "surface": "paved"
-        }
-      ]
-    }
-  },
   "Parkfield": {
     "lat": 35.895833,
     "lon": -120.436383,
@@ -2826,11 +2797,6 @@
     "lat": 36.75,
     "lon": -121.096667,
     "elev": 573.0
-  },
-  "Rio Bravo": {
-    "lat": 35.406667,
-    "lon": -118.852783,
-    "elev": 253.0
   },
   "RobertsHlprt": {
     "lat": 35.814717,
@@ -3205,6 +3171,15 @@
     "desc": "sketchy",
     "landable": {}
   },
+  "Skydive San Joaquin": {
+    "lat": 35.0975,
+    "lon": -119.069717,
+    "elev": 98.1,
+    "desc": "Skydive ops. Listen on 122.975.",
+    "landable": {
+      "freq": "122.975"
+    }
+  },
   "Skyotee": {
     "lat": 34.83195,
     "lon": -118.400833,
@@ -3454,13 +3429,6 @@
         }
       ]
     }
-  },
-  "Tejon Ag": {
-    "lat": 34.989167,
-    "lon": -118.914433,
-    "elev": 324.6,
-    "desc": "13/31 32S",
-    "landable": {}
   },
   "TennisonCanyon": {
     "lat": 34.86445,
@@ -3812,6 +3780,23 @@
     "lon": -120.56695,
     "elev": 35.1,
     "desc": "N/S 18T"
+  },
+  "Wonderful": {
+    "lat": 35.659167,
+    "lon": -119.88945,
+    "elev": 191.1,
+    "desc": "No aeroretrieve allowed",
+    "landable": {
+      "freq": "123.300",
+      "runways": [
+        {
+          "name": "13/31",
+          "len": 1337,
+          "dir": 147,
+          "surface": "paved"
+        }
+      ]
+    }
   },
   "WonderValley": {
     "lat": 36.792217,
