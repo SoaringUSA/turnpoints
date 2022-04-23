@@ -41,7 +41,13 @@
           "name": "17/35",
           "len": 2133.6,
           "dir": 170,
-          "surface": "unpaved"
+          "surface": "paved"
+        },
+        {
+          "name": "03/21",
+          "len": 968,
+          "dir": 58,
+          "surface": "paved"
         }
       ],
       "freq": "122.900"
@@ -988,7 +994,7 @@
           "name": "06/24",
           "len": 993.6,
           "dir": 60,
-          "surface": "unpaved"
+          "surface": "paved"
         }
       ],
       "freq": "122.900"
