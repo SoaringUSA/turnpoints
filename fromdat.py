@@ -20,7 +20,7 @@ def parseLat(latStr):
 	hemi = match.group(4) if match.group(4) else 'N'
 	deg = float(match.group(1)) + minutes / 60.0
 	deg *= 1.0 if hemi == 'N' else -1.0
-	return '{0}{1:06.3f}{2}'.format(match.group(1), minutes, hemi)
+	return deg
 
 def parseLon(lonStr):
 	match = re.match('(\d*\d\d):(\d\d[.]\d+)([EW]?)', lonStr)
@@ -64,7 +64,7 @@ if __name__=='__main__':
 			'lon' : parseLon(row['lon']),
 			'elev' : parseElev(row['elev']),
 		}
-		if 'comment' in row:
+		if row['comment']:
 			d['desc'] = row['comment'].strip()
 		# A - airport
 		# L - landable
@@ -76,7 +76,11 @@ if __name__=='__main__':
 		
 		outDict[name] = d
 	
-	outDict = dict(sorted(outDict.items()))
+	outDict = {
+		'name':'',
+		'desc':'',
+		'turnpoints': dict(sorted(outDict.items()))
+	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))
 
 
