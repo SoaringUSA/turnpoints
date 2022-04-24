@@ -441,22 +441,6 @@
       "desc": "Land To East",
       "landable": {}
     },
-    "Buttonwillow N": {
-      "lat": 35.431017,
-      "lon": -119.48575,
-      "elev": 81.0,
-      "desc": "Paved ag strip",
-      "landable": {
-        "runways": [
-          {
-            "name": "16/34",
-            "len": 753.0,
-            "dir": 160,
-            "surface": "paved"
-          }
-        ]
-      }
-    },
     "Cal City": {
       "lat": 35.149717,
       "lon": -118.025833,
@@ -1387,6 +1371,13 @@
       "elev": 58.5,
       "desc": "07/25 26S"
     },
+    "Helena Agri": {
+      "lat": 35.18,
+      "lon": -118.855,
+      "elev": 118.3,
+      "desc": "07/25 25A",
+      "landable": {}
+    },
     "Henrietta": {
       "lat": 36.904167,
       "lon": -121.229167,
@@ -1501,13 +1492,6 @@
       "lon": -121.538333,
       "elev": 701.0,
       "desc": "strip fence 50 to 130 feet accross"
-    },
-    "J+JCropDstrs": {
-      "lat": 35.18,
-      "lon": -118.855,
-      "elev": 118.3,
-      "desc": "07/25 25A",
-      "landable": {}
     },
     "John Myers": {
       "lat": 37.360833,
@@ -3449,6 +3433,13 @@
         ]
       }
     },
+    "Tejon Ag": {
+      "lat": 34.989167,
+      "lon": -118.914433,
+      "elev": 324.6,
+      "desc": "Rough asphalt, low mustard weed",
+      "landable": {}
+    },
     "TennisonCanyon": {
       "lat": 34.86445,
       "lon": -119.54195,
@@ -3583,6 +3574,22 @@
             "name": "12/30",
             "len": 4533,
             "dir": 136,
+            "surface": "paved"
+          }
+        ]
+      }
+    },
+    "Vince Dusters": {
+      "lat": 35.431017,
+      "lon": -119.48575,
+      "elev": 81.0,
+      "desc": "Paved ag strip",
+      "landable": {
+        "runways": [
+          {
+            "name": "16/34",
+            "len": 753.0,
+            "dir": 160,
             "surface": "paved"
           }
         ]
