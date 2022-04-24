@@ -1267,9 +1267,9 @@
       "lat": 36.891667,
       "lon": -121.408333,
       "elev": 70.1,
+      "code": "KCVH",
       "desc": "24/06 23.0",
       "landable": {
-        "code": "KCVH",
         "freq": "123.000",
         "runways": [
           {
@@ -1351,9 +1351,9 @@
       "lat": 36.250833,
       "lon": -120.240283,
       "elev": 143.3,
+      "code": "3O8",
       "desc": "14/32 22.9",
       "landable": {
-        "code": "3O8",
         "freq": "122.900",
         "runways": [
           {
@@ -2085,9 +2085,9 @@
       "lat": 36.70555,
       "lon": -120.85945,
       "elev": 354.8,
+      "code": "CN22",
       "desc": "better South half",
       "landable": {
-        "code": "CN22",
         "runways": [
           {
             "name": "15/33",
@@ -2234,9 +2234,9 @@
       "lat": 36.1675,
       "lon": -120.299433,
       "elev": 189.6,
+      "code": "C80",
       "desc": "12/30 22.7 gate 1906",
       "landable": {
-        "code": "C80",
         "freq": "122.700",
         "runways": [
           {
@@ -2491,9 +2491,9 @@
       "lat": 35.672783,
       "lon": -120.62695,
       "elev": 254.8,
+      "code": "KPRB",
       "desc": "01/19 23.0",
       "landable": {
-        "code": "KPRB",
         "freq": "123.000",
         "runways": [
           {
@@ -2777,8 +2777,8 @@
       "lat": 37.333333,
       "lon": -121.82,
       "elev": 40.5,
+      "code": "KRHV",
       "landable": {
-        "code": "KRHV",
         "freq": "119.800",
         "runways": [
           {
@@ -2878,8 +2878,8 @@
       "lat": 36.663333,
       "lon": -121.606667,
       "elev": 25.6,
+      "code": "KSNS",
       "landable": {
-        "code": "KSNS",
         "freq": "119.400",
         "runways": [
           {
@@ -3248,8 +3248,8 @@
       "lat": 37.081667,
       "lon": -121.596667,
       "elev": 85.6,
+      "code": "E16",
       "landable": {
-        "code": "E16",
         "freq": "122.700",
         "runways": [
           {
@@ -3655,8 +3655,8 @@
       "lon": -121.789717,
       "elev": 48.8,
       "desc": "2/20 22.8",
+      "code": "KWVI",
       "landable": {
-        "code": "KWVI",
         "freq": "122.800",
         "runways": [
           {
