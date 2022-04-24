@@ -11,8 +11,12 @@ schema_v1 = {
     'properties' : {
         'name' : {'type' : 'string', 'description' : 'Short name for the database'},
         'desc' : {'type' : 'string', 'description' : 'Longer description for the database'},
+        'schema' : {'type' : 'integer', 'description' : 'Version of this json schema the document claims to be'},
         'turnpoints' : { 'type' : 'object', 'additionalProperties' : {'$ref' : '#/definitions/turnpoint'}}
     },
+
+    'required' : ['name', 'schema'],
+    'additionalProperties' : False,
 
     'definitions' : {
         'turnpoint' : {

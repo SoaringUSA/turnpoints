@@ -79,6 +79,7 @@ if __name__=='__main__':
 	outDict = {
 		'name':'',
 		'desc':'',
+		'schema': 1,
 		'turnpoints': dict(sorted(outDict.items()))
 	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))

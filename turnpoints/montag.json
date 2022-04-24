@@ -1,6 +1,7 @@
 {
   "name": "montag",
   "desc": "Soaring turnpoints for Montague CA",
+  "schema": 1,
   "turnpoints": {
     "Adin": {
       "lat": 41.186117,
