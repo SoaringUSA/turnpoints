@@ -2,7 +2,7 @@
 
 enable -n echo
 
-INFILES="hllstr.json truckee.json wsc.json"
+INFILES="turnpoints/hllstr.json turnpoints/montag.json turnpoints/truckee.json turnpoints/wsc.json"
 DATE=$(date '+%Y%m%d')
 
 for infile in $INFILES; do
@@ -22,7 +22,7 @@ for infile in $INFILES; do
 done
 
 # California
-./combine.py 'California' hllstr.json wsc.json truckee.json > "$DIR/california_$DATE.json"
+./combine.py 'California' turnpoints/hllstr.json turnpoints/wsc.json turnpoints/truckee.json turnpoints/montag.json > "$DIR/california_$DATE.json"
 ./validate.py < "$DIR/california_$DATE.json"
 ./tocup.py < "$DIR/california_$DATE.json" > "$DIR/california_$DATE.cup"
 ./tokml.py < "$DIR/california_$DATE.json" > "$DIR/california_$DATE.kml"

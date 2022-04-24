@@ -38,7 +38,7 @@ if __name__=='__main__':
 				while newName in outData:
 					newNameId += 1
 					newName = '{0}-{1}'.format(name, newNameId)
-				print('  Renaming "{0}" to "{1}"'.format(newName), file=sys.stderr)
+				print('  Renaming "{0}" to "{1}"'.format(name, newName), file=sys.stderr)
 				name = newName
 			# Position dedupe
 			for (oldName, oldTp) in outData.items():

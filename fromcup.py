@@ -79,7 +79,7 @@ if __name__=='__main__':
 					{
                     	'name' : parseRwdir(row['rwdir']),
                     	'len' : parseLength(row['rwlen']),
-						'dir' : row['rwdir'],
+						'dir' : int(row['rwdir']),
                     	'surface' : 'paved' if style == 5 else 'unpaved'
                 	}
 				]
@@ -93,5 +93,9 @@ if __name__=='__main__':
 		#'pics' : None,
 		outDict[name] = d
 
-	outDict = dict(sorted(outDict.items()))
+	outDict = {
+		'name':'',
+		'desc':'',
+		'turnpoints': dict(sorted(outDict.items()))
+	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))
