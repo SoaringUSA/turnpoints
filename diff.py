@@ -3,7 +3,7 @@
 import json
 import sys
 
-def comments(tp):
+def landability(tp):
     landability = 'unlandable'
     if 'landable' in tp:
         landability = 'landout'
@@ -15,8 +15,7 @@ def comments(tp):
                     landability = 'paved runway'
                 else:
                     landability = 'unpaved runway'
-    ret = 'Landability: {0}. {1}'.format(landability, tp['desc'] if 'desc' in tp else '')
-    return ret
+    return landability
 
 def location(row):
     ret = ''
@@ -63,8 +62,10 @@ if __name__=='__main__':
         tpl = leftTp[name]
         tpr = rightTp[name]
 
-        leftCom = comments(tpl)
-        rightCom = comments(tpr)
+        leftCom = tpl['desc'] if 'desc' in tpl else ''
+        rightCom = tpr['desc'] if 'desc' in tpr else ''
+        leftLand = landability(tpl)
+        rightLand = landability(tpr)
         leftLoc = location(tpl)
         rightLoc = location(tpr)
 
@@ -78,17 +79,17 @@ if __name__=='__main__':
         latDiff = abs(leftLat - rightLat) > 0.001
         lonDiff = abs(leftLon - rightLon) > 0.001
         altDiff = abs(leftAlt - rightAlt) > 0.1
-        different = leftCom != rightCom or latDiff or lonDiff or altDiff
+        different = leftCom != rightCom or leftLand != rightLand or latDiff or lonDiff or altDiff
 
         if different:
             print('### {0}'.format(name))
             print('')
-            if latDiff:
-                print(' - Latitude "{0:.3f}" -> "{1:.3f}"'.format(leftLat, rightLat))
-            if lonDiff:
-                print(' - Longitude "{0:.3f}" -> "{1:.3f}"'.format(leftLon, rightLon))
+            if latDiff or lonDiff:
+                print(' - Position ({0:.3f}, {1:.3f}) -> ({2:.3f}, {3:.3f})'.format(leftLat, leftLon, rightLat, rightLon))
             if altDiff:
-                print(' - Altitude "{0:.1f}" -> "{1:.1f}"'.format(leftAlt, rightAlt))
+                print(' - Altitude {0:.1f} -> {1:.1f}'.format(leftAlt, rightAlt))
+            if leftLand != rightLand:
+                print(' - Landability {0} -> {1}'.format(leftLand, rightLand))
             if leftCom != rightCom:
                 print(' - Comments "{0}" -> "{1}"'.format(leftCom, rightCom))
             print('')
