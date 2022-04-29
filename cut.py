@@ -18,12 +18,10 @@ def helpRadius():
     print('./cut.py radius <lat> <lon> <radius_km>', sys.stderr)
     print('  Selects all turnpoints within <radius_km> kilometers of the given position. All coordinates are decimal degrees.', sys.stderr)
 
-def isInBox(nameTp, lat0, lat1, lon0, lon1):
-    tp = nameTp[1]
+def isInBox(tp, lat0, lat1, lon0, lon1):
     return lat0 <= tp['lat'] and tp['lat'] <= lat1 and lon0 <= tp['lon'] and tp['lon'] <= lon1
 
-def isInRadius(nameTp, lat, lon, radiusKm):
-    tp = nameTp[1]
+def isInRadius(tp, lat, lon, radiusKm):
     x0 = WGS84.cartesian(lat, lon)
     x1 = WGS84.cartesian(tp['lat'], tp['lon'])
     d = [(a - b)**2 for (a,b) in zip(x0,x1)]
@@ -60,13 +58,11 @@ if __name__=='__main__':
         help()
         sys.exit(1)
 
-    outDict = {}
-    for (name, tp) in filter(filtFun, input['turnpoints'].items()):
-            outDict[name] = tp
+    out = list(filter(filtFun, input['turnpoints']))
     outDict = {
         'name':'',
         'desc': 'Created with: {0}'.format(sys.argv),
-        'schema': 1,
-        'turnpoints': dict(sorted(outDict.items()))
+        'schema': 2,
+        'turnpoints': out
     }
     print(json.dumps(outDict, sort_keys=False, indent=2))
