@@ -34,7 +34,7 @@ if __name__=='__main__':
             'name' : input['name'],
             'desc' : input['desc'],
             'schema' : 2,
-            'turnpoints' : tpOut 
+            'turnpoints' : sorted(tpOut, key=lambda tp: tp['name'])
         }
         inputSchemaVersion = 2
         input = outDict
