@@ -4,7 +4,7 @@ import jsonschema
 import json
 import sys
 
-schema_v1 = {
+schema = {
     "$schema": "http://json-schema.org/draft-07/schema#",
     'type' : 'object',
     'description' : 'Soaring turnpoint database in human-editable format.',
@@ -65,7 +65,7 @@ if __name__=='__main__':
     data = json.load(sys.stdin)
 
     # Validate schema
-    jsonschema.validate(data, schema=schema_v1)
+    jsonschema.validate(data, schema=schema)
 
     # Validate things underneath the schema
     tpcodes = set()
