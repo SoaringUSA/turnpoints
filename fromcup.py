@@ -58,13 +58,14 @@ if __name__=='__main__':
 	# Skip first row
 	next(cvr)
 
-	outDict = {}
+	out = []
 	for row in cvr:
 		if not row['lat']:
 			continue
 		name = row['name'].strip()
 		style = int(row['style'])
 		d = {
+			'name' : name,
 			'lat' : round(parseLat(row['lat']), 6), # float. decimal degrees
 			'lon' : round(parseLon(row['lon']), 6), # float. decimal degrees
 			'elev' : parseLength(row['elev']), # float. meters
@@ -91,12 +92,12 @@ if __name__=='__main__':
 			d['desc'] = str(row['desc']).strip()
 		#'userdata' : None,
 		#'pics' : None,
-		outDict[name] = d
+		out.append(d)
 
 	outDict = {
 		'name':'',
 		'desc':'',
-		'schema': 1,
-		'turnpoints': dict(sorted(outDict.items()))
+		'schema': 2,
+		'turnpoints': sorted(out, key=lambda tp: tp['name'])
 	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))

@@ -32,9 +32,9 @@ if __name__=='__main__':
 	cvw = cupWriter(sys.stdout)
 	cvw.writeheader()
 
-	for (name, tp) in input['turnpoints'].items():
+	for tp in input['turnpoints']:
 		outDict = {
-			'name' : name,
+			'name' : tp['name'],
 			'lat' : parseLat(tp['lat']),
 			'lon' : parseLon(tp['lon']),
 			'elev' : parseElev(tp['elev']),

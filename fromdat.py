@@ -53,13 +53,14 @@ def parseElev(elev):
 if __name__=='__main__':
 	cvr = csv.DictReader(filter(lambda row: row[0] != '*', sys.stdin), fieldnames=['index', 'lat', 'lon', 'elev', 'attr', 'name', 'comment'])
 
-	outDict = {}
+	out = []
 	for row in cvr:
 		if not row['lat']:
 			continue
 
 		name = row['name'].strip()
 		d = {
+			'name': name,
 			'lat' : parseLat(row['lat']),
 			'lon' : parseLon(row['lon']),
 			'elev' : parseElev(row['elev']),
@@ -74,13 +75,13 @@ if __name__=='__main__':
 		if 'A' in attr or 'L' in attr:
 			d['landable'] = {}
 		
-		outDict[name] = d
+		out.append(d)
 	
 	outDict = {
 		'name':'',
 		'desc':'',
-		'schema': 1,
-		'turnpoints': dict(sorted(outDict.items()))
+		'schema': 2,
+		'turnpoints': sorted(out, key=lambda tp: tp['name'])
 	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))
 
