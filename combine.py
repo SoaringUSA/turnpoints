@@ -4,6 +4,8 @@ import json
 import re
 import sys
 
+from wgs84 import WGS84
+
 def absNorm(a, b):
 	return abs(a[0] - b[0]) + abs(a[1] - b[1])
 
@@ -26,34 +28,22 @@ if __name__=='__main__':
 	# rows from other files in order if not duplicates
 	outData = data[0]
 	for input in data[1:]:
-		noDupeData = {}
-		for (name, tp) in input.items():	
+		for tp in input:
 			a = [tp['lat'], tp['lon']]
 			isDuplicate = False
-			# Name dedupe
-			if name in outData:
-				print('Name collision "{0}"'.format(name), file=sys.stderr)
-				newName = '{0}-1'.format(name)
-				newNameId = 1
-				while newName in outData:
-					newNameId += 1
-					newName = '{0}-{1}'.format(name, newNameId)
-				print('  Renaming "{0}" to "{1}"'.format(name, newName), file=sys.stderr)
-				name = newName
 			# Position dedupe
-			for (oldName, oldTp) in outData.items():
+			for oldTp in outData:
 				b = [oldTp['lat'], oldTp['lon']]
-				# 1 minute of arc (1 nm latitude, 0-1 nm longitude)
-				if absNorm(a,b) < 1.0 / 60.0:
+				# 1km radius for dupes
+				if WGS84.geodesic(a, b) < 1000:
 					isDuplicate = True
-					print('Waypoint "{0}" detected as duplicate of "{1}"'.format(name, oldName), file=sys.stderr)
+					print('Waypoint "{0}" detected as duplicate of "{1}"'.format(tp['name'], oldTp['name']), file=sys.stderr)
 					break
 			if not isDuplicate:
-				noDupeData[name] = tp
-		outData.update(noDupeData)
+				outData.append(tp)
 
-	# Sort data
-	outData = dict(sorted(outData.items()))
+	# Sort turnpoints by name
+	outData = sorted(outData, key=lambda tp: tp['name'])
 
 	description = 'Combined turnpoints of'
 	for filename in sys.argv[1:]:
@@ -61,7 +51,7 @@ if __name__=='__main__':
 	outDict = {
 		'name' : outputName,
 		'desc' : description,
-		'schema' : 1,
+		'schema' : 2,
 		'turnpoints' : outData
 	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))
