@@ -44,7 +44,7 @@ if __name__=='__main__':
 	cvw.writeheader()
 
 	rowNum = 0
-	for (name, tp) in input['turnpoints'].items():
+	for tp in input['turnpoints']:
 		rowNum += 1
 		latDms = dms(tp['lat'])
 		lonDms = dms(tp['lon'])
@@ -64,7 +64,7 @@ if __name__=='__main__':
 
 		outDict = {
 			'NUM' : rowNum,
-			'NAM' : name,
+			'NAM' : tp['name'],
 			'COM' : tp['desc'] if 'desc' in tp else '',
 			'LAT_D' : latDms[0],
 			'LAT_M' : latDms[1],

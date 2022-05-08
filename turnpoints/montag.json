@@ -1,9 +1,10 @@
 {
   "name": "montag",
   "desc": "Soaring turnpoints for Montague CA",
-  "schema": 1,
-  "turnpoints": {
-    "Adin": {
+  "schema": 2,
+  "turnpoints": [
+    {
+      "name": "Adin",
       "lat": 41.186117,
       "lon": -120.952217,
       "elev": 1289.3,
@@ -21,7 +22,8 @@
       "code": "A26",
       "desc": "A26, RW width: 40, CTAF: 122.9"
     },
-    "Allen's": {
+    {
+      "name": "Allen's",
       "lat": 42.404717,
       "lon": -121.048883,
       "elev": 1344.2,
@@ -38,7 +40,8 @@
       "code": "85OR",
       "desc": "Private, Landable, 85OR, RW width: 70"
     },
-    "Alturas": {
+    {
+      "name": "Alturas",
       "lat": 41.482783,
       "lon": -120.56555,
       "elev": 1341.1,
@@ -56,7 +59,8 @@
       "code": "AAT",
       "desc": "Turn Point, #1, AAT, RW width: 60, AWOS: 124.175, UNICOM: 122.8, Fuel: 100LL"
     },
-    "Ashland": {
+    {
+      "name": "Ashland",
       "lat": 42.189717,
       "lon": -122.661383,
       "elev": 576.1,
@@ -74,14 +78,16 @@
       "code": "S03",
       "desc": "Turn Point, #2, S03, RW width: 75, UNICOM: 122.8, Fuel: 100LL"
     },
-    "Backscatter Radar": {
+    {
+      "name": "Backscatter Radar",
       "lat": 41.735,
       "lon": -121.16945,
       "elev": 1371.6,
       "code": "BCKSCTTR",
       "desc": "Turn Point, #3"
     },
-    "Bates Field": {
+    {
+      "name": "Bates Field",
       "lat": 41.421667,
       "lon": -120.568617,
       "elev": 1341.1,
@@ -98,7 +104,8 @@
       "code": "CA06",
       "desc": "Private, Landable, CA06, RW width: 70"
     },
-    "Beagle Sky Ranch": {
+    {
+      "name": "Beagle Sky Ranch",
       "lat": 42.538883,
       "lon": -122.903883,
       "elev": 437.7,
@@ -115,14 +122,16 @@
       "code": "OR96",
       "desc": "Private, Landable, OR96, RW width: 90, Fuel: 100/80"
     },
-    "Beatty": {
+    {
+      "name": "Beatty",
       "lat": 42.441667,
       "lon": -121.271383,
       "elev": 1325.9,
       "code": "BEATTY",
       "desc": "Turn Point, #4"
     },
-    "Bieber - Southard": {
+    {
+      "name": "Bieber - Southard",
       "lat": 41.1375,
       "lon": -121.127783,
       "elev": 1268.0,
@@ -140,28 +149,32 @@
       "code": "O55",
       "desc": "Turn Point, #5, O55, RW width: 35, CTAF: 122.9"
     },
-    "Big Springs": {
+    {
+      "name": "Big Springs",
       "lat": 41.595283,
       "lon": -122.405,
       "elev": 796.4,
       "code": "BGSPRNGS",
       "desc": "Turn Point, #6"
     },
-    "Bonanza": {
+    {
+      "name": "Bonanza",
       "lat": 42.198617,
       "lon": -121.410283,
       "elev": 1356.4,
       "code": "BONANZA",
       "desc": "Turn Point, #7"
     },
-    "Bridge at Copco": {
+    {
+      "name": "Bridge at Copco",
       "lat": 41.964167,
       "lon": -122.26195,
       "elev": 1036.3,
       "code": "BRGATCPC",
       "desc": "Turn Point, #8"
     },
-    "Butte Valley": {
+    {
+      "name": "Butte Valley",
       "lat": 41.881383,
       "lon": -121.97555,
       "elev": 1292.4,
@@ -179,7 +192,8 @@
       "code": "A32",
       "desc": "Turn Point, #9, A32, RW width: 60, CTAF: 122.9"
     },
-    "California Pines": {
+    {
+      "name": "California Pines",
       "lat": 41.412217,
       "lon": -120.68445,
       "elev": 1341.1,
@@ -197,35 +211,40 @@
       "code": "A24",
       "desc": "A24, RW width: 45, UNICOM: 123.0"
     },
-    "Callahan": {
+    {
+      "name": "Callahan",
       "lat": 41.31805,
       "lon": -122.80945,
       "elev": 1310.6,
       "code": "CALLAHAN",
       "desc": "Turn Point, #10"
     },
-    "Canby": {
+    {
+      "name": "Canby",
       "lat": 41.446117,
       "lon": -120.871383,
       "elev": 1341.1,
       "code": "CANBY",
       "desc": "Turn Point, #11"
     },
-    "Carter": {
+    {
+      "name": "Carter",
       "lat": 41.21805,
       "lon": -122.8975,
       "elev": 1889.8,
       "code": "CARTER",
       "desc": "Turn Point, #12"
     },
-    "Castle Crags": {
+    {
+      "name": "Castle Crags",
       "lat": 41.19195,
       "lon": -122.354167,
       "elev": 1867.5,
       "code": "CSTLCRGS",
       "desc": "Turn Point, #13"
     },
-    "Chiloquin State": {
+    {
+      "name": "Chiloquin State",
       "lat": 42.57945,
       "lon": -121.879167,
       "elev": 1286.3,
@@ -243,56 +262,64 @@
       "code": "2S7",
       "desc": "Turn Point, #14, 2S7, RW width: 60, CTAF: 122.9"
     },
-    "China Start": {
+    {
+      "name": "China Start",
       "lat": 41.429167,
       "lon": -122.581117,
       "elev": 1645.9,
       "code": "CHINSTRT",
       "desc": "Start Point, Turn Point, #15"
     },
-    "Copco Dam": {
+    {
+      "name": "Copco Dam",
       "lat": 41.9775,
       "lon": -122.333333,
       "elev": 975.4,
       "code": "COPCODAM",
       "desc": "Turn Point, #16"
     },
-    "Craggy South": {
+    {
+      "name": "Craggy South",
       "lat": 41.258883,
       "lon": -122.781117,
       "elev": 2453.0,
       "code": "CRGGYSOU",
       "desc": "Turn Point, #17"
     },
-    "Craggy Start": {
+    {
+      "name": "Craggy Start",
       "lat": 41.81445,
       "lon": -122.54695,
       "elev": 1524.0,
       "code": "CRGGYSTR",
       "desc": "Start Point, #18"
     },
-    "Crater Lake": {
+    {
+      "name": "Crater Lake",
       "lat": 42.89555,
       "lon": -122.094717,
       "elev": 1883.7,
       "code": "CRATERLK",
       "desc": "Turn Point, #19"
     },
-    "Deer Mountain": {
+    {
+      "name": "Deer Mountain",
       "lat": 41.582783,
       "lon": -122.19305,
       "elev": 1371.6,
       "code": "DEER MTN",
       "desc": "Turn Point, #20"
     },
-    "Drews Reservoir": {
+    {
+      "name": "Drews Reservoir",
       "lat": 42.137217,
       "lon": -120.65695,
       "elev": 1554.5,
       "code": "DRWSRSRV",
       "desc": "Turn Point, #21"
     },
-    "Dry Lake": {
+    {
+      "name": "Dry Lake",
       "lat": 41.675,
       "lon": -121.26805,
       "elev": 1463.0,
@@ -309,7 +336,8 @@
       "code": "DRY LAKE",
       "desc": "Turn Point, #22, Private, Landable, RW width: 70"
     },
-    "Dunsmuir": {
+    {
+      "name": "Dunsmuir",
       "lat": 41.26305,
       "lon": -122.27195,
       "elev": 993.6,
@@ -327,28 +355,32 @@
       "code": "1O6",
       "desc": "1O6, RW width: 60, CTAF: 122.9"
     },
-    "Dutchman": {
+    {
+      "name": "Dutchman",
       "lat": 42.043333,
       "lon": -122.890833,
       "elev": 2260.4,
       "code": "DUTCHMAN",
       "desc": "Turn Point, #23"
     },
-    "Duzel": {
+    {
+      "name": "Duzel",
       "lat": 41.53,
       "lon": -122.733333,
       "elev": 1840.7,
       "code": "DUZEL",
       "desc": "Turn Point, #24"
     },
-    "Etna": {
+    {
+      "name": "Etna",
       "lat": 41.465283,
       "lon": -122.883883,
       "elev": 853.4,
       "code": "ETNA",
       "desc": "Turn Point, #25"
     },
-    "Fall River": {
+    {
+      "name": "Fall River",
       "lat": 41.016117,
       "lon": -121.436667,
       "elev": 1011.9,
@@ -366,7 +398,8 @@
       "code": "O89",
       "desc": "Turn Point, #26, O89, RW width: 75, AWOS: 123.9, UNICOM: 122.8, Fuel: 100LL"
     },
-    "Farr": {
+    {
+      "name": "Farr",
       "lat": 42.127783,
       "lon": -120.483883,
       "elev": 1453.9,
@@ -383,14 +416,16 @@
       "code": "OR26",
       "desc": "Private, Landable, OR26, RW width: 50"
     },
-    "Five Sheds": {
+    {
+      "name": "Five Sheds",
       "lat": 41.770283,
       "lon": -121.813617,
       "elev": 1341.1,
       "code": "FIVESHDS",
       "desc": "Turn Point, #27"
     },
-    "Fly By Night": {
+    {
+      "name": "Fly By Night",
       "lat": 42.246667,
       "lon": -123.07055,
       "elev": 506.0,
@@ -407,7 +442,8 @@
       "code": "OG13",
       "desc": "Private, Landable, OG13, RW width: 70"
     },
-    "Flying T Ranch": {
+    {
+      "name": "Flying T Ranch",
       "lat": 42.434717,
       "lon": -121.349717,
       "elev": 1322.8,
@@ -424,35 +460,40 @@
       "code": "5OR4",
       "desc": "Private, Landable, 5OR4, RW width: 70"
     },
-    "Gerber Reservoir Dam": {
+    {
+      "name": "Gerber Reservoir Dam",
       "lat": 42.201117,
       "lon": -121.134717,
       "elev": 1463.0,
       "code": "GRBRRSRV",
       "desc": "Turn Point, #28"
     },
-    "Goosenest": {
+    {
+      "name": "Goosenest",
       "lat": 41.72055,
       "lon": -122.22305,
       "elev": 2523.7,
       "code": "GOOSENST",
       "desc": "Turn Point, #29"
     },
-    "Grenada": {
+    {
+      "name": "Grenada",
       "lat": 41.643333,
       "lon": -122.516667,
       "elev": 789.4,
       "code": "GRENADA",
       "desc": "Turn Point, #30"
     },
-    "Gunsite Start": {
+    {
+      "name": "Gunsite Start",
       "lat": 41.738333,
       "lon": -122.776383,
       "elev": 1844.0,
       "code": "GNSTSTRT",
       "desc": "Start Point, #31"
     },
-    "Happy Camp": {
+    {
+      "name": "Happy Camp",
       "lat": 41.7875,
       "lon": -123.391667,
       "elev": 368.8,
@@ -470,7 +511,8 @@
       "code": "36S",
       "desc": "Turn Point, #32, 36S, RW width: 50, CTAF: 122.9"
     },
-    "Klamath Falls": {
+    {
+      "name": "Klamath Falls",
       "lat": 42.156117,
       "lon": -121.73305,
       "elev": 1246.6,
@@ -488,7 +530,8 @@
       "code": "LMT",
       "desc": "KLMT, RW width: 150, ATIS: 126.5, Tower: 133.975, UNICOM: 122.95, Fuel: 100LL"
     },
-    "Lake County": {
+    {
+      "name": "Lake County",
       "lat": 42.153883,
       "lon": -120.398883,
       "elev": 1441.7,
@@ -506,21 +549,24 @@
       "code": "LKV",
       "desc": "Turn Point, #33, LKV, RW width: 100, AWOS: 135.525, UNICOM: 122.8, Fuel: 100LL"
     },
-    "Lake Siskiyou Dam": {
+    {
+      "name": "Lake Siskiyou Dam",
       "lat": 41.277783,
       "lon": -122.33305,
       "elev": 975.4,
       "code": "LKSISKDM",
       "desc": "Turn Point, #35"
     },
-    "Lake of the Woods": {
+    {
+      "name": "Lake of the Woods",
       "lat": 42.392217,
       "lon": -122.221117,
       "elev": 1493.5,
       "code": "LKTWOODS",
       "desc": "Turn Point, #34"
     },
-    "Lefko": {
+    {
+      "name": "Lefko",
       "lat": 41.624717,
       "lon": -122.765,
       "elev": 871.7,
@@ -528,7 +574,8 @@
       "code": "23CA",
       "desc": "Turn Point, #36, Private, Landable, 23CA"
     },
-    "Likely": {
+    {
+      "name": "Likely",
       "lat": 41.23945,
       "lon": -120.526117,
       "elev": 1347.2,
@@ -545,7 +592,8 @@
       "code": "9CL3",
       "desc": "Private, Landable, 9CL3, RW width: 80"
     },
-    "Longbell Ranch": {
+    {
+      "name": "Longbell Ranch",
       "lat": 41.64195,
       "lon": -121.890283,
       "elev": 1417.3,
@@ -562,7 +610,8 @@
       "code": "2CL3",
       "desc": "Turn Point, #37, Private, Landable, 2CL3, RW width: 60"
     },
-    "Lonnie Pool Field/Weaverville Airport": {
+    {
+      "name": "Lonnie Pool Field/Weaverville Airport",
       "lat": 40.747217,
       "lon": -122.922217,
       "elev": 716.3,
@@ -580,7 +629,8 @@
       "code": "O54",
       "desc": "Turn Point, #38, O54, RW width: 50, UNICOM: 122.8"
     },
-    "Malin": {
+    {
+      "name": "Malin",
       "lat": 42.001117,
       "lon": -121.396383,
       "elev": 1234.4,
@@ -598,21 +648,24 @@
       "code": "4S7",
       "desc": "4S7, RW width: 30, CTAF: 122.9, Fuel: 100LL"
     },
-    "Medicine Lake": {
+    {
+      "name": "Medicine Lake",
       "lat": 41.586117,
       "lon": -121.60305,
       "elev": 2038.5,
       "code": "MEDICNLK",
       "desc": "Turn Point, #39"
     },
-    "Midway Market": {
+    {
+      "name": "Midway Market",
       "lat": 41.601667,
       "lon": -122.3025,
       "elev": 914.4,
       "code": "MIDWMRKT",
       "desc": "Turn Point, #40"
     },
-    "Montague-Yreka Rohrer": {
+    {
+      "name": "Montague-Yreka Rohrer",
       "lat": 41.73055,
       "lon": -122.54555,
       "elev": 771.1,
@@ -630,7 +683,8 @@
       "code": "1O5",
       "desc": "Home Field, Finish Point, Turn Point, #41, 1O5, RW width: 75, UNICOM: 122.8, Fuel: 100LL"
     },
-    "Moondance Ranch": {
+    {
+      "name": "Moondance Ranch",
       "lat": 42.65195,
       "lon": -121.328883,
       "elev": 1517.9,
@@ -647,21 +701,24 @@
       "code": "87OR",
       "desc": "Private, Landable, 87OR, RW width: 50"
     },
-    "Mt Eddy": {
+    {
+      "name": "Mt Eddy",
       "lat": 41.32,
       "lon": -122.479167,
       "elev": 2750.8,
       "code": "MT EDDY",
       "desc": "Turn Point, #42"
     },
-    "Mt Hebron Summit": {
+    {
+      "name": "Mt Hebron Summit",
       "lat": 41.684717,
       "lon": -122.059717,
       "elev": 1615.4,
       "code": "MTHBRNSM",
       "desc": "Turn Point, #43"
     },
-    "Mucky Flat": {
+    {
+      "name": "Mucky Flat",
       "lat": 42.597783,
       "lon": -122.7125,
       "elev": 609.6,
@@ -678,7 +735,8 @@
       "code": "89OR",
       "desc": "Private, Landable, 89OR, RW width: 45"
     },
-    "Mudport": {
+    {
+      "name": "Mudport",
       "lat": 41.953333,
       "lon": -122.333333,
       "elev": 960.1,
@@ -695,7 +753,8 @@
       "code": "MUDPORT",
       "desc": "Private, Landable, RW width: 50"
     },
-    "Paisley State": {
+    {
+      "name": "Paisley State",
       "lat": 42.71695,
       "lon": -120.56195,
       "elev": 1341.1,
@@ -713,14 +772,16 @@
       "code": "22S",
       "desc": "Turn Point, #44, 22S, RW width: 60, CTAF: 122.9"
     },
-    "Pelican Butte": {
+    {
+      "name": "Pelican Butte",
       "lat": 42.513333,
       "lon": -122.145833,
       "elev": 2449.4,
       "code": "PELCNBTT",
       "desc": "Turn Point, #45"
     },
-    "Pinehurst": {
+    {
+      "name": "Pinehurst",
       "lat": 42.11,
       "lon": -122.383333,
       "elev": 1112.5,
@@ -738,7 +799,8 @@
       "code": "24S",
       "desc": "Turn Point, #46, Landable, 24S, RW width: 30, CTAF: 122.9"
     },
-    "Prospect State": {
+    {
+      "name": "Prospect State",
       "lat": 42.73805,
       "lon": -122.493617,
       "elev": 762.0,
@@ -756,14 +818,16 @@
       "code": "64S",
       "desc": "Turn Point, #47, 64S, RW width: 50, UNICOM: 122.8"
     },
-    "Quartz Valley": {
+    {
+      "name": "Quartz Valley",
       "lat": 41.62445,
       "lon": -122.97555,
       "elev": 807.7,
       "code": "QURTZVLL",
       "desc": "Turn Point, #48"
     },
-    "R-Ranch": {
+    {
+      "name": "R-Ranch",
       "lat": 41.921667,
       "lon": -122.58305,
       "elev": 853.4,
@@ -780,21 +844,24 @@
       "code": "R RANCH",
       "desc": "Turn Point, #51, Private, Landable, RW width: 65"
     },
-    "Radar Facility": {
+    {
+      "name": "Radar Facility",
       "lat": 42.064717,
       "lon": -121.971667,
       "elev": 2008.6,
       "code": "RADRFCLT",
       "desc": "Turn Point, #49"
     },
-    "Restaurant Exit": {
+    {
+      "name": "Restaurant Exit",
       "lat": 42.064717,
       "lon": -122.601667,
       "elev": 1371.6,
       "code": "RSTRNTXT",
       "desc": "Turn Point, #50"
     },
-    "Rogue Valley-Medford": {
+    {
+      "name": "Rogue Valley-Medford",
       "lat": 42.372217,
       "lon": -122.872783,
       "elev": 405.4,
@@ -812,7 +879,8 @@
       "code": "MFR",
       "desc": "KMFR, RW width: 150, ATIS: 127.25, Tower: 119.4, UNICOM: 122.95, Fuel: 100LL"
     },
-    "Rogue-Air": {
+    {
+      "name": "Rogue-Air",
       "lat": 42.60805,
       "lon": -122.826117,
       "elev": 460.2,
@@ -829,7 +897,8 @@
       "code": "OG31",
       "desc": "Private, Landable, OG31, RW width: 20"
     },
-    "Round Mountain": {
+    {
+      "name": "Round Mountain",
       "lat": 41.885,
       "lon": -122.843883,
       "elev": 1066.8,
@@ -846,14 +915,16 @@
       "code": "CA09",
       "desc": "Private, Landable, CA09, RW width: 40"
     },
-    "Schonchin": {
+    {
+      "name": "Schonchin",
       "lat": 41.73805,
       "lon": -121.52945,
       "elev": 1601.1,
       "code": "SCHONCHN",
       "desc": "Turn Point, #52"
     },
-    "Scott Valley": {
+    {
+      "name": "Scott Valley",
       "lat": 41.553333,
       "lon": -122.85445,
       "elev": 832.1,
@@ -871,7 +942,8 @@
       "code": "A30",
       "desc": "Turn Point, #53, A30, RW width: 50, UNICOM: 122.8, Fuel: 100LL"
     },
-    "Siskiyou County": {
+    {
+      "name": "Siskiyou County",
       "lat": 41.77195,
       "lon": -122.471117,
       "elev": 807.7,
@@ -889,7 +961,8 @@
       "code": "SIY",
       "desc": "Start Point, Finish Point, Turn Point, #54, SIY, RW width: 150, AWOS: 124.55, UNICOM: 123.0, Fuel: 100LL"
     },
-    "Sutton On Rogue": {
+    {
+      "name": "Sutton On Rogue",
       "lat": 42.484717,
       "lon": -122.866117,
       "elev": 384.0,
@@ -906,7 +979,8 @@
       "code": "0OR8",
       "desc": "Private, 0OR8, RW width: 80"
     },
-    "Tennant South": {
+    {
+      "name": "Tennant South",
       "lat": 41.56805,
       "lon": -121.9325,
       "elev": 1447.8,
@@ -914,14 +988,16 @@
       "code": "TENNANTS",
       "desc": "Turn Point, #55, Private, Landable, RW width: 55"
     },
-    "Thompson Peak": {
+    {
+      "name": "Thompson Peak",
       "lat": 41.004167,
       "lon": -123.048333,
       "elev": 2724.9,
       "code": "THMPSNPK",
       "desc": "Turn Point, #56"
     },
-    "Trinity Center": {
+    {
+      "name": "Trinity Center",
       "lat": 40.983333,
       "lon": -122.694167,
       "elev": 851.9,
@@ -939,7 +1015,8 @@
       "code": "O86",
       "desc": "Turn Point, #57, O86, RW width: 50, AWOS: 134.3, CTAF: 122.9"
     },
-    "Triple R Ranch": {
+    {
+      "name": "Triple R Ranch",
       "lat": 41.742783,
       "lon": -121.878333,
       "elev": 1335.0,
@@ -956,7 +1033,8 @@
       "code": "6CA1",
       "desc": "Private, Landable, 6CA1, RW width: 40"
     },
-    "Tulelake": {
+    {
+      "name": "Tulelake",
       "lat": 41.890833,
       "lon": -121.36195,
       "elev": 1234.4,
@@ -974,7 +1052,8 @@
       "code": "O81",
       "desc": "Turn Point, #58, O81, RW width: 45, CTAF: 122.9, Fuel: 100LL"
     },
-    "Weed": {
+    {
+      "name": "Weed",
       "lat": 41.486667,
       "lon": -122.457783,
       "elev": 896.1,
@@ -992,26 +1071,29 @@
       "code": "O46",
       "desc": "Turn Point, #59, O46, RW width: 60, UNICOM: 122.7, Fuel: 100LL"
     },
-    "Woodrat": {
+    {
+      "name": "Woodrat",
       "lat": 42.231383,
       "lon": -123.00695,
       "elev": 1219.2,
       "code": "WOODRAT",
       "desc": "Turn Point, #60"
     },
-    "Worden": {
+    {
+      "name": "Worden",
       "lat": 42.045283,
       "lon": -121.866117,
       "elev": 1252.1,
       "code": "WORDEN",
       "desc": "Turn Point, #61"
     },
-    "Wright": {
+    {
+      "name": "Wright",
       "lat": 41.583333,
       "lon": -123.087217,
       "elev": 2194.6,
       "code": "WRIGHT",
       "desc": "Turn Point, #62"
     }
-  }
+  ]
 }

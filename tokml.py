@@ -50,12 +50,12 @@ if __name__=='__main__':
 	href = ET.SubElement(icon, 'href')
 	href.text = 'https://maps.google.com/mapfiles/kml/shapes/airports.png'
 
-	for (name, tp) in input['turnpoints'].items():
+	for tp in input['turnpoints']:
 		lat = tp['lat']
 		lon = tp['lon']
 		kmlPlacemark = ET.SubElement(kmlDocument, 'Placemark')
 		kmlName = ET.SubElement(kmlPlacemark, 'name')
-		kmlName.text = name
+		kmlName.text = tp['name']
 		if 'desc' in tp:
 			kmlDescription = ET.SubElement(kmlPlacemark, 'description')
 			kmlDescription.text = tp['desc']

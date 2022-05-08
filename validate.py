@@ -4,7 +4,7 @@ import jsonschema
 import json
 import sys
 
-schema_v1 = {
+schema = {
     "$schema": "http://json-schema.org/draft-07/schema#",
     'type' : 'object',
     'description' : 'Soaring turnpoint database in human-editable format.',
@@ -12,7 +12,7 @@ schema_v1 = {
         'name' : {'type' : 'string', 'description' : 'Short name for the database'},
         'desc' : {'type' : 'string', 'description' : 'Longer description for the database'},
         'schema' : {'type' : 'integer', 'description' : 'Version of this json schema the document claims to be'},
-        'turnpoints' : { 'type' : 'object', 'additionalProperties' : {'$ref' : '#/definitions/turnpoint'}}
+        'turnpoints' : { 'type' : 'array', 'items' : {'$ref' : '#/definitions/turnpoint'}}
     },
 
     'required' : ['name', 'schema'],
@@ -23,6 +23,7 @@ schema_v1 = {
             'type' : 'object',
             'description' : 'A single turnpoint',
             'properties' : {
+                'name' : {'type' : 'string', 'description' : 'User-visible name of the turnpoint'},
                 'lat': {'type' : 'number', 'description' : 'Signed decimal degrees'},
                 'lon': {'type' : 'number', 'description' : 'Signed decimal degrees'},
                 'elev': {'type' : 'number', 'description' : 'Meters'},
@@ -30,7 +31,7 @@ schema_v1 = {
                 'desc': {'type' : 'string', 'description' : 'Extra details about turnpoint'},
                 'landable' : {'$ref' : '#/definitions/landable'},
             },
-            'required' : ['lat', 'lon', 'elev'],
+            'required' : ['name', 'lat', 'lon', 'elev'],
             'additionalProperties' : False
         },
         'landable' : {
@@ -64,11 +65,11 @@ if __name__=='__main__':
     data = json.load(sys.stdin)
 
     # Validate schema
-    jsonschema.validate(data, schema=schema_v1)
+    jsonschema.validate(data, schema=schema)
 
     # Validate things underneath the schema
     tpcodes = set()
-    for (name, tp) in data['turnpoints'].items():
+    for tp in data['turnpoints']:
         if 'code' in tp:
             # Ensure turnpoint codes are unique
             if tp['code'] in tpcodes:
@@ -82,7 +83,7 @@ if __name__=='__main__':
             for runway in runways:
                 # Ensure runway names are unique
                 if runway['name'] in rwnames:
-                    print('Runway name {0} not unique for turnpoint {1}'.format(runway['name'], name), sys.stderr)
+                    print('Runway name {0} not unique for turnpoint {1}'.format(runway['name'], tp['name']), sys.stderr)
                     sys.exit(1)
                 else:
                     rwnames.add(runway['name'])

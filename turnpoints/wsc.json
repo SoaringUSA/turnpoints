@@ -1,9 +1,10 @@
 {
   "name": "wsc",
   "desc": "Soaring turnpoints for Williams CA and surrounding region.",
-  "schema": 1,
-  "turnpoints": {
-    "1WSC-R1": {
+  "schema": 2,
+  "turnpoints": [
+    {
+      "name": "1WSC-R1",
       "lat": 39.163333,
       "lon": -122.131667,
       "elev": 20.7,
@@ -21,21 +22,24 @@
       "code": "WLLMSSRN",
       "desc": "Start Point, Finish Point, Turn Point, CN12, 25HX90;16/34, RW width: 40"
     },
-    "20-16xtn-U9": {
+    {
+      "name": "20-16xtn-U9",
       "lat": 39.01305,
       "lon": -122.358617,
       "elev": 335.3,
       "code": "2016NT.9",
       "desc": "Turn Point"
     },
-    "3Sisters-U3": {
+    {
+      "name": "3Sisters-U3",
       "lat": 39.121667,
       "lon": -122.332783,
       "elev": 586.7,
       "code": "3SISTRS3",
       "desc": "Start Point, Turn Point"
     },
-    "7MRanch-E2": {
+    {
+      "name": "7MRanch-E2",
       "lat": 38.732217,
       "lon": -122.563883,
       "elev": 343.5,
@@ -43,14 +47,16 @@
       "code": "7M RC E2",
       "desc": "Private, Turn Point, Landable, 38Sx90, RW width: 38"
     },
-    "AlderSpr-U6": {
+    {
+      "name": "AlderSpr-U6",
       "lat": 39.652783,
       "lon": -122.72195,
       "elev": 1386.8,
       "code": "ALDRSPRN",
       "desc": "Turn Point"
     },
-    "Angwn-R2": {
+    {
+      "name": "Angwn-R2",
       "lat": 38.578617,
       "lon": -122.435283,
       "elev": 563.9,
@@ -68,14 +74,16 @@
       "code": "ANGWNPRR",
       "desc": "Turn Point, 2O3, 32HX50;16/34, RW width: 50"
     },
-    "AnthonyPk-U9": {
+    {
+      "name": "AnthonyPk-U9",
       "lat": 39.846117,
       "lon": -122.964717,
       "elev": 2119.6,
       "code": "ANTHNPK9",
       "desc": "Turn Point"
     },
-    "AntlpVly-R3": {
+    {
+      "name": "AntlpVly-R3",
       "lat": 39.146383,
       "lon": -122.35695,
       "elev": 152.4,
@@ -92,21 +100,24 @@
       "code": "ANTLPVLL",
       "desc": "Private, Turn Point, 4CL3, 30Sx60 15/33, RW width: 60"
     },
-    "Arbuckle-U4": {
+    {
+      "name": "Arbuckle-U4",
       "lat": 39.017217,
       "lon": -122.0575,
       "elev": 42.7,
       "code": "ARBUCKL4",
       "desc": "Turn Point"
     },
-    "BealeCassC": {
+    {
+      "name": "BealeCassC",
       "lat": 39.135833,
       "lon": -121.436117,
       "elev": 33.5,
       "code": "BEALEAFB",
       "desc": "Turn Point, Military, NORCAL 125.4"
     },
-    "BearVly-E3": {
+    {
+      "name": "BearVly-E3",
       "lat": 39.104717,
       "lon": -122.43195,
       "elev": 426.7,
@@ -114,7 +125,8 @@
       "code": "BEARVLL3",
       "desc": "Turn Point, Landable, Driveway"
     },
-    "Benton-R2": {
+    {
+      "name": "Benton-R2",
       "lat": 40.57445,
       "lon": -122.4075,
       "elev": 221.0,
@@ -132,28 +144,32 @@
       "code": "BENTONR2",
       "desc": "Turn Point, O85, 24Hx75;15/33, RW width: 80"
     },
-    "BessaDam-U8": {
+    {
+      "name": "BessaDam-U8",
       "lat": 38.513333,
       "lon": -122.10445,
       "elev": 152.4,
       "code": "BESSADM8",
       "desc": "Turn Point"
     },
-    "BessaTwrs-U8": {
+    {
+      "name": "BessaTwrs-U8",
       "lat": 38.664167,
       "lon": -122.190283,
       "elev": 932.7,
       "code": "BSSTWRS8",
       "desc": "Turn Point"
     },
-    "BlackBute-U9": {
+    {
+      "name": "BlackBute-U9",
       "lat": 39.726667,
       "lon": -122.8725,
       "elev": 2270.2,
       "code": "BLCKBTT9",
       "desc": "Turn Point"
     },
-    "Bowles-R4": {
+    {
+      "name": "Bowles-R4",
       "lat": 39.28555,
       "lon": -121.694167,
       "elev": 22.9,
@@ -170,14 +186,16 @@
       "code": "BOWLESR4",
       "desc": "Private, Turn Point, 18CL, RW width: 50"
     },
-    "Buckhorn-U9": {
+    {
+      "name": "Buckhorn-U9",
       "lat": 40.61805,
       "lon": -122.711117,
       "elev": 1548.4,
       "code": "BUCKHRN9",
       "desc": "Turn Point"
     },
-    "Buro1Gap-E4": {
+    {
+      "name": "Buro1Gap-E4",
       "lat": 39.769167,
       "lon": -122.521117,
       "elev": 243.8,
@@ -185,7 +203,8 @@
       "code": "BURO1GP4",
       "desc": "Private, Turn Point, Landable, S of House"
     },
-    "Buro2Gap-E4": {
+    {
+      "name": "Buro2Gap-E4",
       "lat": 39.75055,
       "lon": -122.517783,
       "elev": 243.8,
@@ -193,14 +212,16 @@
       "code": "BURO2GP4",
       "desc": "Private, Turn Point, Landable, E of Creek"
     },
-    "C-Casino-U5": {
+    {
+      "name": "C-Casino-U5",
       "lat": 38.7325,
       "lon": -122.1425,
       "elev": 118.9,
       "code": "CCHCRKCS",
       "desc": "Turn Point, Nearby field"
     },
-    "CalWrthtn-E3": {
+    {
+      "name": "CalWrthtn-E3",
       "lat": 39.675833,
       "lon": -122.311117,
       "elev": 99.1,
@@ -217,14 +238,16 @@
       "code": "CLWRTHTN",
       "desc": "Private, Turn Point, Landable, 50Hx60;12/30, RW width: 60"
     },
-    "Calistoga-U6": {
+    {
+      "name": "Calistoga-U6",
       "lat": 38.578883,
       "lon": -122.573333,
       "elev": 106.7,
       "code": "CALISTG6",
       "desc": "Turn Point, Closed AP"
     },
-    "Charter-E5": {
+    {
+      "name": "Charter-E5",
       "lat": 39.163333,
       "lon": -122.263617,
       "elev": 45.7,
@@ -232,7 +255,8 @@
       "code": "CHARTER5",
       "desc": "Private, Turn Point, Landable, 27Sx80;17/35"
     },
-    "Chico-R2": {
+    {
+      "name": "Chico-R2",
       "lat": 39.793617,
       "lon": -121.863333,
       "elev": 73.2,
@@ -250,7 +274,8 @@
       "code": "CHICO R2",
       "desc": "Turn Point, KCIC, 67HX150;13/31, RW width: 150"
     },
-    "Colusa-R2": {
+    {
+      "name": "Colusa-R2",
       "lat": 39.178883,
       "lon": -121.993333,
       "elev": 14.3,
@@ -268,7 +293,8 @@
       "code": "CLSCNTR2",
       "desc": "Turn Point, O08, 30Hx60;13/31, RW width: 60"
     },
-    "Cooks-E3": {
+    {
+      "name": "Cooks-E3",
       "lat": 39.190833,
       "lon": -122.19945,
       "elev": 30.5,
@@ -276,7 +302,8 @@
       "code": "COOKS3E3",
       "desc": "Private, Turn Point, Landable, 20Sx70;17/35"
     },
-    "Corning-R2": {
+    {
+      "name": "Corning-R2",
       "lat": 39.943883,
       "lon": -122.171117,
       "elev": 89.0,
@@ -294,7 +321,8 @@
       "code": "CORNNGR2",
       "desc": "Turn Point, 0O4, 27HX50;17/35, RW width: 50"
     },
-    "CrzyCreek-E3": {
+    {
+      "name": "CrzyCreek-E3",
       "lat": 38.76945,
       "lon": -122.56945,
       "elev": 304.8,
@@ -311,7 +339,8 @@
       "code": "CRAZCRK3",
       "desc": "Private, Turn Point, Landable, 18Hx200;10/28, RW width: 20"
     },
-    "DeerCreek-R3": {
+    {
+      "name": "DeerCreek-R3",
       "lat": 39.95,
       "lon": -121.991383,
       "elev": 86.9,
@@ -328,7 +357,8 @@
       "code": "DRCRKRCR",
       "desc": "Private, Turn Point, CA60, 3000'square, RW width: 3000"
     },
-    "DiamondM-R4": {
+    {
+      "name": "DiamondM-R4",
       "lat": 39.571383,
       "lon": -122.610283,
       "elev": 396.2,
@@ -345,7 +375,8 @@
       "code": "DMNDMRCR",
       "desc": "Private, Turn Point, 90CL, 24Sx75; 9/27, RW width: 75"
     },
-    "DoubleCrk-R5": {
+    {
+      "name": "DoubleCrk-R5",
       "lat": 40.44555,
       "lon": -121.882217,
       "elev": 618.7,
@@ -362,7 +393,8 @@
       "code": "DBLCRKRC",
       "desc": "Private, Turn Point, CN42, 30Sx80; 6/24, RW width: 80"
     },
-    "DunniganN-E7": {
+    {
+      "name": "DunniganN-E7",
       "lat": 38.9175,
       "lon": -121.946667,
       "elev": 18.3,
@@ -379,28 +411,32 @@
       "code": "DUNNGNN7",
       "desc": "Private, Turn Point, Landable, 14Sx100, RW width: 100"
     },
-    "DunniganS-E7": {
+    {
+      "name": "DunniganS-E7",
       "lat": 38.85,
       "lon": -121.965,
       "elev": 30.5,
       "code": "DUNNGNS7",
       "desc": "Turn Point, 20Sx30;17/35, RW width: 30"
     },
-    "EaglePeak-U8": {
+    {
+      "name": "EaglePeak-U8",
       "lat": 39.967783,
       "lon": -122.739167,
       "elev": 2030.9,
       "code": "EAGLEPK8",
       "desc": "Turn Point, Yolla"
     },
-    "ElkCrk1-E9": {
+    {
+      "name": "ElkCrk1-E9",
       "lat": 39.585283,
       "lon": -122.584167,
       "elev": 320.0,
       "code": "ELKCRK19",
       "desc": "Turn Point, Overgrown"
     },
-    "ElkCrk2-E7": {
+    {
+      "name": "ElkCrk2-E7",
       "lat": 39.603333,
       "lon": -122.546383,
       "elev": 234.7,
@@ -408,7 +444,8 @@
       "code": "ELKCRK27",
       "desc": "Private, Turn Point, Landable, Dirt Road"
     },
-    "Esparto-E3": {
+    {
+      "name": "Esparto-E3",
       "lat": 38.653617,
       "lon": -122.02805,
       "elev": 73.2,
@@ -425,14 +462,16 @@
       "code": "ESPARTO3",
       "desc": "Private, Turn Point, Landable, 17/35; 08/26, RW width: 60"
     },
-    "Ger-I5-U9": {
+    {
+      "name": "Ger-I5-U9",
       "lat": 40.083883,
       "lon": -122.216667,
       "elev": 91.4,
       "code": "GERBER59",
       "desc": "Turn Point, I-5 Overpass"
     },
-    "GoRanch-E7": {
+    {
+      "name": "GoRanch-E7",
       "lat": 38.898333,
       "lon": -122.446383,
       "elev": 734.6,
@@ -440,35 +479,40 @@
       "code": "GO RC E7",
       "desc": "Private, Turn Point, Landable, 24Sx?; 7/25;"
     },
-    "GoatMtn-U4": {
+    {
+      "name": "GoatMtn-U4",
       "lat": 39.260283,
       "lon": -122.715,
       "elev": 1859.3,
       "code": "GOATMTN4",
       "desc": "Turn Point"
     },
-    "GoatNPass-U6": {
+    {
+      "name": "GoatNPass-U6",
       "lat": 39.3325,
       "lon": -122.76695,
       "elev": 1371.6,
       "code": "GOTNPSS6",
       "desc": "Turn Point, N of Goat"
     },
-    "GoatSPass-U6": {
+    {
+      "name": "GoatSPass-U6",
       "lat": 39.213883,
       "lon": -122.650833,
       "elev": 1341.1,
       "code": "GOTSPSS6",
       "desc": "Turn Point, S of Goat"
     },
-    "GoldMine-U9": {
+    {
+      "name": "GoldMine-U9",
       "lat": 38.866667,
       "lon": -122.438617,
       "elev": 670.6,
       "code": "GOLDMIN9",
       "desc": "Turn Point, Center Of Po"
     },
-    "GravlyVly-R4": {
+    {
+      "name": "GravlyVly-R4",
       "lat": 39.451117,
       "lon": -122.95445,
       "elev": 579.1,
@@ -486,7 +530,8 @@
       "code": "GRVLLVLL",
       "desc": "Turn Point, 1Q5, 40Sx200; 1/1, RW width: 200"
     },
-    "Grimes-E2": {
+    {
+      "name": "Grimes-E2",
       "lat": 39.079717,
       "lon": -121.915283,
       "elev": 16.5,
@@ -503,7 +548,8 @@
       "code": "GRIMESE2",
       "desc": "Private, Turn Point, 53CN, 18H60; 12/30, RW width: 60"
     },
-    "Guenoc-E5": {
+    {
+      "name": "Guenoc-E5",
       "lat": 38.73945,
       "lon": -122.52305,
       "elev": 298.7,
@@ -520,14 +566,16 @@
       "code": "GUENOCE5",
       "desc": "Private, Turn Point, Landable, 16Sx90;11/29, RW width: 90"
     },
-    "Guinda-E9": {
+    {
+      "name": "Guinda-E9",
       "lat": 38.799717,
       "lon": -122.180283,
       "elev": 100.6,
       "code": "GUINDAE9",
       "desc": "Private, Turn Point, Unsafe"
     },
-    "Gunersfld-R4": {
+    {
+      "name": "Gunersfld-R4",
       "lat": 39.352783,
       "lon": -122.093883,
       "elev": 18.3,
@@ -545,7 +593,8 @@
       "code": "GNNRSFLD",
       "desc": "Private, Turn Point, 71CL, 26Hx60; 16/34, RW width: 40"
     },
-    "H-HWater-R4": {
+    {
+      "name": "H-HWater-R4",
       "lat": 40.143333,
       "lon": -123.398333,
       "elev": 762.0,
@@ -562,14 +611,16 @@
       "code": "HLLRHGHW",
       "desc": "Private, Turn Point, 45CL, 26x100;18/36, RW width: 50"
     },
-    "HayPk6399-U7": {
+    {
+      "name": "HayPk6399-U7",
       "lat": 40.473883,
       "lon": -122.991383,
       "elev": 1950.4,
       "code": "HPK63997",
       "desc": "Turn Point, aka Chancel"
     },
-    "Hayfork-R3": {
+    {
+      "name": "Hayfork-R3",
       "lat": 40.54695,
       "lon": -123.179717,
       "elev": 707.1,
@@ -587,7 +638,8 @@
       "code": "HAYFRKR3",
       "desc": "Turn Point, F62, 41HX60; 7/25, RW width: 60"
     },
-    "HighVly-E3": {
+    {
+      "name": "HighVly-E3",
       "lat": 39.049167,
       "lon": -122.692783,
       "elev": 548.6,
@@ -595,14 +647,16 @@
       "code": "HIGHVLL3",
       "desc": "Private, Turn Point, Landable, 48Sx100;8/26"
     },
-    "Hoberg-E8": {
+    {
+      "name": "Hoberg-E8",
       "lat": 38.87195,
       "lon": -122.677217,
       "elev": 634.0,
       "code": "HOBERGE8",
       "desc": "Turn Point, 14/32 CLOSED"
     },
-    "Hyampon-R3": {
+    {
+      "name": "Hyampon-R3",
       "lat": 40.626117,
       "lon": -123.468617,
       "elev": 390.1,
@@ -620,7 +674,8 @@
       "code": "HYAMPMR3",
       "desc": "Turn Point, H47, 29HX60; 14/3, RW width: 60"
     },
-    "IndianRch-E4": {
+    {
+      "name": "IndianRch-E4",
       "lat": 39.269167,
       "lon": -122.48055,
       "elev": 390.1,
@@ -628,7 +683,8 @@
       "code": "INDINRC4",
       "desc": "Private, Turn Point, Landable, 36Sx60;13/33"
     },
-    "Johnsons-E3": {
+    {
+      "name": "Johnsons-E3",
       "lat": 38.8075,
       "lon": -122.593617,
       "elev": 304.8,
@@ -636,7 +692,8 @@
       "code": "JOHNSNS3",
       "desc": "Private, Turn Point, Landable, 43Sx90; 7/25"
     },
-    "Jones-R5": {
+    {
+      "name": "Jones-R5",
       "lat": 39.455833,
       "lon": -121.691117,
       "elev": 33.5,
@@ -653,7 +710,8 @@
       "code": "JONES R5",
       "desc": "Private, Turn Point, CL23, 26x100;14/32, RW width: 30"
     },
-    "Jonsen-R3": {
+    {
+      "name": "Jonsen-R3",
       "lat": 39.671383,
       "lon": -121.883883,
       "elev": 57.9,
@@ -670,14 +728,16 @@
       "code": "JOHNSNR3",
       "desc": "Private, Turn Point, 4CA7, 27x200;16/34, RW width: 60"
     },
-    "Knocti-U3": {
+    {
+      "name": "Knocti-U3",
       "lat": 38.974717,
       "lon": -122.765833,
       "elev": 1310.6,
       "code": "KNOCTIU3",
       "desc": "Turn Point"
     },
-    "LakeCal-R2": {
+    {
+      "name": "LakeCal-R2",
       "lat": 40.361117,
       "lon": -122.215833,
       "elev": 185.9,
@@ -694,7 +754,8 @@
       "code": "LKCLFRNR",
       "desc": "Private, Turn Point, 68CA, 30x200;14/32, RW width: 75"
     },
-    "Lampson-R2": {
+    {
+      "name": "Lampson-R2",
       "lat": 38.990283,
       "lon": -122.9,
       "elev": 420.6,
@@ -712,7 +773,8 @@
       "code": "LAMPSNR2",
       "desc": "Turn Point, 1O2, 36x200;10/28, RW width: 60"
     },
-    "Larrys-E4": {
+    {
+      "name": "Larrys-E4",
       "lat": 38.764717,
       "lon": -122.644167,
       "elev": 347.5,
@@ -729,7 +791,8 @@
       "code": "LARRYSE4",
       "desc": "Private, Turn Point, Landable, 17x100: 9/27, RW width: 17"
     },
-    "Lincoln-R2": {
+    {
+      "name": "Lincoln-R2",
       "lat": 38.909167,
       "lon": -121.351383,
       "elev": 36.6,
@@ -747,28 +810,32 @@
       "code": "LNCLNRR2",
       "desc": "Turn Point, KLHM, 60x100;15/33, RW width: 100"
     },
-    "LongVly-E9": {
+    {
+      "name": "LongVly-E9",
       "lat": 39.098333,
       "lon": -122.69195,
       "elev": 411.5,
       "code": "LONGVLL9",
       "desc": "Private, Turn Point, 36Sx90;11/29"
     },
-    "M3-U8": {
+    {
+      "name": "M3-U8",
       "lat": 39.938883,
       "lon": -122.78055,
       "elev": 2005.6,
       "code": "M3 U8",
       "desc": "Turn Point"
     },
-    "M6-U9": {
+    {
+      "name": "M6-U9",
       "lat": 39.771383,
       "lon": -122.68445,
       "elev": 1544.7,
       "code": "M6 U9",
       "desc": "Turn Point, 9sm to Buro1"
     },
-    "MaxMoller-R9": {
+    {
+      "name": "MaxMoller-R9",
       "lat": 39.287217,
       "lon": -122.18945,
       "elev": 25.9,
@@ -785,7 +852,8 @@
       "code": "MXMLLRR9",
       "desc": "Private, Turn Point, 8CL6, Weeds Ruts, RW width: 75"
     },
-    "Millers-E4": {
+    {
+      "name": "Millers-E4",
       "lat": 39.07555,
       "lon": -122.082217,
       "elev": 24.4,
@@ -793,7 +861,8 @@
       "code": "MILLERS4",
       "desc": "Private, Turn Point, Landable, 20SX50; 07/2, RW width: 50"
     },
-    "Montgomry-E2": {
+    {
+      "name": "Montgomry-E2",
       "lat": 39.40195,
       "lon": -122.499717,
       "elev": 335.3,
@@ -810,7 +879,8 @@
       "code": "MONTGMR2",
       "desc": "Private, Turn Point, Landable, 40Sx50; 15/3, RW width: 50"
     },
-    "Moronis-R7": {
+    {
+      "name": "Moronis-R7",
       "lat": 39.103333,
       "lon": -121.85,
       "elev": 10.7,
@@ -827,14 +897,16 @@
       "code": "MORONSR7",
       "desc": "Private, Turn Point, 92CL, 24Hx60; 16/34, RW width: 50"
     },
-    "MtStHelena-U6": {
+    {
+      "name": "MtStHelena-U6",
       "lat": 38.669167,
       "lon": -122.628617,
       "elev": 1280.2,
       "code": "MTSTHLN6",
       "desc": "Turn Point"
     },
-    "Mysterios-R9": {
+    {
+      "name": "Mysterios-R9",
       "lat": 38.740833,
       "lon": -122.367217,
       "elev": 429.8,
@@ -851,7 +923,8 @@
       "code": "MSTRSVLL",
       "desc": "Private, Turn Point, 20CL, 35Sx60;14/32, RW width: 30"
     },
-    "Napa Cnty-R2": {
+    {
+      "name": "Napa Cnty-R2",
       "lat": 38.209717,
       "lon": -122.278333,
       "elev": 10.7,
@@ -869,14 +942,16 @@
       "code": "NAPCNTR2",
       "desc": "Turn Point, KAPC, 59Hx15018/36, RW width: 150"
     },
-    "Noltas-U3": {
+    {
+      "name": "Noltas-U3",
       "lat": 39.57945,
       "lon": -122.19805,
       "elev": 44.2,
       "code": "NOLTASU3",
       "desc": "Turn Point, RW width: 85"
     },
-    "NutTree-R1": {
+    {
+      "name": "NutTree-R1",
       "lat": 38.377783,
       "lon": -121.96195,
       "elev": 33.5,
@@ -894,7 +969,8 @@
       "code": "NUTTRER1",
       "desc": "Turn Point, KVCB, 47Hx75;02/20, RW width: 75"
     },
-    "OrlndHg-R2": {
+    {
+      "name": "OrlndHg-R2",
       "lat": 39.721117,
       "lon": -122.146383,
       "elev": 65.5,
@@ -912,7 +988,8 @@
       "code": "ORLNDHGH",
       "desc": "Turn Point, O37, 45HX60; 15/3, RW width: 60"
     },
-    "Oroville-R2": {
+    {
+      "name": "Oroville-R2",
       "lat": 39.490283,
       "lon": -121.62195,
       "elev": 57.9,
@@ -930,7 +1007,8 @@
       "code": "OROVLLR2",
       "desc": "Turn Point, KOVE, 60Hx100; 2/2, RW width: 100"
     },
-    "PVlyN-E3": {
+    {
+      "name": "PVlyN-E3",
       "lat": 38.635,
       "lon": -122.402783,
       "elev": 195.1,
@@ -938,7 +1016,8 @@
       "code": "POPVLLN3",
       "desc": "Private, Turn Point, Landable, 24Sx50;8/26, RW width: 50"
     },
-    "Paradise-R3": {
+    {
+      "name": "Paradise-R3",
       "lat": 39.710283,
       "lon": -121.616383,
       "elev": 396.2,
@@ -956,14 +1035,16 @@
       "code": "PRDSSKPR",
       "desc": "Private, Turn Point, CA92, 30Hx60;17/35, RW width: 60"
     },
-    "PondrSky-E9": {
+    {
+      "name": "PondrSky-E9",
       "lat": 40.344167,
       "lon": -121.77305,
       "elev": 1051.6,
       "code": "PNDRSSKR",
       "desc": "Private, Turn Point, 52CN, not landable, RW width: 100"
     },
-    "PopeVly-R3": {
+    {
+      "name": "PopeVly-R3",
       "lat": 38.610833,
       "lon": -122.391667,
       "elev": 189.0,
@@ -980,7 +1061,8 @@
       "code": "POPVLLR3",
       "desc": "Private, Turn Point, 05CL, 37Hx60;10/28, RW width: 60"
     },
-    "R-Tehama-R2": {
+    {
+      "name": "R-Tehama-R2",
       "lat": 40.015283,
       "lon": -122.391383,
       "elev": 167.6,
@@ -997,7 +1079,8 @@
       "code": "RNCHTHMR",
       "desc": "Private, Turn Point, 49CN, 37x150;09/27, RW width: 40"
     },
-    "Ranchaero-R3": {
+    {
+      "name": "Ranchaero-R3",
       "lat": 39.719717,
       "lon": -121.87055,
       "elev": 51.8,
@@ -1015,21 +1098,24 @@
       "code": "RANCHRR3",
       "desc": "Private, Turn Point, CL56, 21x250;14/32, RW width: 30"
     },
-    "Rdg-N-U9": {
+    {
+      "name": "Rdg-N-U9",
       "lat": 38.889717,
       "lon": -122.291117,
       "elev": 853.4,
       "code": "RDG N U9",
       "desc": "Turn Point"
     },
-    "Rdg-S-U9": {
+    {
+      "name": "Rdg-S-U9",
       "lat": 38.73,
       "lon": -122.243883,
       "elev": 457.2,
       "code": "RDG S U9",
       "desc": "Turn Point"
     },
-    "RedBluff-R2": {
+    {
+      "name": "RedBluff-R2",
       "lat": 40.150833,
       "lon": -122.2525,
       "elev": 106.7,
@@ -1047,7 +1133,8 @@
       "code": "RDBLFFR2",
       "desc": "Turn Point, KRBL, 54HX100; CTA, RW width: 100"
     },
-    "Redding-R2": {
+    {
+      "name": "Redding-R2",
       "lat": 40.509717,
       "lon": -122.294717,
       "elev": 152.4,
@@ -1065,7 +1152,8 @@
       "code": "REDDNGR2",
       "desc": "Turn Point, KRDD, 70x150;16/34, RW width: 150"
     },
-    "Richvale-R3": {
+    {
+      "name": "Richvale-R3",
       "lat": 39.4975,
       "lon": -121.770833,
       "elev": 30.5,
@@ -1082,7 +1170,8 @@
       "code": "RICHVLR3",
       "desc": "Private, Turn Point, 07CL, 22x100;16/34, RW width: 50"
     },
-    "RioVista-R2": {
+    {
+      "name": "RioVista-R2",
       "lat": 38.193617,
       "lon": -121.705833,
       "elev": 6.1,
@@ -1100,7 +1189,8 @@
       "code": "RIOVSTR2",
       "desc": "Turn Point, O88, 42HX75;07/25, RW width: 75"
     },
-    "Rogers-R2": {
+    {
+      "name": "Rogers-R2",
       "lat": 40.282217,
       "lon": -121.241117,
       "elev": 1380.7,
@@ -1118,7 +1208,8 @@
       "code": "ROGERSR2",
       "desc": "Turn Point, O05, 50X100;16/34, RW width: 100"
     },
-    "RoundVly-R2": {
+    {
+      "name": "RoundVly-R2",
       "lat": 39.791117,
       "lon": -123.270833,
       "elev": 457.2,
@@ -1136,14 +1227,16 @@
       "code": "RNDVLLR2",
       "desc": "Turn Point, O09, 36HX60;10/28, RW width: 60"
     },
-    "RumseyGap-U7": {
+    {
+      "name": "RumseyGap-U7",
       "lat": 38.92055,
       "lon": -122.303883,
       "elev": 777.2,
       "code": "RUMSEGP7",
       "desc": "Turn Point, N Of Gap"
     },
-    "Ruth-R4": {
+    {
+      "name": "Ruth-R4",
       "lat": 40.211667,
       "lon": -123.297783,
       "elev": 853.4,
@@ -1161,14 +1254,16 @@
       "code": "RUTH R4",
       "desc": "Turn Point, T42, 35x150;13/31, RW width: 50"
     },
-    "SMFClassC": {
+    {
+      "name": "SMFClassC",
       "lat": 38.695283,
       "lon": -121.601117,
       "elev": 24.4,
       "code": "SACRAMNT",
       "desc": "Turn Point, SMF, NORCAL 125.4, RW width: 150"
     },
-    "SilverCrk-R9": {
+    {
+      "name": "SilverCrk-R9",
       "lat": 40.3175,
       "lon": -123.253883,
       "elev": 765.0,
@@ -1185,35 +1280,40 @@
       "code": "SLVRCRKR",
       "desc": "Private, Turn Point, 41CA, Weeds, brush, RW width: 50"
     },
-    "SironMtn-u2": {
+    {
+      "name": "SironMtn-u2",
       "lat": 39.491117,
       "lon": -122.734167,
       "elev": 1981.2,
       "code": "SIRNMTN2",
       "desc": "Turn Point"
     },
-    "Sites-E7": {
+    {
+      "name": "Sites-E7",
       "lat": 39.308617,
       "lon": -122.3425,
       "elev": 91.4,
       "code": "SITES E7",
       "desc": "Private, Turn Point, Fields"
     },
-    "SnowMtn-U5": {
+    {
+      "name": "SnowMtn-U5",
       "lat": 39.378333,
       "lon": -122.76,
       "elev": 2133.6,
       "code": "SNOWMTN5",
       "desc": "Turn Point"
     },
-    "StJohn-U2": {
+    {
+      "name": "StJohn-U2",
       "lat": 39.43195,
       "lon": -122.693617,
       "elev": 1981.2,
       "code": "STJOHNU2",
       "desc": "Turn Point"
     },
-    "Stonyford-E6": {
+    {
+      "name": "Stonyford-E6",
       "lat": 39.366383,
       "lon": -122.552217,
       "elev": 374.9,
@@ -1230,7 +1330,8 @@
       "code": "STONFRD6",
       "desc": "Private, Turn Point, Landable, 22Sx80;16/34, RW width: 80"
     },
-    "Strain-E3": {
+    {
+      "name": "Strain-E3",
       "lat": 39.053333,
       "lon": -122.09555,
       "elev": 36.6,
@@ -1247,49 +1348,56 @@
       "code": "STRAINE3",
       "desc": "Private, Turn Point, Landable, 25Hx90;17/34, RW width: 90"
     },
-    "SutrBts-U5": {
+    {
+      "name": "SutrBts-U5",
       "lat": 39.205833,
       "lon": -121.82055,
       "elev": 634.0,
       "code": "STTRBTTS",
       "desc": "Turn Point"
     },
-    "T15-U7": {
+    {
+      "name": "T15-U7",
       "lat": 40.205,
       "lon": -123.009717,
       "elev": 2368.3,
       "code": "T15 U7",
       "desc": "Turn Point"
     },
-    "T16-U7": {
+    {
+      "name": "T16-U7",
       "lat": 40.13695,
       "lon": -122.817217,
       "elev": 2051.3,
       "code": "T16 U7",
       "desc": "Turn Point"
     },
-    "TravsAFB-R9": {
+    {
+      "name": "TravsAFB-R9",
       "lat": 38.262783,
       "lon": -121.927217,
       "elev": 18.3,
       "code": "TRVSFBR9",
       "desc": "Turn Point, Military, KSUU, 100x150;03/31, RW width: 150"
     },
-    "TreeFarm-U4": {
+    {
+      "name": "TreeFarm-U4",
       "lat": 39.284167,
       "lon": -122.67195,
       "elev": 1280.2,
       "code": "TREEFRM4",
       "desc": "Start Point, Turn Point"
     },
-    "TrinAlps-U8": {
+    {
+      "name": "TrinAlps-U8",
       "lat": 41.00445,
       "lon": -123.03695,
       "elev": 2712.7,
       "code": "TRNTLPS8",
       "desc": "Turn Point, Weavrvl 15sm"
     },
-    "TrinCtr-R5": {
+    {
+      "name": "TrinCtr-R5",
       "lat": 40.9825,
       "lon": -122.693617,
       "elev": 731.5,
@@ -1307,7 +1415,8 @@
       "code": "TRNTCNTR",
       "desc": "Turn Point, O86, 32x150;14/32, RW width: 50"
     },
-    "Ukiah-R2": {
+    {
+      "name": "Ukiah-R2",
       "lat": 39.126383,
       "lon": -123.201117,
       "elev": 187.5,
@@ -1325,7 +1434,8 @@
       "code": "UKIAH R2",
       "desc": "Turn Point, KUKI, 44x150; 15/33, RW width: 150"
     },
-    "UnivDavis-R1": {
+    {
+      "name": "UnivDavis-R1",
       "lat": 38.531383,
       "lon": -121.786383,
       "elev": 21.3,
@@ -1343,14 +1453,16 @@
       "code": "UNVRSTDV",
       "desc": "Turn Point, KEDU, 31X50;17/35, RW width: 50"
     },
-    "VacaPond-U5": {
+    {
+      "name": "VacaPond-U5",
       "lat": 38.361383,
       "lon": -122.07555,
       "elev": 609.6,
       "code": "VACAPND5",
       "desc": "Turn Point"
     },
-    "Vanderfrd-R5": {
+    {
+      "name": "Vanderfrd-R5",
       "lat": 39.093883,
       "lon": -121.7175,
       "elev": 12.2,
@@ -1367,7 +1479,8 @@
       "code": "VNDRFRDR",
       "desc": "Private, Turn Point, CA73, RW width: 48"
     },
-    "Wagner-E5": {
+    {
+      "name": "Wagner-E5",
       "lat": 38.874717,
       "lon": -121.71,
       "elev": 6.1,
@@ -1384,14 +1497,16 @@
       "code": "WAGNERE5",
       "desc": "Private, Turn Point, CA18, 31Hx80;14/32, RW width: 35"
     },
-    "WalkerRdg-U2": {
+    {
+      "name": "WalkerRdg-U2",
       "lat": 39.098617,
       "lon": -122.488617,
       "elev": 1085.1,
       "code": "WLKRRDG2",
       "desc": "Start Point, Turn Point"
     },
-    "WeaverVl-R3": {
+    {
+      "name": "WeaverVl-R3",
       "lat": 40.747217,
       "lon": -122.9225,
       "elev": 716.3,
@@ -1409,7 +1524,8 @@
       "code": "LNNPLWVR",
       "desc": "Turn Point, O54, 30x150;18/36, RW width: 50"
     },
-    "Willits-R2": {
+    {
+      "name": "Willits-R2",
       "lat": 39.451667,
       "lon": -123.3725,
       "elev": 629.7,
@@ -1427,7 +1543,8 @@
       "code": "WILLTSR2",
       "desc": "Turn Point, O28, 30x100; 16/34, RW width: 75"
     },
-    "WillowsG-R2": {
+    {
+      "name": "WillowsG-R2",
       "lat": 39.516667,
       "lon": -122.219717,
       "elev": 43.0,
@@ -1445,7 +1562,8 @@
       "code": "WLLWSGLN",
       "desc": "Turn Point, KWLW, 41x100;16/34, RW width: 100"
     },
-    "Woodland-R2": {
+    {
+      "name": "Woodland-R2",
       "lat": 38.674167,
       "lon": -121.87195,
       "elev": 36.6,
@@ -1463,14 +1581,16 @@
       "code": "WTTSWDLN",
       "desc": "Turn Point, O41, 37X200;18/36, RW width: 60"
     },
-    "YollaPk-U8": {
+    {
+      "name": "YollaPk-U8",
       "lat": 40.038883,
       "lon": -122.864167,
       "elev": 2438.4,
       "code": "YOLLAPK8",
       "desc": "Turn Point"
     },
-    "YoloCnty-R2": {
+    {
+      "name": "YoloCnty-R2",
       "lat": 38.579717,
       "lon": -121.85695,
       "elev": 30.5,
@@ -1488,5 +1608,5 @@
       "code": "YOLCNTR2",
       "desc": "Turn Point, KDWA, 60x200;16/34, RW width: 100"
     }
-  }
+  ]
 }
