@@ -27,5 +27,10 @@ done
 ./tocup.py < "$DIR/california_$DATE.json" > "$DIR/california_$DATE.cup"
 ./tokml.py < "$DIR/california_$DATE.json" > "$DIR/california_$DATE.kml"
 
-tar -czf "SUSATurnpoints_$DATE.tar.gz" -C $TMPDIR .
+OUTDIR=$(pwd)
+#tar -czf "SUSATurnpoints_$DATE.tar.gz" -C $TMPDIR .
+pushd $TMPDIR
+	zip -r "SUSATurnpoints_$DATE.zip" $(basename $DIR)
+	mv "SUSATurnpoints_$DATE.zip" $OUTDIR
+popd
 rm -rf $TMPDIR
