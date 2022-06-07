@@ -52,6 +52,7 @@ schema = {
             'properties' : {
                 'name' : {'type' : 'string', 'description' : 'Official designator for runway e.g "06L/24R". Must be unique in runways array.'},
                 'len' : {'type' : 'number', 'description' : 'Length in meters'},
+                'width': {'type' : 'number', 'description' : 'Width in meters'},
                 'dir' : {'type' : 'integer', 'description' : 'Geographic heading in degrees'},
                 'surface': {'enum' : ['paved', 'unpaved']}
             },

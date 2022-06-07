@@ -1,7 +1,7 @@
 {
   "name": "montag",
   "desc": "Soaring turnpoints for Montague CA",
-  "schema": 2,
+  "schema": 3,
   "turnpoints": [
     {
       "name": "Adin",

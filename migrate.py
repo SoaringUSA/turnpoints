@@ -39,4 +39,10 @@ if __name__=='__main__':
         inputSchemaVersion = 2
         input = outDict
 
+    if inputSchemaVersion == 2:
+        outDict = input
+        outDict['schema'] = 3
+        inputSchemaVersion = 3
+        input = outDict
+
     print(json.dumps(outDict, sort_keys=False, indent=2))

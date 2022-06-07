@@ -1,7 +1,7 @@
 {
   "name": "wsc",
   "desc": "Soaring turnpoints for Williams CA and surrounding region.",
-  "schema": 2,
+  "schema": 3,
   "turnpoints": [
     {
       "name": "1WSC-R1",
