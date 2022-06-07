@@ -868,7 +868,14 @@
       "lat": 37.079167,
       "lon": -120.720567,
       "elev": 36.6,
-      "landable": {}
+      "desc": "29/11 more westerly and further east than LSN in strong crosswinds. 2800' x 38' broadly spaced low markers on side, low vegetation. Easy access from Hwy 152; N on Deepwell Rd.",
+      "landable": {
+	 "name": "29/11",
+	 "len": 900,
+	 "width": 11,
+	 "dir": 290 ,
+	 "surface": "paved" 
+      }
     },
     {
       "name": "DeerValley",
