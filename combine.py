@@ -51,7 +51,7 @@ if __name__=='__main__':
 	outDict = {
 		'name' : outputName,
 		'desc' : description,
-		'schema' : 2,
+		'schema' : 3,
 		'turnpoints' : outData
 	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))
