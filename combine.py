@@ -34,8 +34,8 @@ if __name__=='__main__':
 			# Position dedupe
 			for oldTp in outData:
 				b = [oldTp['lat'], oldTp['lon']]
-				# 1km radius for dupes
-				if WGS84.geodesic(a, b) < 1000:
+				# 2km radius for dupes
+				if WGS84.geodesic(a, b) < 2000:
 					isDuplicate = True
 					print('Waypoint "{0}" detected as duplicate of "{1}"'.format(tp['name'], oldTp['name']), file=sys.stderr)
 					break
@@ -51,7 +51,7 @@ if __name__=='__main__':
 	outDict = {
 		'name' : outputName,
 		'desc' : description,
-		'schema' : 2,
+		'schema' : 3,
 		'turnpoints' : outData
 	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))

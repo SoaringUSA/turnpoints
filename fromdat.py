@@ -80,7 +80,7 @@ if __name__=='__main__':
 	outDict = {
 		'name':'',
 		'desc':'',
-		'schema': 2,
+		'schema': 3,
 		'turnpoints': sorted(out, key=lambda tp: tp['name'])
 	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))

@@ -1,7 +1,7 @@
 {
   "name": "wsc",
-  "desc": "Soaring turnpoints for Williams CA and surrounding region.",
-  "schema": 2,
+  "desc": "Combined turnpoints of wsc turnpoints/wsc.json /tmp/wscoutland.json",
+  "schema": 3,
   "turnpoints": [
     {
       "name": "1WSC-R1",
@@ -107,6 +107,32 @@
       "elev": 42.7,
       "code": "ARBUCKL4",
       "desc": "Turn Point"
+    },
+    {
+      "name": "BasinHollow",
+      "lat": 40.5525,
+      "lon": -122.14805,
+      "elev": 213.4,
+      "landable": {
+        "runways": [
+          {
+            "name": "01/19",
+            "len": 397,
+            "width": 6,
+            "dir": 7,
+            "surface": "paved"
+          },
+          {
+            "name": "15/33",
+            "len": 560,
+            "width": 12,
+            "dir": 328,
+            "surface": "unpaved"
+          }
+        ]
+      },
+      "code": "BasinHollow",
+      "desc": ""
     },
     {
       "name": "BealeCassC",
@@ -340,6 +366,15 @@
       "desc": "Private, Turn Point, Landable, 18Hx200;10/28, RW width: 20"
     },
     {
+      "name": "DblCrkField",
+      "lat": 40.450283,
+      "lon": -121.87695,
+      "elev": 640.1,
+      "landable": {},
+      "code": "DblCrkField",
+      "desc": "Field NE of overgrown airstrip. Small powerline running NE/SW at north end. Slope up to N"
+    },
+    {
       "name": "DeerCreek-R3",
       "lat": 39.95,
       "lon": -121.991383,
@@ -376,24 +411,6 @@
       "desc": "Private, Turn Point, 90CL, 24Sx75; 9/27, RW width: 75"
     },
     {
-      "name": "DoubleCrk-R5",
-      "lat": 40.44555,
-      "lon": -121.882217,
-      "elev": 618.7,
-      "landable": {
-        "runways": [
-          {
-            "name": "06/24",
-            "len": 914.4,
-            "dir": 60,
-            "surface": "unpaved"
-          }
-        ]
-      },
-      "code": "DBLCRKRC",
-      "desc": "Private, Turn Point, CN42, 30Sx80; 6/24, RW width: 80"
-    },
-    {
       "name": "DunniganN-E7",
       "lat": 38.9175,
       "lon": -121.946667,
@@ -420,6 +437,25 @@
       "desc": "Turn Point, 20Sx30;17/35, RW width: 30"
     },
     {
+      "name": "DyeCreekRanch",
+      "lat": 40.116667,
+      "lon": -122.070833,
+      "elev": 91.4,
+      "landable": {
+        "runways": [
+          {
+            "name": "14/32",
+            "len": 1189,
+            "width": 30,
+            "dir": 143,
+            "surface": "unpaved"
+          }
+        ]
+      },
+      "code": "DyeCrkRnch",
+      "desc": "Grass. Hangar SE end."
+    },
+    {
       "name": "EaglePeak-U8",
       "lat": 39.967783,
       "lon": -122.739167,
@@ -428,21 +464,23 @@
       "desc": "Turn Point, Yolla"
     },
     {
-      "name": "ElkCrk1-E9",
-      "lat": 39.585283,
-      "lon": -122.584167,
-      "elev": 320.0,
-      "code": "ELKCRK19",
-      "desc": "Turn Point, Overgrown"
-    },
-    {
-      "name": "ElkCrk2-E7",
-      "lat": 39.603333,
-      "lon": -122.546383,
-      "elev": 234.7,
-      "landable": {},
-      "code": "ELKCRK27",
-      "desc": "Private, Turn Point, Landable, Dirt Road"
+      "name": "ElkCreek",
+      "lat": 39.59445,
+      "lon": -122.565283,
+      "elev": 286.5,
+      "landable": {
+        "runways": [
+          {
+            "name": "04/22",
+            "len": 776,
+            "width": 18,
+            "dir": 41,
+            "surface": "unpaved"
+          }
+        ]
+      },
+      "code": "ElkCrk",
+      "desc": ""
     },
     {
       "name": "Esparto-E3",
@@ -656,6 +694,15 @@
       "desc": "Turn Point, 14/32 CLOSED"
     },
     {
+      "name": "Hwy36-PaynesCrk",
+      "lat": 40.311667,
+      "lon": -121.98,
+      "elev": 324.6,
+      "landable": {},
+      "code": "H36Paynes",
+      "desc": "SW-NE hayfield(s) 3000 ft. Several other nearby fields."
+    },
+    {
       "name": "Hyampon-R3",
       "lat": 40.626117,
       "lon": -123.468617,
@@ -811,6 +858,24 @@
       "desc": "Turn Point, KLHM, 60x100;15/33, RW width: 100"
     },
     {
+      "name": "LittleCowCrk1",
+      "lat": 40.668883,
+      "lon": -122.166667,
+      "elev": 155.4,
+      "landable": {},
+      "code": "LittleCowCrk1",
+      "desc": "1000'+ ~SW-NE Hayfield-Pasture"
+    },
+    {
+      "name": "LittleCowCrk2",
+      "lat": 40.627783,
+      "lon": -122.222217,
+      "elev": 187.5,
+      "landable": {},
+      "code": "LittleCowCrk2",
+      "desc": "1000'+ ~SW-NE Hayfield-Pasture"
+    },
+    {
       "name": "LongVly-E9",
       "lat": 39.098333,
       "lon": -122.69195,
@@ -860,6 +925,25 @@
       "landable": {},
       "code": "MILLERS4",
       "desc": "Private, Turn Point, Landable, 20SX50; 07/2, RW width: 50"
+    },
+    {
+      "name": "Millville",
+      "lat": 40.58055,
+      "lon": -122.092783,
+      "elev": 304.8,
+      "landable": {
+        "runways": [
+          {
+            "name": "01/19",
+            "len": 696,
+            "width": 5,
+            "dir": 193,
+            "surface": "unpaved"
+          }
+        ]
+      },
+      "code": "Millville",
+      "desc": "Old Pavement wide grass sides; uphill to N"
     },
     {
       "name": "Montgomry-E2",
@@ -968,6 +1052,15 @@
       },
       "code": "NUTTRER1",
       "desc": "Turn Point, KVCB, 47Hx75;02/20, RW width: 75"
+    },
+    {
+      "name": "OakRunPastures",
+      "lat": 40.696667,
+      "lon": -122.033333,
+      "elev": 445.0,
+      "landable": {},
+      "code": "OakRun",
+      "desc": "1000'-1300' long sections; SW and NW oriented berms"
     },
     {
       "name": "OrlndHg-R2",
@@ -1151,6 +1244,43 @@
       },
       "code": "REDDNGR2",
       "desc": "Turn Point, KRDD, 70x150;16/34, RW width: 150"
+    },
+    {
+      "name": "ReddingHayfield1",
+      "lat": 40.656667,
+      "lon": -122.296383,
+      "elev": 195.1,
+      "landable": {},
+      "code": "Redhayfld1",
+      "desc": "~1500' E-W tracks; ~150 acres"
+    },
+    {
+      "name": "ReddingHayfield2",
+      "lat": 40.63555,
+      "lon": -122.313883,
+      "elev": 185.9,
+      "landable": {},
+      "code": "Redhayfld2",
+      "desc": "1100' to 1800' long N-S berms"
+    },
+    {
+      "name": "ReedsCreek",
+      "lat": 40.147467,
+      "lon": -122.463546,
+      "elev": 192.0,
+      "landable": {
+        "runways": [
+          {
+            "name": "13/31",
+            "len": 613,
+            "width": 28,
+            "dir": 126,
+            "surface": "unpaved"
+          }
+        ]
+      },
+      "code": "ReedsCrk",
+      "desc": "Dirt strip. Not yet investigated from the ground."
     },
     {
       "name": "Richvale-R3",

@@ -1,7 +1,7 @@
 {
   "name": "truckee",
   "desc": "Soaring turnpoints for Truckee CA and surrounding region.",
-  "schema": 2,
+  "schema": 3,
   "turnpoints": [
     {
       "name": "7990 Peak U4",

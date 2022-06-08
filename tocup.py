@@ -5,7 +5,7 @@ import json
 import sys
 
 def cupWriter(fileHandle):
-	cvw = csv.DictWriter(fileHandle, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','freq','desc','userdata','pics'], quoting=csv.QUOTE_MINIMAL)
+	cvw = csv.DictWriter(fileHandle, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','rwwidth','freq','desc','userdata','pics'], quoting=csv.QUOTE_MINIMAL)
 	return cvw
 
 def parseLat(deg):
@@ -57,5 +57,7 @@ if __name__=='__main__':
 					outDict['rwdir'] = str(rw0['dir'])
 				if 'len' in rw0:
 					outDict['rwlen'] = '{0:.1f}m'.format(rw0['len'])
+				if 'width' in rw0:
+					outDict['rwwidth'] = '{0:.1f}m'.format(rw0['width'])
 		outDict['style'] = str(style)
 		cvw.writerow(outDict)

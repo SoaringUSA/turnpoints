@@ -54,7 +54,8 @@ if __name__=='__main__':
 	# A simple-as-possible json format for cup to be used as an intermediate
     # format for the scripts and tools. This way, parsing is only done once.
 
-	cvr = csv.DictReader(sys.stdin, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','freq','desc','userdata','pics'])
+	#cvr = csv.DictReader(sys.stdin, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','freq','desc','userdata','pics'])
+	cvr = csv.DictReader(sys.stdin, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','rwwidth','freq','desc','userdata','pics'])
 	# Skip first row
 	next(cvr)
 
@@ -97,7 +98,7 @@ if __name__=='__main__':
 	outDict = {
 		'name':'',
 		'desc':'',
-		'schema': 2,
+		'schema': 3,
 		'turnpoints': sorted(out, key=lambda tp: tp['name'])
 	}
 	print(json.dumps(outDict, sort_keys=False, indent=2))

@@ -1,7 +1,7 @@
 {
   "name": "hllstr",
   "desc": "Soaring turnpoints for Hollister CA and surrounding region.",
-  "schema": 2,
+  "schema": 3,
   "turnpoints": [
     {
       "name": "3Sisters",
