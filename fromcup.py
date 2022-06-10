@@ -51,13 +51,13 @@ def parseRwdir(rwdir):
 	return '{0}/{1}'.format(d, dd)
 
 if __name__=='__main__':
-	# A simple-as-possible json format for cup to be used as an intermediate
-    # format for the scripts and tools. This way, parsing is only done once.
 
-	#cvr = csv.DictReader(sys.stdin, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','freq','desc','userdata','pics'])
-	cvr = csv.DictReader(sys.stdin, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','rwwidth','freq','desc','userdata','pics'])
-	# Skip first row
-	next(cvr)
+	firstLine = sys.stdin.readline()
+	# There is a format with and without this runway width field
+	numCommas = firstLine.count(',')
+	hasRwWidth = numCommas > 11
+
+	cvr = csv.DictReader(sys.stdin, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen'] + (['rwwidth'] if hasRwWidth else []) + ['freq','desc','userdata','pics'])
 
 	out = []
 	for row in cvr:
