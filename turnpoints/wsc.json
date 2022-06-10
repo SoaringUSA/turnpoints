@@ -758,6 +758,14 @@
       "desc": "Private, Turn Point, CL23, 26x100;14/32, RW width: 30"
     },
     {
+      "name": "Joneses",
+      "lat": 39.148883,
+      "lon": -122.17055,
+      "elev": 20.7,
+      "landable": {},
+      "code": "Joneses"
+    },
+    {
       "name": "Jonsen-R3",
       "lat": 39.671383,
       "lon": -121.883883,
@@ -916,6 +924,25 @@
       },
       "code": "MXMLLRR9",
       "desc": "Private, Turn Point, 8CL6, Weeds Ruts, RW width: 75"
+    },
+    {
+      "name": "MCC ClasC",
+      "lat": 38.667783,
+      "lon": -121.40055,
+      "elev": 23.5,
+      "landable": {
+        "runways": [
+          {
+            "name": "18/36",
+            "len": 3230.6,
+            "dir": 180,
+            "surface": "paved"
+          }
+        ],
+        "freq": "122.975"
+      },
+      "code": "MCCClasC",
+      "desc": "PUB-T (MCC)|AWOS:125.975|RY 16/34:10599x150-CONC-LGT-RP16|FUEL: 100LL A A+|MGR: JOSHUA HENRY|(916) 570-5349|JOSHUA HENRY, AIRPORT ADMINISTRATOR"
     },
     {
       "name": "Millers-E4",
@@ -1441,6 +1468,15 @@
       "elev": 1981.2,
       "code": "STJOHNU2",
       "desc": "Turn Point"
+    },
+    {
+      "name": "Stonyford",
+      "lat": 39.360833,
+      "lon": -122.57945,
+      "elev": 403.9,
+      "landable": {},
+      "code": "Stonyford",
+      "desc": "Ostrich Farm?"
     },
     {
       "name": "Stonyford-E6",
