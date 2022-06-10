@@ -1,0 +1,95 @@
+{
+    "name": "CA Experimental",
+    "desc": "Experimental turnpoints and landouts for California",
+    "schema": 3,
+    "turnpoints": [
+        {
+            "name": "Esquon",
+            "lat": 39.610508,
+            "lon": -121.739153,
+            "elev": 45,
+            "desc": "Jon Stallman. Paved strip",
+            "landable": {}
+        },
+        {
+            "name": "HappyV",
+            "lat": 40.399033,
+            "lon": -122.440160,
+            "elev": 191,
+            "desc": "Dirt strip with house",
+            "landable": {}
+        },
+        {
+            "name": "MissileSilos",
+            "lat": 39.278255,
+            "lon": -121.826884,
+            "elev": 30,
+            "desc": "Jon Stallman. Dirt strip.",
+            "landable": {}
+        },
+        {
+            "name": "SutterButteDusters",
+            "lat": 39.227715,
+            "lon": -121.688291,
+            "elev": 20,
+            "desc": "Jon Stallman. Duster.",
+            "landable": {}
+        },
+        {
+            "name": "JonSDuster0",
+            "lat": 39.444358,
+            "lon": -121.897779,
+            "elev" : 23,
+            "desc": "Jon Stallman duster strip",
+            "landable": {}
+        },
+        {
+            "name": "JonSDuster1",
+            "lat": 39.300992,
+            "lon": -121.785695,
+            "elev" : 22,
+            "desc": "Jon Stallman duster strip",
+            "landable": {}
+        },
+        {
+            "name": "JonSDuster2",
+            "lat": 39.616694,
+            "lon": -121.848299,
+            "elev" : 40,
+            "desc": "Jon Stallman duster strip",
+            "landable": {}
+        },
+        {
+            "name": "JonSDuster3",
+            "lat": 39.359010,
+            "lon": -121.838417,
+            "elev" : 20,
+            "desc": "Jon Stallman duster strip",
+            "landable": {}
+        },
+        {
+            "name": "JonSDuster4",
+            "lat": 39.445738,
+            "lon": -121.865915,
+            "elev" : 23,
+            "desc": "Jon Stallman duster strip",
+            "landable": {}
+        },
+        {
+            "name": "JonSDuster5",
+            "lat": 39.468877,
+            "lon": -121.882547,
+            "elev" : 25,
+            "desc": "Jon Stallman duster strip",
+            "landable": {}
+        },
+        {
+            "name": "JonSDuster6",
+            "lat": 39.497626,
+            "lon": -121.915780,
+            "elev" : 27,
+            "desc": "Jon Stallman duster strip",
+            "landable": {}
+        }
+    ]
+}

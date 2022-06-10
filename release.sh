@@ -2,7 +2,7 @@
 
 enable -n echo
 
-INFILES="turnpoints/hllstr.json turnpoints/montag.json turnpoints/truckee.json turnpoints/wsc.json"
+INFILES="turnpoints/hllstr.json turnpoints/montag.json turnpoints/truckee.json turnpoints/wsc.json turnpoints/experimental_ca.json"
 DATE=$(date '+%Y%m%d')
 
 for infile in $INFILES; do
