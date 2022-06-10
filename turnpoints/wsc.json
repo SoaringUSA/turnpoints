@@ -106,7 +106,7 @@
       "lon": -122.0575,
       "elev": 42.7,
       "code": "ARBUCKL4",
-      "desc": "Turn Point"
+      "desc": "I-5 Overpass"
     },
     {
       "name": "BasinHollow",
@@ -139,6 +139,17 @@
       "lat": 39.135833,
       "lon": -121.436117,
       "elev": 33.5,
+      "landable": {
+        "runways": [
+          {
+            "name": "16/34",
+            "len": 3657.9,
+            "dir": 162,
+            "surface": "paved"
+          }
+        ],
+        "freq": "119.400"
+      },
       "code": "BEALEAFB",
       "desc": "Turn Point, Military, NORCAL 125.4"
     },
@@ -149,7 +160,7 @@
       "elev": 426.7,
       "landable": {},
       "code": "BEARVLL3",
-      "desc": "Turn Point, Landable, Driveway"
+      "desc": "25SX? E/W Driveway"
     },
     {
       "name": "Benton-R2",
@@ -192,7 +203,7 @@
       "lon": -122.8725,
       "elev": 2270.2,
       "code": "BLCKBTT9",
-      "desc": "Turn Point"
+      "desc": "Peak On Hill"
     },
     {
       "name": "Bowles-R4",
@@ -244,7 +255,7 @@
       "lon": -122.1425,
       "elev": 118.9,
       "code": "CCHCRKCS",
-      "desc": "Turn Point, Nearby field"
+      "desc": "Use nearby fields"
     },
     {
       "name": "CalWrthtn-E3",
@@ -270,7 +281,7 @@
       "lon": -122.573333,
       "elev": 106.7,
       "code": "CALISTG6",
-      "desc": "Turn Point, Closed AP"
+      "desc": "Betwn Trlrs and Road"
     },
     {
       "name": "Charter-E5",
@@ -352,18 +363,8 @@
       "lat": 38.76945,
       "lon": -122.56945,
       "elev": 304.8,
-      "landable": {
-        "runways": [
-          {
-            "name": "10/28",
-            "len": 609.6,
-            "dir": 100,
-            "surface": "unpaved"
-          }
-        ]
-      },
       "code": "CRAZCRK3",
-      "desc": "Private, Turn Point, Landable, 18Hx200;10/28, RW width: 20"
+      "desc": "Closed, heavy equipment on runway"
     },
     {
       "name": "DblCrkField",
@@ -493,7 +494,7 @@
             "name": "17/35",
             "len": 792.5,
             "dir": 170,
-            "surface": "unpaved"
+            "surface": "paved"
           }
         ]
       },
@@ -513,9 +514,8 @@
       "lat": 38.898333,
       "lon": -122.446383,
       "elev": 734.6,
-      "landable": {},
       "code": "GO RC E7",
-      "desc": "Private, Turn Point, Landable, 24Sx?; 7/25;"
+      "desc": ""
     },
     {
       "name": "GoatMtn-U4",
@@ -531,7 +531,7 @@
       "lon": -122.76695,
       "elev": 1371.6,
       "code": "GOTNPSS6",
-      "desc": "Turn Point, N of Goat"
+      "desc": "Pass N Of Goat"
     },
     {
       "name": "GoatSPass-U6",
@@ -539,7 +539,7 @@
       "lon": -122.650833,
       "elev": 1341.1,
       "code": "GOTSPSS6",
-      "desc": "Turn Point, S of Goat"
+      "desc": "Pass S end of Goat"
     },
     {
       "name": "GoldMine-U9",
@@ -547,7 +547,7 @@
       "lon": -122.438617,
       "elev": 670.6,
       "code": "GOLDMIN9",
-      "desc": "Turn Point, Center Of Po"
+      "desc": "Ctr Of Pond"
     },
     {
       "name": "GravlyVly-R4",
@@ -587,30 +587,20 @@
       "desc": "Private, Turn Point, 53CN, 18H60; 12/30, RW width: 60"
     },
     {
-      "name": "Guenoc-E5",
+      "name": "Guenoc",
       "lat": 38.73945,
       "lon": -122.52305,
       "elev": 298.7,
-      "landable": {
-        "runways": [
-          {
-            "name": "11/29",
-            "len": 487.7,
-            "dir": 110,
-            "surface": "unpaved"
-          }
-        ]
-      },
-      "code": "GUENOCE5",
+      "code": "GUENOC",
       "desc": "Private, Turn Point, Landable, 16Sx90;11/29, RW width: 90"
     },
     {
-      "name": "Guinda-E9",
-      "lat": 38.799717,
-      "lon": -122.180283,
-      "elev": 100.6,
-      "code": "GUINDAE9",
-      "desc": "Private, Turn Point, Unsafe"
+      "name": "Guinda",
+      "lat": 38.798333,
+      "lon": -122.178333,
+      "elev": 61.0,
+      "code": "Guinda",
+      "desc": "use nerby fields"
     },
     {
       "name": "Gunersfld-R4",
@@ -677,13 +667,12 @@
       "desc": "Turn Point, F62, 41HX60; 7/25, RW width: 60"
     },
     {
-      "name": "HighVly-E3",
+      "name": "HighVly",
       "lat": 39.049167,
       "lon": -122.692783,
       "elev": 548.6,
-      "landable": {},
-      "code": "HIGHVLL3",
-      "desc": "Private, Turn Point, Landable, 48Sx100;8/26"
+      "code": "HIGHVLL",
+      "desc": "E/W Near Road"
     },
     {
       "name": "Hoberg-E8",
@@ -731,13 +720,12 @@
       "desc": "Private, Turn Point, Landable, 36Sx60;13/33"
     },
     {
-      "name": "Johnsons-E3",
+      "name": "Johnsons",
       "lat": 38.8075,
       "lon": -122.593617,
       "elev": 304.8,
-      "landable": {},
-      "code": "JOHNSNS3",
-      "desc": "Private, Turn Point, Landable, 43Sx90; 7/25"
+      "code": "JOHNSNS",
+      "desc": ""
     },
     {
       "name": "Jones-R5",
@@ -829,22 +817,12 @@
       "desc": "Turn Point, 1O2, 36x200;10/28, RW width: 60"
     },
     {
-      "name": "Larrys-E4",
+      "name": "Larrys",
       "lat": 38.764717,
       "lon": -122.644167,
       "elev": 347.5,
-      "landable": {
-        "runways": [
-          {
-            "name": "09/27",
-            "len": 304.8,
-            "dir": 90,
-            "surface": "unpaved"
-          }
-        ]
-      },
-      "code": "LARRYSE4",
-      "desc": "Private, Turn Point, Landable, 17x100: 9/27, RW width: 17"
+      "code": "LARRYS",
+      "desc": "no longer landable"
     },
     {
       "name": "Lincoln-R2",
@@ -889,7 +867,7 @@
       "lon": -122.69195,
       "elev": 411.5,
       "code": "LONGVLL9",
-      "desc": "Private, Turn Point, 36Sx90;11/29"
+      "desc": "Cultvtd fields"
     },
     {
       "name": "M3-U8",
@@ -1164,21 +1142,12 @@
       "desc": "Private, Turn Point, 52CN, not landable, RW width: 100"
     },
     {
-      "name": "PopeVly-R3",
+      "name": "PopeVly",
       "lat": 38.610833,
       "lon": -122.391667,
       "elev": 189.0,
-      "landable": {
-        "runways": [
-          {
-            "name": "10/28",
-            "len": 1127.8,
-            "dir": 100,
-            "surface": "paved"
-          }
-        ]
-      },
-      "code": "POPVLLR3",
+      "landable": {},
+      "code": "POPVLL",
       "desc": "Private, Turn Point, 05CL, 37Hx60;10/28, RW width: 60"
     },
     {
@@ -1192,7 +1161,7 @@
             "name": "09/27",
             "len": 1143.0,
             "dir": 90,
-            "surface": "unpaved"
+            "surface": "paved"
           }
         ]
       },
@@ -1415,9 +1384,20 @@
       "name": "SMFClassC",
       "lat": 38.695283,
       "lon": -121.601117,
-      "elev": 24.4,
-      "code": "SACRAMNT",
-      "desc": "Turn Point, SMF, NORCAL 125.4, RW width: 150"
+      "elev": 8.2,
+      "landable": {
+        "runways": [
+          {
+            "name": "18/36",
+            "len": 2622.8,
+            "dir": 181,
+            "surface": "paved"
+          }
+        ],
+        "freq": "125.700"
+      },
+      "code": "SMFClassC",
+      "desc": "PUB-T (SMF)|TWR:125.7|ATIS:126.75|RY 17L/35R:8605x150-CONC-LGT-RP35R|RY 17R/35L:8598x150-CONC-LGT-RP17R|FUEL: 100LL A"
     },
     {
       "name": "SilverCrk-R9",
@@ -1483,16 +1463,6 @@
       "lat": 39.366383,
       "lon": -122.552217,
       "elev": 374.9,
-      "landable": {
-        "runways": [
-          {
-            "name": "16/34",
-            "len": 670.6,
-            "dir": 160,
-            "surface": "unpaved"
-          }
-        ]
-      },
       "code": "STONFRD6",
       "desc": "Private, Turn Point, Landable, 22Sx80;16/34, RW width: 80"
     },
@@ -1507,7 +1477,7 @@
             "name": "16/34",
             "len": 762.0,
             "dir": 160,
-            "surface": "unpaved"
+            "surface": "paved"
           }
         ]
       },
@@ -1536,13 +1506,14 @@
       "lon": -122.817217,
       "elev": 2051.3,
       "code": "T16 U7",
-      "desc": "Turn Point"
+      "desc": "24 SM To R-Tehama"
     },
     {
       "name": "TravsAFB-R9",
       "lat": 38.262783,
       "lon": -121.927217,
       "elev": 18.3,
+      "landable": {},
       "code": "TRVSFBR9",
       "desc": "Turn Point, Military, KSUU, 100x150;03/31, RW width: 150"
     },
@@ -1753,7 +1724,7 @@
       "lon": -122.864167,
       "elev": 2438.4,
       "code": "YOLLAPK8",
-      "desc": "Turn Point"
+      "desc": "25 SM To R-Tehama"
     },
     {
       "name": "YoloCnty-R2",
