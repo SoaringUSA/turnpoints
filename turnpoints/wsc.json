@@ -927,9 +927,19 @@
       "lat": 39.07555,
       "lon": -122.082217,
       "elev": 24.4,
-      "landable": {},
+      "landable": {
+        "runways": [
+          {
+            "name": "09/27",
+            "len": 541,
+            "width": 7,
+            "dir": 90,
+            "surface": "paved"
+          }
+        ]
+      },
       "code": "MILLERS4",
-      "desc": "Private, Turn Point, Landable, 20SX50; 07/2, RW width: 50"
+      "desc": "Runway lights both sides."
     },
     {
       "name": "Millville",
@@ -1148,7 +1158,7 @@
       "elev": 189.0,
       "landable": {},
       "code": "POPVLL",
-      "desc": "Private, Turn Point, 05CL, 37Hx60;10/28, RW width: 60"
+      "desc": ""
     },
     {
       "name": "R-Tehama-R2",
