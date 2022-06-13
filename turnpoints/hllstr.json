@@ -2800,11 +2800,11 @@
       "desc": "Old strip/field gate 4461"
     },
     {
-      "name": "Pixley",
+      "name": "xPixley",
       "lat": 35.96055,
       "lon": -119.30805,
       "elev": 78.0,
-      "desc": "13/31 22.9",
+      "desc": "Strip very overgrown. No longer maintained, appears to have tumbleweeds on 6/12/22. 13/31 22.9",
       "landable": {}
     },
     {
@@ -4206,12 +4206,11 @@
       "desc": "N/S 18T"
     },
     {
-      "name": "WonderValley",
+      "name": "xWonderValley",
       "lat": 36.792217,
       "lon": -119.309167,
       "elev": 201.8,
-      "desc": "12/30 23A",
-      "landable": {}
+      "desc": "No longer a strip here"
     },
     {
       "name": "Wonderful",
