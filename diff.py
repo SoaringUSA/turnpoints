@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+from difflib import SequenceMatcher
 import json
 import sys
 
@@ -25,11 +26,23 @@ def location(row):
         ret += '{0},'.format(row[k])
     return ret
 
+def canonicalTpName(tp):
+    # Ignore case and spaces
+    ret = ''.join([c for c in tp['name'].lower() if c != ' '])
+    # Ignore the stupid -U3 naming suffixes that change all the time
+    return ret[0:-3] if ret[-3] == '-' else ret
+
 def isSameTurnpoint(tpl, tpr):
-    if tpl['name'] != tpr['name']:
-        return False
+    leftName = canonicalTpName(tpl)
+    rightName = canonicalTpName(tpr)
+
+    # If distance is more than 1km, consider as different
     if WGS84.geodesic((tpl['lat'], tpl['lon']), (tpr['lat'], tpr['lon'])) > 1000:
         return False
+    # If distance is under 1km and names are similar, then different
+    if SequenceMatcher(None, leftName, rightName).ratio() < 0.5:
+        return False
+    # Distance is less than 1km and names are similar. Then same.
     return True
 
 if __name__=='__main__':
@@ -81,6 +94,8 @@ if __name__=='__main__':
         rightNdx = matchesLeft[leftNdx]
         tpr = rightTp[rightNdx]
 
+        leftName = tpl['name']
+        rightName = tpr['name']
         leftCom = tpl['desc'] if 'desc' in tpl else ''
         rightCom = tpr['desc'] if 'desc' in tpr else ''
         leftLand = landability(tpl)
@@ -95,14 +110,17 @@ if __name__=='__main__':
         leftAlt = tpl['elev']
         rightAlt = tpr['elev']
 
-        latDiff = abs(leftLat - rightLat) > 0.000001
-        lonDiff = abs(leftLon - rightLon) > 0.000001
-        altDiff = abs(leftAlt - rightAlt) > 0.000001
-        different = leftCom != rightCom or leftLand != rightLand or latDiff or lonDiff or altDiff
+        nameDiff = leftName != rightName
+        latDiff = abs(leftLat - rightLat) > 0.001
+        lonDiff = abs(leftLon - rightLon) > 0.001
+        altDiff = abs(leftAlt - rightAlt) > 1.0
+        different = nameDiff or leftCom != rightCom or leftLand != rightLand or latDiff or lonDiff or altDiff
 
         if different:
-            print('### {0}'.format(tpl['name']))
+            print('### {0}'.format(leftName))
             print('')
+            if nameDiff:
+                print(' - Name "{0}" -> "{1}"'.format(leftName, rightName))
             if latDiff or lonDiff:
                 print(' - Position ({0:.3f}, {1:.3f}) -> ({2:.3f}, {3:.3f})'.format(leftLat, leftLon, rightLat, rightLon))
             if altDiff:
