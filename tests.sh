@@ -3,7 +3,12 @@
 INFILES=$(ls turnpoints/*.json)
 
 for file in $INFILES; do
-	echo "Validating $file..."
+	printf "Validating $file..."
 	./validate.py < $file
-	echo "  OK"
+	printf "OK\n"
 done
+
+# California
+printf "Validating California..."
+./combine.py 'California' turnpoints/hllstr.json turnpoints/wsc.json turnpoints/truckee.json turnpoints/montag.json 2> /dev/null | ./validate.py
+printf "OK\n"

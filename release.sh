@@ -1,14 +1,12 @@
 #!/bin/sh -e
 
-enable -n echo
-
 INFILES="turnpoints/hllstr.json turnpoints/montag.json turnpoints/truckee.json turnpoints/wsc.json turnpoints/experimental_ca.json"
 DATE=$(date '+%Y%m%d')
 
 for infile in $INFILES; do
-	echo -n "Validating $infile..."
+	printf "Validating $infile..."
 	./validate.py < $infile
-	echo 'OK'
+	printf 'OK\n'
 done
 
 TMPDIR=$(mktemp -d)
