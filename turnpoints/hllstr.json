@@ -184,6 +184,24 @@
       "elev": 116.4
     },
     {
+      "name": "Aro Pistachios",
+      "lat": 35.901652,
+      "lon": -119.002868,
+      "elev": 188,
+      "desc": "Trees 15' off W side, E side could be low crop. Tel 559-535-1500. BB spotted from air 2022.",
+      "landable": {
+        "runways": [
+          {
+            "name": "15/33",
+            "len": 610,
+            "width": 15,
+            "dir": 334,
+            "surface": "paved"
+          }
+        ]
+      }
+    },
+    {
       "name": "Auberry",
       "lat": 37.080833,
       "lon": -119.49,
@@ -2815,6 +2833,24 @@
       "lat": 34.995,
       "lon": -119.583333,
       "elev": 1242.7
+    },
+    {
+      "name": "Pomona Farms Ag",
+      "lat": 35.083999,
+      "lon": -119.215980,
+      "elev": 141,
+      "desc": "120' clear between fruit trees. BB spotted from air 2022.",
+      "landable": {
+        "runways": [
+          {
+            "name": "18/36",
+            "len": 1588,
+            "width": 11,
+            "dir": 179,
+            "surface": "paved"
+          }
+        ]
+      }
     },
     {
       "name": "Pond",
