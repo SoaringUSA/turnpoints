@@ -2410,6 +2410,15 @@
       },
       "code": "O43",
       "desc": "Turn Point, #70, O43, 01/19   22.8  , RW width: 75, UNICOM: 122.8, Fuel: 100LL"
+    },
+    {
+      "name": "Boyington E5",
+      "lat": 39.443049,
+      "lon": -120.096756,
+      "elev": 5692,
+      "landable": {},
+      "code": "BOYINGE5",
+      "desc": "Landable, wide open field. Small rocks and bushes. Uphill to the north. Easy access from road."
     }
   ]
 }
