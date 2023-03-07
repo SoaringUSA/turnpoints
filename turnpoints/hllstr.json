@@ -1865,6 +1865,14 @@
       }
     },
     {
+      "name": "Lagoon Valley",
+      "lat": 38.327222,
+      "lon": -122.019444,
+      "elev": 62,
+      "desc": "strip still visible also decent field east of the lake",
+      "landable": {}
+    },
+    {
       "name": "LaHonda",
       "lat": 37.336117,
       "lon": -122.253333,
