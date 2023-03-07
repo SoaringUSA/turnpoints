@@ -2601,6 +2601,14 @@
       "landable": {}
     },
     {
+      "name": "OldLivermoreStrip",
+      "lat": 37.725277,
+      "lon": -121.765555,
+      "elev": 160,
+      "desc": "decent field where California Parachute Club Landing Strip was",
+      "landable": {}
+    },
+    {
       "name": "Orchard Pk",
       "lat": 35.73805,
       "lon": -120.132217,
