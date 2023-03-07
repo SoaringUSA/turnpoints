@@ -3438,8 +3438,8 @@
     },
     {
       "name": "SantaNellaJct fields",
-      "lat": 37.11,
-      "lon": -121.02,
+      "lat": 37.095804,
+      "lon": -121.011876,
       "elev": 45.7,
       "desc": "big fields both sides of I5",
       "landable": {}
