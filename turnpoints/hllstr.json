@@ -137,14 +137,6 @@
       "landable": {}
     },
     {
-      "name": "Alfalfa field",
-      "lat": 37.053333,
-      "lon": -120.931117,
-      "elev": 36.6,
-      "desc": "large field easy access",
-      "landable": {}
-    },
-    {
       "name": "Alta",
       "lat": 36.540283,
       "lon": -119.316117,
@@ -802,6 +794,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Cordelia Field",
+      "lat": 38.201111,
+      "lon": -122.140277,
+      "elev": 10,
+      "desc": "small rough field between 680 and the school",
+      "landable": {}
     },
     {
       "name": "Cortopassi",
@@ -1873,6 +1873,14 @@
       }
     },
     {
+      "name": "Lagoon Valley",
+      "lat": 38.327222,
+      "lon": -122.019444,
+      "elev": 62,
+      "desc": "strip still visible also decent field east of the lake",
+      "landable": {}
+    },
+    {
       "name": "LaHonda",
       "lat": 37.336117,
       "lon": -122.253333,
@@ -2420,6 +2428,14 @@
       }
     },
     {
+      "name": "MtHouse",
+      "lat": 37.802499,
+      "lon": -121.575555,
+      "elev": 14,
+      "desc": "large field near Byron Hwy a bit rough high tension powerlines near",
+      "landable": {}
+    },
+    {
       "name": "Mt Oso",
       "lat": 37.503883,
       "lon": -121.371117,
@@ -2606,6 +2622,14 @@
       "lon": -119.5714,
       "elev": 716.3,
       "desc": "25D Power Lines north end",
+      "landable": {}
+    },
+    {
+      "name": "OldLivermoreStrip",
+      "lat": 37.725277,
+      "lon": -121.765555,
+      "elev": 160,
+      "desc": "decent field where California Parachute Club Landing Strip was",
       "landable": {}
     },
     {
@@ -3446,8 +3470,8 @@
     },
     {
       "name": "SantaNellaJct fields",
-      "lat": 37.11,
-      "lon": -121.02,
+      "lat": 37.095804,
+      "lon": -121.011876,
       "elev": 45.7,
       "desc": "big fields both sides of I5",
       "landable": {}
