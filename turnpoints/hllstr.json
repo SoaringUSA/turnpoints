@@ -2428,6 +2428,14 @@
       }
     },
     {
+      "name": "MtHouse",
+      "lat": 37.802499,
+      "lon": -121.575555,
+      "elev": 14,
+      "desc": "large field near Byron Hwy a bit rough high tension powerlines near",
+      "landable": {}
+    },
+    {
       "name": "Mt Oso",
       "lat": 37.503883,
       "lon": -121.371117,
