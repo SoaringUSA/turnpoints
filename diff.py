@@ -30,6 +30,8 @@ def canonicalTpName(tp):
     # Ignore case and spaces
     ret = ''.join([c for c in tp['name'].lower() if c != ' '])
     # Ignore the stupid -U3 naming suffixes that change all the time
+    if len(ret) < 3:
+        return ret
     return ret[0:-3] if ret[-3] == '-' else ret
 
 def isSameTurnpoint(tpl, tpr):
