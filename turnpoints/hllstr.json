@@ -796,6 +796,14 @@
       }
     },
     {
+      "name": "Cordelia Field",
+      "lat": 38.201111,
+      "lon": -122.140277,
+      "elev": 10,
+      "desc": "small rough field between 680 and the school",
+      "landable": {}
+    },
+    {
       "name": "Cortopassi",
       "lat": 38.013883,
       "lon": -121.126117,
