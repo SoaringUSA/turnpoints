@@ -1958,7 +1958,17 @@
       "lat": 36.78555,
       "lon": -120.7564,
       "elev": 152.4,
-      "landable": {}
+      "desc": "Visited on the ground 4/9/23. runway in good shape. Car Access to the runway from east end.",
+      "landable": {
+        "runways": [
+          {
+            "name": "10/28",
+            "len": 724,
+            "dir": 97,
+            "surface": "paved"
+          }
+        ]
+      }
     },
     {
       "name": "Livermore",
