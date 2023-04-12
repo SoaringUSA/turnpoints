@@ -739,6 +739,14 @@
       "elev": 853.4
     },
     {
+      "name": "Cienega",
+      "lat": 36.697629,
+      "lon": -121.277924,
+      "elev": 206,
+      "desc": "Landable roads inside fields, slopes up on the East. Power lines on the West side. No lock on gate by Cienega road.",
+      "landable": {}
+    },
+    {
       "name": "Clark",
       "lat": 36.363333,
       "lon": -121.311117,
