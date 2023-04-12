@@ -3733,6 +3733,14 @@
       }
     },
     {
+      "name": "Stone Creek",
+      "lat": 36.636139,
+      "lon": -121.225888,
+      "elev": 264,
+      "desc": "Landable field. Gate on south end locked with Master combo lock.",
+      "landable": {}
+    },
+    {
       "name": "Stone LandCo",
       "lat": 36.13195,
       "lon": -119.98555,
