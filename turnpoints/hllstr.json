@@ -3645,8 +3645,7 @@
       "lat": 36.428333,
       "lon": -121.303883,
       "elev": 79.2,
-      "desc": "15A",
-      "landable": {}
+      "desc": "15A"
     },
     {
       "name": "SotoCanyon",
