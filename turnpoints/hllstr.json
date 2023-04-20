@@ -518,7 +518,8 @@
       "lat": 35.320283,
       "lon": -120.00305,
       "elev": 600.5,
-      "desc": "overgrown but landable motel nearby"
+      "desc": "overgrown but landable motel nearby",
+      "landable": {}
     },
     {
       "name": "Camarillo",
