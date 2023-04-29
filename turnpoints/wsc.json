@@ -464,7 +464,7 @@
       "desc": "Turn Point, Yolla"
     },
     {
-      "name": "ElkCreek",
+      "name": "ElkCreek-R2",
       "lat": 39.59445,
       "lon": -122.565283,
       "elev": 286.5,
@@ -475,12 +475,12 @@
             "len": 776,
             "width": 18,
             "dir": 41,
-            "surface": "unpaved"
+            "surface": "paved"
           }
         ]
       },
       "code": "ElkCrk",
-      "desc": ""
+      "desc": "Newly paved 4/23, 50ft wide, 100ft wide including grass. Owner was friendly and allowed aerotow. 916-837-4737."
     },
     {
       "name": "Esparto-E3",
