@@ -4,9 +4,42 @@ import csv
 import json
 import sys
 
+class CupWriter:
+	def __init__(self, fileHandle):
+		self.fileHandle = fileHandle
+		self.fieldnames = ['name','code','country','lat','lon','elev','style','rwdir','rwlen','rwwidth','freq','desc','userdata','pics']
+	def writeheader(self):
+		for name in self.fieldnames:
+			if name == 'name':
+				self.fileHandle.write('"name"')
+			else:
+				self.fileHandle.write(',"{}"'.format(name))
+		self.fileHandle.write('\n')
+	def writerow(self, d):
+		for field in self.fieldnames:
+			self._writefield(field, d)
+		self.fileHandle.write('\n')
+	def _writefield(self, field, d):
+		# First field
+		if field == 'name':
+				self.fileHandle.write('"{}"'.format(CupWriter.sanitized(d['name'])))
+		# Quoted fields
+		elif field in ['code', 'country', 'desc']:
+			if field in d:
+				self.fileHandle.write(',"{}"'.format(CupWriter.sanitized(d['name'])))
+			else:
+				self.fileHandle.write(',""')
+		# Unquoted fields
+		else:
+			if field in d:
+				self.fileHandle.write(',{}'.format(d[field]))
+			else:
+				self.fileHandle.write(',')
+	def sanitized(s):
+		return s.replace('"', '\'')
+
 def cupWriter(fileHandle):
-	cvw = csv.DictWriter(fileHandle, fieldnames=['name','code','country','lat','lon','elev','style','rwdir','rwlen','rwwidth','freq','desc','userdata','pics'], quoting=csv.QUOTE_MINIMAL)
-	return cvw
+	return CupWriter(sys.stdout)
 
 def parseLat(deg):
 	hemi = 'N' if deg >= 0.0 else 'S'
