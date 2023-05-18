@@ -26,7 +26,7 @@ class CupWriter:
 		# Quoted fields
 		elif field in ['code', 'country', 'desc']:
 			if field in d:
-				self.fileHandle.write(',"{}"'.format(CupWriter.sanitized(d['name'])))
+				self.fileHandle.write(',"{}"'.format(CupWriter.sanitized(d[field])))
 			else:
 				self.fileHandle.write(',""')
 		# Unquoted fields
