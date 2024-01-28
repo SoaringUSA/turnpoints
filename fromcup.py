@@ -23,7 +23,7 @@ def parseLon(lonStr):
 def parseLength(elevStr):
 	if not elevStr:
 		return None
-	match = re.match('(\d*[.]?\d*)(m|ft)', elevStr)
+	match = re.match('([-]?\d*[.]?\d*)(m|ft)', elevStr)
 	if match.group(2) == 'm':
 		return round(float(match.group(1)), 1)
 	elif match.group(2) == 'ft':
